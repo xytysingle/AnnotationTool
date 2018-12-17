@@ -386,7 +386,6 @@ class Main(BaseApp):
     def entry_change(self,content,reason):
         try:
             if not content or (reason=='focusin' and not content):
-
                 response = requests.get(const.DATA_ADDR[self.cur_sku_lib]['SKUS'])
                 categories = CategoryData()
                 categories.fromJson(response.json())  # json to model
@@ -417,8 +416,8 @@ class Main(BaseApp):
             self.search_entry.selection_range(0, END)
             return True
         elif reason=='focusout':
-            if not content.strip(' '):
-                self.search_str_var.set('搜索分类...')
+            # if not content.strip(' '):
+            #     self.search_str_var.set('搜索分类...')
             return True
         elif content == '搜索分类...':
             return True
@@ -1148,6 +1147,7 @@ class Main(BaseApp):
                     self.is_change_coord = False
                     return None
                 cur_bbox = self.bbox_list[curselection[0]]
+                curselection_category = cur_bbox.className
                 truncated = cur_bbox.truncated
                 truncated = 1 if type(truncated) == int else ''
                 self.temp_rectangle_id = self.canvas.create_rectangle(self.init_dot['x'], self.init_dot['y'], event.x,
@@ -1166,9 +1166,9 @@ class Main(BaseApp):
                                                                           curselection_category).color, tags=('bbox',))
                 # Bbox(0,curselection_category,(self.init_dot['x'], self.init_dot['y'], event.x,
                 #                               event.y),'','red',0)
-            if curselections:
+            # if curselections:
                 # self, rectangle_id = "", className = "", color = "", username = None, truncated = 0, x1 = 0, y1 = 0, x2 = 0, y2 = 0, side_truncated = 0, type_id = "1", sceneType = "-1", id = "", check = "False", score = 0, type = "0")
-                self.show_info_bbox(Bbox(0,curselection_category,'','',0,self.init_dot['x'], self.init_dot['y'], event.x,event.y))
+            self.show_info_bbox(Bbox(0,curselection_category,'','',0,self.init_dot['x'], self.init_dot['y'], event.x,event.y))
 
     def _unbound_to_mousewheel(self, event):
         self.v_scrollbar.unbind_all("<MouseWheel>")
@@ -1196,6 +1196,7 @@ class Main(BaseApp):
         cn_width = 12
         letter_width = 8
         offset=10
+        deviation=2
         info_width= cn_nums * cn_width + letters * letter_width
         # print(info_width)
         #中心点
@@ -1211,11 +1212,11 @@ class Main(BaseApp):
             center_y= y2 + (letter_width+offset)
             # print(center_x, center_y,W+N)
         elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
-            center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x
+            center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
             center_y = y2 + (letter_width+offset)
             # print(center_x, center_y,E+N)
         elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
-            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2
+            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             center_y = y2 + (letter_width+offset)
             # print(center_x, center_y,E+N)
         elif info_bbox_y1 < 0:#N
@@ -1225,10 +1226,10 @@ class Main(BaseApp):
             center_x = img_scroll_x+info_width/2
             # print(center_x, center_y,W)
         elif info_bbox_x2>self.canvas.winfo_width():#E
-            center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x
+            center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
             # print(center_x, center_y, E)
         elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x:#E
-            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2
+            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             # print(cen/ter_x, center_y, E)
 
         self.canvas.delete('info_label')
@@ -1285,7 +1286,7 @@ class Main(BaseApp):
         self.fileMenu = Menu(self.menu, tearoff=False)
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['open'], command=self.msgBox, accelerator='Ctr+O')
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['save'], command=self.save, accelerator="Ctrl+S")
-        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['openWindow'], command=self.msgBox, accelerator="")
+        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['openWindow'], command=goto_main, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['importData'], command=self.msgBox, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['exportData'], command=self.save, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['autoBackup'], command=self.msgBox, accelerator="")

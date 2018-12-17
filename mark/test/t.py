@@ -135,43 +135,12 @@ import time
 # include "QDockWidgetdemo.h"
 # include <QTextEdit>
 # include <QDockWidget>
-QDockWidgetdemo::QDockWidgetdemo(QWidget * parent)
-: QMainWindow(parent)
-{
-    ui.setupUi(this);
-setWindowTitle(tr("DockWindows")); // 设置窗口标题
-QTextEdit * te = new
-QTextEdit(this);
-te->setText(tr("Main Window"));
-te->setAlignment(Qt::AlignCenter);
-setCentralWidget(te); // 将此编辑框设为主窗口的中央窗口
-                         // 停靠窗口1
-QDockWidget * dock = new
-QDockWidget(tr("DockWindow1"), this);
-dock->setFeatures(QDockWidget::DockWidgetMovable); // 可移动
-dock->setAllowedAreas(Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
-QTextEdit * te1 = new
-QTextEdit();
-te1->setText(tr("Window1,the dock widget can be moved between docks by the users"));
-dock->setWidget(te1);
-addDockWidget(Qt::RightDockWidgetArea, dock); // 初始位置
-                                                 // 停靠窗口2
-dock = new
-QDockWidget(tr("DockWindow2"), this);
-dock->setFeatures(QDockWidget::DockWidgetClosable | QDockWidget::DockWidgetFloatable); // 可关闭可浮动
-QTextEdit * te2 = new
-QTextEdit();
-te2->setText(tr("Window2,the dock widget can be detached from the main window"));
-dock->setWidget(te2);
-addDockWidget(Qt::RightDockWidgetArea, dock); // 初始位置
-                                                 // 停靠窗口2
-dock = new
-QDockWidget(tr("DockWindow3"), this);
-dock->setFeatures(QDockWidget::AllDockWidgetFeatures); // 全部特性
-QTextEdit * te3 = new
-QTextEdit();
-te3->setText(tr("Window2,the dock widget can be closed ,moved,and floted"));
-dock->setWidget(te3);
-addDockWidget(Qt::RightDockWidgetArea, dock); // 初始位置
-
-}
+import tkinter
+import tkSimpleDialog
+root=Tkinter.Tk()
+def inStr11():
+r=tkSimpleDialog.askinteger(1,'input int ')
+return r
+a=inStr11()
+print a
+root.mainloop()
