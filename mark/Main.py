@@ -2,7 +2,7 @@
 # !-*-coding:utf-8 -*-
 # !@time    :2018/6/24 21:07
 # !@Author :SINGLEquit
-# !@File   :Main.py
+# !@File   :Polygon.py
 import win32api
 from tkinter import messagebox
 from tkinter import *
@@ -409,6 +409,7 @@ class Main(BaseApp):
                     self.category_listbox.itemconfigure(i, fg=category.color)
                 self.category_listbox.selection_clear(0,END)
                 self.category_listbox.selection_set(0)
+                self.category_listbox.yview(0)
         except:
             pass
 
@@ -846,7 +847,7 @@ class Main(BaseApp):
                     self.annotation_listbox.yview(END)
                 # annotations update
 
-                self.show_bbox()
+                #self.show_bbox()
                 # 数据缓存
                 self.data_cache()
                 # self.canvas.create_oval(
@@ -1168,7 +1169,7 @@ class Main(BaseApp):
                 #                               event.y),'','red',0)
             # if curselections:
                 # self, rectangle_id = "", className = "", color = "", username = None, truncated = 0, x1 = 0, y1 = 0, x2 = 0, y2 = 0, side_truncated = 0, type_id = "1", sceneType = "-1", id = "", check = "False", score = 0, type = "0")
-            self.show_info_bbox(Bbox(0,curselection_category,'','',0,self.init_dot['x'], self.init_dot['y'], event.x,event.y))
+            self.show_info_bbox(Bbox(0,curselection_category,'','',0,self.getCoordByRestore(self.init_dot['x']), self.getCoordByRestore(self.init_dot['y']), self.getCoordByRestore(event.x),self.getCoordByRestore(event.y)))
 
     def _unbound_to_mousewheel(self, event):
         self.v_scrollbar.unbind_all("<MouseWheel>")
@@ -1626,6 +1627,7 @@ class Main(BaseApp):
             if len(self.categoryObjsOfSearch)==1:
                 self.category_listbox.selection_clear(0,END)
                 self.category_listbox.selection_set(0)
+                self.category_listbox.yview(0)
     def change_annotation_name(self,*args):
         # category_curselection = self.category_listbox.curselection()
         curselection = self.annotation_listbox.curselection()
