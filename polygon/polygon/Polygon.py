@@ -516,8 +516,8 @@ class Main(BaseApp):
             point_list.append(self.getCoordByZoom(i[0]))
             point_list.append(self.getCoordByZoom(i[1]))
         rectangle_id = self.canvas.create_polygon(point_list,
-                                                    width=self.bd_width, outline=bbox.color, dash=dash,
-                                                    tags=('bbox',),stipple=self.is_stipple, fill=bbox.color,)#stipple=self.is_stipple, fill=bbox.color,
+                                                  width=self.bd_width, outline=bbox.color, dash=dash,
+                                                  tags=('bbox',),stipple=self.is_stipple, fill=bbox.color,)#stipple=self.is_stipple, fill=bbox.color,
         bbox.id=rectangle_id
 
     def hide_all_bbox(self, *args):
@@ -575,7 +575,7 @@ class Main(BaseApp):
             bbox.pop('is_show')
             # bbox.pop('_Bbox__annotation')
         annotationDataOfjsonStr=json.dumps(annotationDataOfjson)#dict->jsonStr用于存储和传输数据
-        print(annotationDataOfjsonStr)
+        # print(annotationDataOfjsonStr)
 
         #本地保存
         # config = BaseApp.get_conifgObj()
@@ -649,8 +649,8 @@ class Main(BaseApp):
                     # dash = 1 if type(bbox.truncated) == int else ''
                     point_list = []
                     for i in bbox.box:
-                        point_list.append(self.getCoordByZoom(i[0]))
-                        point_list.append(self.getCoordByZoom(i[1]))
+                        point_list.append(i[0])
+                        point_list.append(i[1])
                     rectangle_id = self.canvas.create_polygon(point_list,
                                                                 width=self.bd_width,
                                                                 outline=self.getObjByCategory(bbox.className).color,
@@ -819,9 +819,11 @@ class Main(BaseApp):
                 # self.canvas.delete(self.init_dot['sku_name'])
                 if self.init_dot['zoom_level'] != self.cur_zoom_level:
                     # coord scale
-                    self.init_dot['x'] = (self.init_dot['x'] / self.init_dot['zoom_level']) * self.cur_zoom_level
-                    self.init_dot['y'] = (self.init_dot['y'] / self.init_dot['zoom_level']) * self.cur_zoom_level
+                    for i, list in enumerate(self.point_list):
+                        list[0] = self.getCoordByZoom(list[0] / self.init_dot['zoom_level'])
+                        list[1] = self.getCoordByZoom(list[1] / self.init_dot['zoom_level'])
                     self.init_dot['zoom_level'] = self.cur_zoom_level
+                    # print(self.init_dot['x'],self.init_dot['y'])
                 # if self.init_dot['x'] == event.x and self.init_dot['y'] == event.y:
                 #     self.msgBox('亲,标注圆点木有意义哦!')
                 #     return
@@ -840,12 +842,12 @@ class Main(BaseApp):
                 if len(self.point_list)<3 :
                     return
                 else:
-                    x1, y1 = self.init_dot['point'][0], self.init_dot['point'][1]
-                    x2, y2 = self.init_dot['point'][2], self.init_dot['point'][3]
-                    xMin = self.getCoordByZoom(min(x1, x2))
-                    xMax = self.getCoordByZoom(max(x1, x2))
-                    yMin = self.getCoordByZoom(min(y1, y2))
-                    yMax = self.getCoordByZoom(max(y1, y2))
+                    x1, y1 = (self.point_list[0][0] - self.init_dot['radius']), (self.point_list[0][1] - self.init_dot['radius'])
+                    x2, y2 = (self.point_list[0][0] + self.init_dot['radius']), (self.point_list[0][1] + self.init_dot['radius'])
+                    xMin = min(x1, x2)
+                    xMax = max(x1, x2)
+                    yMin = min(y1, y2)
+                    yMax = max(y1, y2)
                     if event.x > xMin and event.x < xMax and event.y > yMin and event.y < yMax:
                         #draw polygon
                         self.canvas.delete('point')
@@ -856,10 +858,10 @@ class Main(BaseApp):
                         point_x_list=[]
                         point_y_list=[]
                         for i in self.point_list:
-                            point_list.append(self.getCoordByZoom(i[0]))
-                            point_list.append(self.getCoordByZoom(i[1]))
-                            point_x_list.append(self.getCoordByZoom(i[0]))
-                            point_y_list.append(self.getCoordByZoom(i[1]))
+                            point_list.append(i[0])
+                            point_list.append(i[1])
+                            point_x_list.append(i[0])
+                            point_y_list.append(i[1])
                         if self.is_change_coord:
                             bbox = self.bbox_list[self.annotation_listbox.curselection()[0]]
                             truncated = bbox.truncated
@@ -874,19 +876,21 @@ class Main(BaseApp):
                                                                         outline=self.getObjByCategory(curselection_category).color,fill=self.getObjByCategory(curselection_category).color,stipple=self.is_stipple,
                                                                         dash=self.truncated, tags=('bbox',))
                         # new and add bbox object
+                        point_list=[]
                         point_x_list=[]
                         point_y_list=[]
                         for i in self.point_list:
+                            point_list.append([self.getCoordByRestore(i[0]),self.getCoordByRestore(i[1])])
                             point_x_list.append(self.getCoordByRestore(i[0]))
-                            point_y_list.append(self.getCoordByZoom(i[1]))
-                        bbox = Bbox(rectangle_id, curselection_category, self.getObjByCategory(curselection_category).color,const.USERNAME,self.truncated,
-                                    copy.deepcopy(self.point_list),min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list))
+                            point_y_list.append(self.getCoordByRestore(i[1]))
+                        bbox = Bbox(rectangle_id, curselection_category, self.getObjByCategory(curselection_category).color,self.user_info.user_name,self.truncated,
+                                    point_list,min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list))
                         # self.canvas.tag_bind(CURRENT, '', self.show_box(bbox))
                         #self.show_info_bbox(bbox)
                         if self.is_change_coord:
                             curselection_bbox = self.bbox_list[self.annotation_curselection]
                             curselection_bbox.x1,curselection_bbox.y1,curselection_bbox.x2,curselection_bbox.y2 = min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list)
-                            curselection_bbox.box=copy.deepcopy(self.point_list)
+                            curselection_bbox.box=point_list
                             curselection_bbox.username=self.user_info.user_name
                             self.is_change_coord = False
                             self.annotations_data_update()
@@ -1033,7 +1037,7 @@ class Main(BaseApp):
         #     index=self.bbox_list.index(min_item)
         #     if self.config[const.LOGIN][const.ISPOLL] != '1':
         #         self.show_info_bbox(min_item)
-        #     self.canvas.focus_set()
+        self.canvas.focus_set()
         #     #print(min_item.className)
         # except:
         #     index=-1
@@ -1166,7 +1170,7 @@ class Main(BaseApp):
 
         # show
         self.percent.configure(text='%d%%' % (self.cur_zoom_level*100))
-        print(str(self.cur_zoom_level * 10) + "%", self.main_panel_frame.winfo_height() - zoom_height, self.img.size)
+        # print(str(self.cur_zoom_level * 10) + "%", self.main_panel_frame.winfo_height() - zoom_height, self.img.size)
         # preview_box zoom
         # self.make_preview_box(event)
         # bbox zoom
@@ -1177,6 +1181,7 @@ class Main(BaseApp):
         #     x1 = self.getCoordByZoom(bbox.x2 )
         #     y1 = self.getCoordByZoom(bbox.y2)
         #     self.canvas.coords(bbox.sku_name, (x, y, x1, y1))
+
 
         curselections = self.annotation_listbox.curselection()
         if len(curselections)<2:
@@ -1196,8 +1201,11 @@ class Main(BaseApp):
             # print(self.init_dot['x'], self.init_dot['y'])
             if self.init_dot['zoom_level'] != self.cur_zoom_level:
                 # coord scale
-                self.init_dot['x'] = (self.init_dot['x'] / self.init_dot['zoom_level']) * self.cur_zoom_level
-                self.init_dot['y'] = (self.init_dot['y'] / self.init_dot['zoom_level']) * self.cur_zoom_level
+                for i,list in enumerate(self.point_list):
+                    list[0] = self.getCoordByZoom(list[0]/ self.init_dot['zoom_level'])
+                    list[1]= self.getCoordByZoom(list[1]/ self.init_dot['zoom_level'])
+                # self.init_dot['x'] = (self.init_dot['x'] / self.init_dot['zoom_level']) * self.cur_zoom_level
+                # self.init_dot['y'] = (self.init_dot['y'] / self.init_dot['zoom_level']) * self.cur_zoom_level
                 self.init_dot['zoom_level'] = self.cur_zoom_level
                 # print(self.init_dot['x'],self.init_dot['y'])
 
@@ -1205,8 +1213,8 @@ class Main(BaseApp):
             point_x_list = []
             point_y_list = []
             for i in self.point_list:
-                x = self.getCoordByZoom(i[0])
-                y = self.getCoordByZoom(i[1])
+                x = i[0]
+                y = i[1]
                 point_list.append(x)
                 point_list.append(y)
                 point_x_list.append(x)
@@ -1216,7 +1224,7 @@ class Main(BaseApp):
             point_x_list.append(event.x)
             point_y_list.append(event.y)
 
-            x1, y1 = (point_list[0] - self.init_dot['radius']), (point_list[1] - self.init_dot['radius'])
+            x1, y1 = (point_list [0] - self.init_dot['radius']), (point_list [1] - self.init_dot['radius'])
             x2, y2 = (point_list[0] + self.init_dot['radius']), (point_list[1]+ self.init_dot['radius'])
             self.canvas.create_oval(x1, y1, x2, y2, fill="red", tags=('point',))  # 476042
 
@@ -1245,7 +1253,7 @@ class Main(BaseApp):
                 #                               event.y),'','red',0)
             # if curselections:
                 # self, rectangle_id = "", className = "", color = "", username = None, truncated = 0, x1 = 0, y1 = 0, x2 = 0, y2 = 0, side_truncated = 0, type_id = "1", sceneType = "-1", id = "", check = "False", score = 0, type = "0")
-            self.show_info_bbox(Bbox(0,curselection_category,'','',0,copy.deepcopy(self.point_list),min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list)))
+            self.show_info_bbox(Bbox(0,curselection_category,'','',0,copy.deepcopy(point_list),min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list)))
 
     def _unbound_to_mousewheel(self, event):
         self.v_scrollbar.unbind_all("<MouseWheel>")
@@ -1259,7 +1267,7 @@ class Main(BaseApp):
 
     def show_info_bbox(self, bbox):
         # info_label = self.canvas.find_withtag('info_label')
-        username=' '+bbox.username if bbox.username else ''
+        username=' '+bbox.username if bbox.username else self.user_info.user_name
         x1=min(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
         x2=max(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
         y1=min(self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.y2))
@@ -1316,7 +1324,7 @@ class Main(BaseApp):
         y2_ =center_y + 10
         self.canvas.create_rectangle(x1_, y1_, x2_, y2_, fill='white', tags='info_label', outline='#fff')
         # print(self.canvas.canvasx(x1_,), y1_, x2_, y2_)
-        self.canvas.create_text(center_x, center_y, text=bbox.className+username, tags="info_label")
+        self.canvas.create_text(center_x, center_y, text=bbox.className+' '+username, tags="info_label")
         # self.info_label_id = self.canvas.create_window(center_x, center_y, window=self.info_label,tags='info_label')
 
     def getCoordByZoom(self,coord):

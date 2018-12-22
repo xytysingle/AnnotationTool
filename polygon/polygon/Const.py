@@ -26,8 +26,8 @@ const.PI = 3.14
 # const.MENU_FILE_ITEMS = []
 # const.MENU_EDIT_ITEMS = []
 const.LOGO=r'./imgs/main.ico'
-const.USERNAME='TanXin'
-const.PWD='iisnow'
+# const.USERNAME='TanXin'
+# const.PWD='iisnow'
 const.ROTATE_ANGLE=5
 # 服务器地址
 const.SERVER_ADDR="http://ubuntu.zhixiang.co:8889"
