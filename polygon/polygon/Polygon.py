@@ -48,7 +48,6 @@ class Main(BaseApp):
         self.get_data()
         self.wel_hint()
 
-
     def wel_hint(self):
         # 欢迎登录问候语提示
         user_dict = {'TanXin': '老谭', 'Teng': '小胖墩儿', 'aoyipeng': '敖大', 'zhanyuqin1': '小占占', 'guoxiaodan': '小丹丹',
