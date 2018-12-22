@@ -132,7 +132,7 @@ class Main(BaseApp):
         self.canvas.bind("<MouseWheel>", self.v_bound_to_mousewheel)
         self.canvas.bind("<Shift-MouseWheel>", self.h__bound_to_mousewheel)
         self.canvas.bind('<Button-1>', self.mouse_click)
-        self.canvas.bind('<Double-Button-1>', self.mouse_double_click)
+        self.canvas.bind('<Double-1>', self.mouse_double_click)
         # self.canvas.bind('<KeyPress-Return>', self.mouse_double_click)
         self.canvas.bind('<ButtonRelease-1>', self.mouse_right_release)
         self.canvas.bind('<ButtonRelease-3>', self.mouse_right_release)
@@ -221,7 +221,7 @@ class Main(BaseApp):
             self.point_list.pop(-1)
             if not self.point_list:
                 self.canvas.delete('point')
-                self.canvas.delete('bbox')
+                self.canvas.delete(self.temp_rectangle_id)
                 self.init_dot_initialized()
             # self.make_preview_box(args)
 
@@ -780,11 +780,12 @@ class Main(BaseApp):
                 self.show_bbox()
 
     def mouse_double_click(self, event):
-
         if self.is_cursor_select:
             # self.mouse_right_press(event)
             self.change_coord()
-    def mouse_click(self, event):
+        else:
+            self.mouse_click(event,True)
+    def mouse_click(self, event,isDouble=False):
         if self.is_cursor_select:
             self.mouse_right_press(event)
         else:
@@ -824,9 +825,10 @@ class Main(BaseApp):
                         list[1] = self.getCoordByZoom(list[1] / self.init_dot['zoom_level'])
                     self.init_dot['zoom_level'] = self.cur_zoom_level
                     # print(self.init_dot['x'],self.init_dot['y'])
-                # if self.init_dot['x'] == event.x and self.init_dot['y'] == event.y:
-                #     self.msgBox('亲,标注圆点木有意义哦!')
-                #     return
+                for i in self.point_list:
+                    if event.x==i[0] and event.y==i[1] and not isDouble:
+                        self.msgBox('亲,标注重复的顶点木有意义哦!')
+                        return
                 # if self.init_dot['x'] == event.x or self.init_dot['y'] == event.y:
                 #     self.msgBox('亲,标注直线或极小的框木有意义哦!')
                 #     return
@@ -837,7 +839,8 @@ class Main(BaseApp):
                                             # curselection_category).color,
                                         # dash=self.truncated, tags=('line',))
                 # append to list
-                self.point_list.append([event.x,event.y])
+                if not isDouble:
+                    self.point_list.append([event.x,event.y])
                 # 始末点重合draw polygon
                 if len(self.point_list)<3 :
                     return
@@ -848,12 +851,12 @@ class Main(BaseApp):
                     xMax = max(x1, x2)
                     yMin = min(y1, y2)
                     yMax = max(y1, y2)
-                    if event.x > xMin and event.x < xMax and event.y > yMin and event.y < yMax:
+                    if event.x > xMin and event.x < xMax and event.y > yMin and event.y < yMax or isDouble:
                         #draw polygon
                         self.canvas.delete('point')
                         self.canvas.delete('line')
                         self.canvas.delete(self.temp_rectangle_id)
-                        self.point_list.pop(-1)
+                        # self.point_list.pop(-1)
                         point_list=[]
                         point_x_list=[]
                         point_y_list=[]
@@ -920,22 +923,6 @@ class Main(BaseApp):
                 self.canvas.create_oval(x1, y1, x2, y2, fill = "red" ,tags=('point',))#476042
 
 
-    def isInsidePolygon(pt, poly):
-        c = False
-        i = -1
-        l = len(poly)
-        j = l - 1
-        while i < l - 1:
-            i += 1
-            print
-            i, poly[i], j, poly[j]
-            if ((poly[i]["lat"] <= pt["lat"] and pt["lat"] < poly[j]["lat"]) or (
-                    poly[j]["lat"] <= pt["lat"] and pt["lat"] < poly[i]["lat"])):
-                if (pt["lng"] < (poly[j]["lng"] - poly[i]["lng"]) * (pt["lat"] - poly[i]["lat"]) / (
-                        poly[j]["lat"] - poly[i]["lat"]) + poly[i]["lng"]):
-                    c = not c
-            j = i
-        return c
     def getCoordByRestore(self,coord):
         return int(coord//self.cur_zoom_level)
 
@@ -1031,24 +1018,36 @@ class Main(BaseApp):
             self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1)
 
             self.make_preview_box(event)
+        # if __name__ == '__main__':
+        #     abc = [{'lat': 1, 'lng': 1}, {'lat': 1, 'lng': 4}, {'lat': 3, 'lng': 7}, {'lat': 4, 'lng': 4},
+        #            {'lat': 4, 'lng': 1}]
+        #     print(isInsidePolygon({'lat': 3, 'lng': 5}, abc))
 
+        index=None
+        for j,bbox in enumerate(self.bbox_list):
+            abc = []
+            for i in bbox.box:
+                abc.append({'lat': self.getCoordByZoom(i[0]), 'lng': self.getCoordByZoom(i[1])})
+            if self.isInsidePolygon({'lat': event.x, 'lng': event.y},abc):
+                index=j
+                break
         # min_item=self.getIndexOfCursor(event)
-        # try:
-        #     index=self.bbox_list.index(min_item)
-        #     if self.config[const.LOGIN][const.ISPOLL] != '1':
-        #         self.show_info_bbox(min_item)
-        self.canvas.focus_set()
-        #     #print(min_item.className)
-        # except:
-        #     index=-1
-        # finally:
-        #     if not self.is_annotation and self.config[const.LOGIN][const.ISPOLL] == '1' and index>-1:
-        #         self.annotation_listbox.selection_clear(0, END)
-        #         self.annotation_listbox.selection_set(index)
-        #         self.annotation_listbox.yview(index)
-        #         self.show_bbox()
-        #     elif True:
-        #         pass
+        try:
+            # index=self.bbox_list.index(min_item)
+            if self.config[const.LOGIN][const.ISPOLL] != '1':
+                self.canvas.focus_set()
+                self.show_info_bbox(self.bbox_list[index])
+                #print(min_item.className)
+        except:
+            index=-1
+        finally:
+            if not self.is_annotation and self.config[const.LOGIN][const.ISPOLL] == '1' and index:
+                self.annotation_listbox.selection_clear(0, END)
+                self.annotation_listbox.selection_set(index)
+                self.annotation_listbox.yview(index)
+                self.show_bbox()
+            elif True:
+                pass
         # cur_items = self.canvas.find_withtag(CURRENT)
         # if cur_items:
         #     if cur_items[-1] == self.cur_img_id:
@@ -1056,6 +1055,24 @@ class Main(BaseApp):
         # for bbox in self.bbox_list:
         #     if cur_items[-1] == bbox.rectangle_id:
         #         self.show_info_bbox(bbox)
+
+    def isInsidePolygon(self,pt, poly):
+        c = False
+        i = -1
+        l = len(poly)
+        j = l - 1
+        while i < l - 1:
+            i += 1
+            print
+            i, poly[i], j, poly[j]
+            if ((poly[i]["lat"] <= pt["lat"] and pt["lat"] < poly[j]["lat"]) or (
+                    poly[j]["lat"] <= pt["lat"] and pt["lat"] < poly[i]["lat"])):
+                if (pt["lng"] < (poly[j]["lng"] - poly[i]["lng"]) * (pt["lat"] - poly[i]["lat"]) / (
+                        poly[j]["lat"] - poly[i]["lat"]) + poly[i]["lng"]):
+                    c = not c
+            j = i
+        return c
+
 
     def getIndexOfCursor(self,event):
         cur_items = self.canvas.find_withtag(CURRENT)
@@ -1291,18 +1308,36 @@ class Main(BaseApp):
         info_bbox_x1=center_x-info_width/2-img_scroll_x
         info_bbox_y1=center_y-(cn_width)/2-img_scroll_y
         info_bbox_x2=center_x+info_width/2-img_scroll_x
-        info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
+        info_bbox_y2=center_y+(cn_width)/2-img_scroll_y
         if info_bbox_x1<0 and info_bbox_y1<0:#WN
             center_x=info_width/2+img_scroll_x
             center_y= y2 + (letter_width+offset)
+
+            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
+            if info_bbox_y2 > self.canvas.winfo_height():
+                center_x = x2+info_width / 2 + offset
+                center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,W+N)
         elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
             center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
             center_y = y2 + (letter_width+offset)
-            # print(center_x, center_y,E+N)
+
+            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
+            if info_bbox_y2>self.canvas.winfo_height() :#ENS
+                center_x =x1-info_width / 2 -offset-img_scroll_x
+                center_y =self.canvas.winfo_height()/2+img_scroll_y
+                # print(center_x, center_y,E+N)
         elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
             center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             center_y = y2 + (letter_width+offset)
+
+            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
+            if info_bbox_y2 > self.canvas.winfo_height():#ENS
+                center_x = x1 - info_width / 2 - offset - img_scroll_x
+                center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,E+N)
         elif info_bbox_y1 < 0:#N
             center_y = y2 + (letter_width+offset)
