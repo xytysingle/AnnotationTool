@@ -649,8 +649,8 @@ class Main(BaseApp):
                     # dash = 1 if type(bbox.truncated) == int else ''
                     point_list = []
                     for i in bbox.box:
-                        point_list.append(i[0])
-                        point_list.append(i[1])
+                        point_list.append(self.getCoordByZoom(i[0]))
+                        point_list.append(self.getCoordByZoom(i[1]))
                     rectangle_id = self.canvas.create_polygon(point_list,
                                                                 width=self.bd_width,
                                                                 outline=self.getObjByCategory(bbox.className).color,
@@ -1648,7 +1648,7 @@ class Main(BaseApp):
         self.cur_img_rotate = self.annotationData.rotate
 
         #图片文件名刷新
-        self.master.title('AnnotationTool —%s'%self.images[self.cur_img_index])  # 修改框体的名字,也可在创建时使用className参数来命名
+        self.master.title('PolygonAnnotationTool —%s'%self.images[self.cur_img_index])  # 修改框体的名字,也可在创建时使用className参数来命名
         self.rotate_img()
         # print(annotationData.bboxes[0].annotation)
         for bbox in self.bbox_list:
