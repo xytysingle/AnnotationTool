@@ -764,20 +764,31 @@ class Main(BaseApp):
         #     return
         if (self.is_cursor_select and event.num==3) or (not self.is_cursor_select and event.num==1):
             return
-        min_item=self.getIndexOfCursor(event)
+        index = None
+        for j, bbox in enumerate(self.bbox_list):
+            abc = []
+            for i in bbox.box:
+                abc.append({'lat': self.getCoordByZoom(i[0]), 'lng': self.getCoordByZoom(i[1])})
+            if self.isInsidePolygon({'lat': event.x, 'lng': event.y}, abc):
+                index = j
+                break
+        # min_item=self.getIndexOfCursor(event)
         try:
-            index=self.bbox_list.index(min_item)
-            self.show_info_bbox(min_item)
-
-            #print(min_item.className)
+            # index=self.bbox_list.index(min_item)
+            if self.config[const.LOGIN][const.ISPOLL] != '1':
+                self.canvas.focus_set()
+                self.show_info_bbox(self.bbox_list[index])
+                # print(min_item.className)
         except:
-            index=-1
+            index = -1
         finally:
-            if  index > -1:
+            if not self.is_annotation  and index:
                 self.annotation_listbox.selection_clear(0, END)
                 self.annotation_listbox.selection_set(index)
                 self.annotation_listbox.yview(index)
                 self.show_bbox()
+            elif True:
+                pass
 
     def mouse_double_click(self, event):
         if self.is_cursor_select:
@@ -1182,8 +1193,8 @@ class Main(BaseApp):
         self.tk_img = ImageTk.PhotoImage(img_resize)
         self.canvas.itemconfigure(self.cur_img_id, image=self.tk_img, anchor=N + W)
         # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
-        # self.canvas.config(scrollregion=(0,0,self.zoom_width*2, self.zoom_height*2))
-        # self.canvas.config(width=zoom_width,height=zoom_height)
+        self.canvas.config(scrollregion=(0,0,zoom_width, zoom_height))
+        self.canvas.config(width=zoom_width,height=zoom_height)
 
         # show
         self.percent.configure(text='%d%%' % (self.cur_zoom_level*100))
@@ -1309,46 +1320,50 @@ class Main(BaseApp):
         info_bbox_y1=center_y-(cn_width)/2-img_scroll_y
         info_bbox_x2=center_x+info_width/2-img_scroll_x
         info_bbox_y2=center_y+(cn_width)/2-img_scroll_y
-        if info_bbox_x1<0 and info_bbox_y1<0:#WN
+        if min(info_bbox_x1,x1-img_scroll_x)<0 and info_bbox_y1<0:#WN
             center_x=info_width/2+img_scroll_x
-            center_y= y2 + (letter_width+offset)
-
-            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            center_y= y2+cn_width / 2+offset
+            print('wn')
             info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
-            if info_bbox_y2 > self.canvas.winfo_height():
+            if info_bbox_y2 > self.canvas.winfo_height():#WNS
                 center_x = x2+info_width / 2 + offset
                 center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,W+N)
-        elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
+        elif max(info_bbox_x2,x2-img_scroll_x)>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
             center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
-            center_y = y2 + (letter_width+offset)
-
-            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            center_y = y2+cn_width / 2+offset
+            print('window1')
             info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
             if info_bbox_y2>self.canvas.winfo_height() :#ENS
-                center_x =x1-info_width / 2 -offset-img_scroll_x
+                print('window')
+                center_x =x1-info_width / 2 -offset
                 center_y =self.canvas.winfo_height()/2+img_scroll_y
                 # print(center_x, center_y,E+N)
-        elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
+        elif max(info_bbox_x2,x2-img_scroll_x)>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
             center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             center_y = y2 + (letter_width+offset)
-
-            info_bbox_x2 = center_x + info_width / 2 - img_scroll_x
+            print('img1')
             info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
             if info_bbox_y2 > self.canvas.winfo_height():#ENS
-                center_x = x1 - info_width / 2 - offset - img_scroll_x
+                print('img')
+                center_x = x1 - info_width / 2 - offset
                 center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,E+N)
         elif info_bbox_y1 < 0:#N
             center_y = y2 + (letter_width+offset)
+
+            info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
+            if info_bbox_y2>self.canvas.winfo_height():
+                center_x = x2 + info_width / 2 + offset
+                center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
-        elif  info_bbox_x1<0:#W
+        elif  min(info_bbox_x1,x1-img_scroll_x)<0:#W
             center_x = img_scroll_x+info_width/2
             # print(center_x, center_y,W)
-        elif info_bbox_x2>self.canvas.winfo_width():#E
+        elif max(info_bbox_x2,x2-img_scroll_x)>self.canvas.winfo_width():#E
             center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
             # print(center_x, center_y, E)
-        elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x:#E
+        elif max(info_bbox_x2,x2-img_scroll_x)>self.cur_img_size[0]-img_scroll_x:#E
             center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             # print(cen/ter_x, center_y, E)
 
