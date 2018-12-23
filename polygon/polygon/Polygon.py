@@ -297,6 +297,7 @@ class Main(BaseApp):
         self.is_change_coord = False
         self.cancel_bbox()
 
+
     def cancel_select_category(self,*args):
         # state reset
         self.category_listbox.selection_clear(0,END)
@@ -867,6 +868,7 @@ class Main(BaseApp):
                         self.canvas.delete('point')
                         self.canvas.delete('line')
                         self.canvas.delete(self.temp_rectangle_id)
+                        self.point_list.pop(-1)
                         # self.point_list.pop(-1)
                         point_list=[]
                         point_x_list=[]
@@ -1332,20 +1334,20 @@ class Main(BaseApp):
         elif max(info_bbox_x2,x2-img_scroll_x)>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
             center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
             center_y = y2+cn_width / 2+offset
-            print('window1')
+
             info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
             if info_bbox_y2>self.canvas.winfo_height() :#ENS
-                print('window')
+
                 center_x =x1-info_width / 2 -offset
                 center_y =self.canvas.winfo_height()/2+img_scroll_y
                 # print(center_x, center_y,E+N)
         elif max(info_bbox_x2,x2-img_scroll_x)>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
             center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             center_y = y2 + (letter_width+offset)
-            print('img1')
+
             info_bbox_y2 = center_y + (cn_width) / 2 - img_scroll_y
             if info_bbox_y2 > self.canvas.winfo_height():#ENS
-                print('img')
+
                 center_x = x1 - info_width / 2 - offset
                 center_y = self.canvas.winfo_height() / 2 + img_scroll_y
             # print(center_x, center_y,E+N)
