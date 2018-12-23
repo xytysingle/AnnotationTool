@@ -1830,7 +1830,7 @@ class Main(BaseApp):
 
 def goto_main():
     root_main = Tk()
-    root_main.title('AnnotationTool')  # 修改框体的名字,也可在创建时使用className参数来命名
+    root_main.title('PolygonAnnotationTool')  # 修改框体的名字,也可在创建时使用className参数来命名
     # master.resizable(0,0)#框体大小可调性，分别表示x,y方向的可变性；
     # root_login.geometry('1210x800')  # 指定主框体大小；
     # root_login.columnconfigure(0, minsize=1000)

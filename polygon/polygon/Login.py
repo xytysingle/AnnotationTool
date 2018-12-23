@@ -128,7 +128,7 @@ class Login(BaseApp):
 def goto_login():
     root_login = Tk()
     # root_login.overrideredirect(True)#隐藏窗口
-    root_login.title('Mark Tool -SINGLE')  # 修改框体的名字,也可在创建时使用className参数来命名
+    root_login.title('PolygonAnnotationTool -SINGLE')  # 修改框体的名字,也可在创建时使用className参数来命名
     root_login.resizable(0, 0)  # 框体大小可调性，分别表示x,y方向的可变性；
     # root_login.geometry('1210x800')  # 指定主框体大小；
     # root_login.columnconfigure(0, minsize=1000)
