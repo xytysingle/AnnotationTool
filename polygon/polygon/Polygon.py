@@ -297,6 +297,7 @@ class Main(BaseApp):
         self.is_change_coord = False
         self.cancel_bbox()
 
+
     def cancel_select_category(self,*args):
         # state reset
         self.category_listbox.selection_clear(0,END)
