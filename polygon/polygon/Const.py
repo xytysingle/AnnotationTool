@@ -91,7 +91,6 @@ const.CN_HELP_MENU_ITEMS ={'about':'关于','help':'帮助'}
 const.EN_HELP_MENU_ITEMS ={'about':'About','help':'Help'}
 
 
-
 #配置文件常量
 const.CONFIGNAME='config.ini'
 #登录模块
