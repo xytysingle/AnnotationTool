@@ -5,7 +5,6 @@
 #!@File   :Const.py
 
 
-
 class _const:
   class ConstError(TypeError): pass
   class ConstCaseError(ConstError): pass
@@ -89,7 +88,6 @@ const.EN_LANGUAGE_MENU_ITEMS ={'cn':'CN','en':'EN','korean':'Korean','japanese':
 #help菜单选项子菜单
 const.CN_HELP_MENU_ITEMS ={'about':'关于','help':'帮助'}
 const.EN_HELP_MENU_ITEMS ={'about':'About','help':'Help'}
-
 
 
 #配置文件常量

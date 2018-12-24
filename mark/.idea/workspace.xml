@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="" />
+    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +31,7 @@
     <SUITE FILE_PATH="coverage/mark$setup.coverage" NAME="setup Coverage Results" MODIFIED="1530407393094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark_samples/labelImg-master" />
     <SUITE FILE_PATH="coverage/mark$py_test_in_test__py.coverage" NAME="py.test in test_.py Coverage Results" MODIFIED="1537776095665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
     <SUITE FILE_PATH="coverage/mark$ui_test1.coverage" NAME="ui_test1 Coverage Results" MODIFIED="1542173628999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mark$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1545400236917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../polygon/polygon" />
+    <SUITE FILE_PATH="coverage/mark$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1545622618524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../polygon/polygon" />
     <SUITE FILE_PATH="coverage/mark$Const.coverage" NAME="Const Coverage Results" MODIFIED="1542101736494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1537095474589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1538484485988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline/mark_samples/BBOX-Label-Tool-master-" />
@@ -84,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="1171" column="19" lean-forward="true" selection-start-line="1171" selection-start-column="19" selection-end-line="1171" selection-end-column="19" />
+            <state relative-caret-position="189">
+              <caret line="1508" column="46" lean-forward="true" selection-start-line="1508" selection-start-column="46" selection-end-line="1508" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Const.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../polygon/polygon/Const.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -140,7 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ste</find>
       <find>copy</find>
       <find>make_</find>
       <find>h_scrollbar</find>
@@ -170,6 +180,7 @@
       <find>click</find>
       <find>Zoom(i[0]</find>
       <find>move</find>
+      <find>self.h_line</find>
     </findStrings>
     <replaceStrings>
       <replace>init_dot['y']</replace>
@@ -195,6 +206,10 @@
       <replace>删除</replace>
       <replace>self.is_cur_img_change()</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -261,27 +276,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="740" />
-    <option name="y" value="394" />
+    <option name="x" value="119" />
+    <option name="y" value="184" />
     <option name="width" value="1294" />
     <option name="height" value="844" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="mark" type="cbb8eebc:String" user="mark" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,13 +305,18 @@
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mark" type="cbb8eebc:String" user="mark" />
             </path>
           </expand>
           <select />
@@ -318,7 +330,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -484,6 +496,14 @@
       <option name="presentableId" value="Default" />
       <updated>1529733833498</updated>
     </task>
+    <task id="LOCAL-00001" summary="company">
+      <created>1545628509315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545628509315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,20 +527,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="394" width="1294" height="844" extended-state="0" />
+    <frame x="119" y="184" width="1294" height="844" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50319827" side_tool="true" weight="0.13507625" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.1756374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.22836879" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.1871961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.1904376" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32152975" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
       <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.21762048" />
       <window_info id="Favorites" order="2" sideWeight="0.5033738" side_tool="true" weight="0.18336888" />
@@ -532,6 +551,7 @@
       <window_info anchor="right" x="0" y="0" width="263" height="547" id="Documentation" order="5" side_tool="true" weight="0.3283082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32152975" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,6 +559,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="company" />
+    <option name="LAST_COMMIT_MESSAGE" value="company" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,13 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/AppInstall/Anaconda3/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="2314" column="8" selection-start-line="2314" selection-start-column="8" selection-end-line="2314" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/AppInstall/Anaconda3/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -894,8 +911,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="1171" column="19" lean-forward="true" selection-start-line="1171" selection-start-column="19" selection-end-line="1171" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="1508" column="46" lean-forward="true" selection-start-line="1508" selection-start-column="46" selection-end-line="1508" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../polygon/polygon/Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
