@@ -125,7 +125,7 @@ class Main(BaseApp):
         self.annotation_listbox.bind('<Delete>', self.delete_annotation)
         self.canvas.bind('<Delete>', self.delete_annotation)
         self.annotation_listbox.bind('<<ListboxSelect>>', self.show_bbox)
-        self.annotation_listbox.bind('<Escape>', self.cancel_select)
+        # self.annotation_listbox.bind('<Escape>', self.cancel_select)
         # canvas_event_bind
         self.canvas.bind("<Control-MouseWheel>", self.zoom_img)
         self.canvas.bind("<Alt-MouseWheel>", self.rotate_img)
@@ -302,11 +302,7 @@ class Main(BaseApp):
         # state reset
         self.category_listbox.selection_clear(0,END)
         self.cancel_bbox()
-        self.is_change_coord=False
-        self.is_change_annotation_name = False
-        self.show_all_bbox()
-        self.canvas.delete('point')
-        self.init_dot_initialized()
+
     def make_ui(self):
         # layout
         self.category_frame = Frame(self.master, width='250')  # , bg='red')
@@ -561,6 +557,7 @@ class Main(BaseApp):
         for bbox in self.annotationData.bboxes:
             # bbox.truncated = 1 if type(bbox.truncated) == int else 0
             bbox.truncated =0 if bbox.truncated==''else int(bbox.truncated)
+            bbox.box.append([bbox.box[0][0], bbox.box[0][1]])  # 为了兼容老工具显示polygon,加一个和起始点重合的终点
         #图片数据更新
         self.annotationData.username=BaseApp.user_info.user_name#
         self.annotationData.rotate=self.cur_img_rotate
@@ -682,6 +679,10 @@ class Main(BaseApp):
         # init_point initialized or reset
         self.init_dot_initialized()
 
+        self.is_change_coord = False
+        self.is_change_annotation_name = False
+        # self.show_all_bbox()
+        self.canvas.delete('point')
 
     def cancelBBox(self):
         pass
@@ -851,8 +852,7 @@ class Main(BaseApp):
                                             # curselection_category).color,
                                         # dash=self.truncated, tags=('line',))
                 # append to list
-                if not isDouble:
-                    self.point_list.append([event.x,event.y])
+                self.point_list.append([event.x,event.y])
                 # 始末点重合draw polygon
                 if len(self.point_list)<3 :
                     return
@@ -869,7 +869,6 @@ class Main(BaseApp):
                         self.canvas.delete('line')
                         self.canvas.delete(self.temp_rectangle_id)
                         self.point_list.pop(-1)
-                        # self.point_list.pop(-1)
                         point_list=[]
                         point_x_list=[]
                         point_y_list=[]
@@ -1640,7 +1639,7 @@ class Main(BaseApp):
     def get_annotation_data(self,imgBaseName,imgNoWithLocation,is_search):
         self.annotations.clear()
         self.bbox_list.clear()
-
+        self.cancel_bbox()
         response = requests.get(const.DATA_ADDR[self.cur_sku_lib]['ANNOTATION'],{'image':imgBaseName})
         # print(response.json())
         self.annotationData = AnnotationData()
