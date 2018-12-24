@@ -784,7 +784,9 @@ class Main(BaseApp):
         if self.is_cursor_select:
             # self.mouse_right_press(event)
             self.change_coord()
-    def mouse_click(self, event):
+        else:
+            self.mouse_click(event,True)
+    def mouse_click(self, event,isDouble_click=False):
         if self.is_cursor_select:
             self.mouse_right_press(event)
         else:
@@ -822,9 +824,11 @@ class Main(BaseApp):
                     self.init_dot['x'] = (self.init_dot['x'] / self.init_dot['zoom_level']) * self.cur_zoom_level
                     self.init_dot['y'] = (self.init_dot['y'] / self.init_dot['zoom_level']) * self.cur_zoom_level
                     self.init_dot['zoom_level'] = self.cur_zoom_level
-                # if self.init_dot['x'] == event.x and self.init_dot['y'] == event.y:
-                #     self.msgBox('亲,标注圆点木有意义哦!')
-                #     return
+                if not isDouble_click:
+                    for i in self.point_list:
+                        if i[0]==event.x and i[1]==event.y :
+                            self.msgBox('亲,标注重复的顶点木有意义哦!')
+                            return
                 # if self.init_dot['x'] == event.x or self.init_dot['y'] == event.y:
                 #     self.msgBox('亲,标注直线或极小的框木有意义哦!')
                 #     return
@@ -846,7 +850,7 @@ class Main(BaseApp):
                     xMax = self.getCoordByZoom(max(x1, x2))
                     yMin = self.getCoordByZoom(min(y1, y2))
                     yMax = self.getCoordByZoom(max(y1, y2))
-                    if event.x > xMin and event.x < xMax and event.y > yMin and event.y < yMax:
+                    if event.x > xMin and event.x < xMax and event.y > yMin and event.y < yMax or isDouble_click:
                         #draw polygon
                         self.canvas.delete('point')
                         self.canvas.delete('line')
@@ -879,6 +883,7 @@ class Main(BaseApp):
                         for i in self.point_list:
                             point_x_list.append(self.getCoordByRestore(i[0]))
                             point_y_list.append(self.getCoordByZoom(i[1]))
+                        print(len(self.point_list))
                         bbox = Bbox(rectangle_id, curselection_category, self.getObjByCategory(curselection_category).color,const.USERNAME,self.truncated,
                                     copy.deepcopy(self.point_list),min(point_x_list),min(point_y_list),max(point_x_list),max(point_y_list))
                         # self.canvas.tag_bind(CURRENT, '', self.show_box(bbox))
@@ -1019,12 +1024,12 @@ class Main(BaseApp):
             pass
         else:
             self.position.configure(text='%d : %d' % (event.x, event.y))
-            if self.h_line:
-                self.canvas.delete(self.h_line)
-            self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=1)
-            if self.v_line:
-                self.canvas.delete(self.v_line)
-            self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1)
+            # if self.h_line:
+            #     self.canvas.delete(self.h_line)
+            # self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=1)
+            # if self.v_line:
+            #     self.canvas.delete(self.v_line)
+            # self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1)
 
             self.make_preview_box(event)
 
@@ -1033,7 +1038,7 @@ class Main(BaseApp):
         #     index=self.bbox_list.index(min_item)
         #     if self.config[const.LOGIN][const.ISPOLL] != '1':
         #         self.show_info_bbox(min_item)
-        #     self.canvas.focus_set()
+        self.canvas.focus_set()
         #     #print(min_item.className)
         # except:
         #     index=-1
