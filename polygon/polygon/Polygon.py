@@ -1022,12 +1022,12 @@ class Main(BaseApp):
             pass
         else:
             self.position.configure(text='%d : %d' % (event.x, event.y))
-            if self.h_line:
-                self.canvas.delete(self.h_line)
-            self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=1)
-            if self.v_line:
-                self.canvas.delete(self.v_line)
-            self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1)
+            # if self.h_line:
+            #     self.canvas.delete(self.h_line)
+            # self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=1)
+            # if self.v_line:
+            #     self.canvas.delete(self.v_line)
+            # self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1)
 
             self.make_preview_box(event)
         # if __name__ == '__main__':
