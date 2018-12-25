@@ -73,7 +73,7 @@ class Main(BaseApp):
         self.init_dot['x'] = None
         self.init_dot['y'] = None
         self.init_dot['sku_name'] = None
-        self.init_dot['radius'] = 8
+        self.init_dot['radius'] = 5
         self.init_dot['point'] = None
         self.point_list=[]
         self.tmp_dot = {}
@@ -302,6 +302,7 @@ class Main(BaseApp):
         # state reset
         self.category_listbox.selection_clear(0,END)
         self.cancel_bbox()
+        self.show_all_bbox()
 
     def make_ui(self):
         # layout
