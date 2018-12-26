@@ -115,6 +115,7 @@ class Main(BaseApp):
     def bind_event(self):
         # category_istbox_event_bind
         self.category_listbox.bind('<<ListboxSelect>>', self.select_correct_category)#<<ListboxSelect>>:选中item变化监听事件
+        self.category_listbox.bind('<Double-Button-1>', lambda t:self.open_sku_lib(True))
         self.category_listbox.bind('<Escape>', self.cancel_select_category)
         self.category_listbox.bind('<Control-c>', self.copy_category_)
         # annotation_istbox_event_bind
@@ -176,8 +177,11 @@ class Main(BaseApp):
         # master.bind("<Down>", self.nextImage)
         # self.annotation_listbox.bind('<<ListboxSelect>>', self.msgBox)
         self.img_number_Entry.bind("<KeyPress-Return>",lambda t:self.get_data(self.img_number_Entry.get(),True))
-    def open_sku_lib(self):
-        win32api.ShellExecute(0, 'open',r'\\old_tan\Software Share\Everything\Everything.exe', '-filter  SKU_LIB', '', 1)
+    def open_sku_lib(self,isSearchTxt=False):
+        txt=''
+        if isSearchTxt:
+            txt='-search '+self.category_listbox.get(self.category_listbox.curselection())
+        win32api.ShellExecute(0, 'open',r'\\old_tan\Software Share\Everything\Everything.exe', txt, '', 1)
     def invert_select(self,*args):
         curselections = self.annotation_listbox.curselection()
         self.annotation_listbox.selection_set(0,END)
@@ -1292,9 +1296,9 @@ class Main(BaseApp):
         self.fileMenu = Menu(self.menu, tearoff=False)
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['open'], command=self.msgBox, accelerator='Ctr+O')
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['save'], command=self.save, accelerator="Ctrl+S")
-        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['openWindow'], command=goto_main, accelerator="")
+        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['openWindow'], command=self.msgBox, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['importData'], command=self.msgBox, accelerator="")
-        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['exportData'], command=self.save, accelerator="")
+        self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['exportData'], command=self.msgBox, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['autoBackup'], command=self.msgBox, accelerator="")
         self.fileMenu.add_command(label=self.MENU_FILE_ITEMS['openSKULib'], command=self.open_sku_lib, accelerator="")
         self.fileMenu.add_separator()#分割线
