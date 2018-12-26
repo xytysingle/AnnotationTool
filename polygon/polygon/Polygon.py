@@ -181,7 +181,7 @@ class Main(BaseApp):
         # self.annotation_listbox.bind('<<ListboxSelect>>', self.msgBox)
         self.img_number_Entry.bind("<KeyPress-Return>",lambda t:self.get_data(self.img_number_Entry.get(),True))
     def open_sku_lib(self):
-        win32api.ShellExecute(0, 'open',r'\\old_tan\Software Share\Everything\Everything.exe', '-filter  SKU_LIB', '', 1)
+        win32api.ShellExecute(0, 'open',r'\\old_tan\Software Share\Everything\Everything.exe', '-filter  SKU_LIB  -filename  天府可乐', '', 1)
     def invert_select(self,*args):
         curselections = self.annotation_listbox.curselection()
         self.annotation_listbox.selection_set(0,END)
@@ -916,6 +916,11 @@ class Main(BaseApp):
                             self.annotation_listbox.select_set(END)
                             self.annotation_listbox.yview(END)
                         # annotations update
+
+                        # 更新BBox状态栏
+                        curselection = len(self.annotation_listbox.curselection())
+                        amount = len(self.bbox_list)
+                        self.state_label.configure(text='BBOX: %d/%d' % (curselection, amount))
 
                         #self.show_bbox()
                         # 数据缓存

@@ -847,6 +847,11 @@ class Main(BaseApp):
                     self.annotation_listbox.yview(END)
                 # annotations update
 
+                # 更新BBox状态栏
+                curselection = len(self.annotation_listbox.curselection())
+                amount = len(self.bbox_list)
+                self.state_label.configure(text='BBOX: %d/%d' % (curselection, amount))
+
                 #self.show_bbox()
                 # 数据缓存
                 self.data_cache()
