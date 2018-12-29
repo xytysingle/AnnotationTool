@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="company">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +87,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="458" column="8" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="8" />
+            <state relative-caret-position="572">
+              <caret line="483" column="48" lean-forward="true" selection-start-line="483" selection-start-column="48" selection-end-line="483" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -286,8 +284,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="121" />
+    <option name="x" value="482" />
+    <option name="y" value="134" />
     <option name="width" value="1372" />
     <option name="height" value="794" />
   </component>
@@ -572,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546082800410</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="company">
+      <created>1546082955514</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546082955514</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -596,7 +601,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="121" width="1372" height="794" extended-state="0" />
+    <frame x="482" y="134" width="1372" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -974,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="458" column="8" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="8" />
+        <state relative-caret-position="572">
+          <caret line="483" column="48" lean-forward="true" selection-start-line="483" selection-start-column="48" selection-end-line="483" selection-end-column="48" />
         </state>
       </provider>
     </entry>
