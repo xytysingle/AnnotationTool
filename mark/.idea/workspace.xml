@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
+    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="company">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +77,8 @@
       <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../polygon/polygon/test/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="616">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
                 <element signature="e#412#430#0" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
+            <state relative-caret-position="22">
               <caret line="458" column="8" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="8" />
             </state>
           </provider>
@@ -299,17 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="mark" type="cbb8eebc:String" user="mark" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +319,17 @@
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mark" type="cbb8eebc:String" user="mark" />
             </path>
           </expand>
           <select />
@@ -565,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545826064284</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="company">
+      <created>1546082800410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546082800410</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -589,7 +596,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="365" width="1372" height="794" extended-state="0" />
+    <frame x="268" y="121" width="1372" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -599,7 +606,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" weight="0.2961832" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.12804878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.12957317" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -957,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../polygon/polygon/test/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="616">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="e#412#430#0" expanded="true" />
           </folding>
@@ -967,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="22">
           <caret line="458" column="8" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="8" />
         </state>
       </provider>
