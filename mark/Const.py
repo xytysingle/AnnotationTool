@@ -73,9 +73,9 @@ const.EN_FILE_MENU_ITEMS ={'open':'Open...','save':'Save','openWindow':'Open Win
 
 #Edit菜单选项子菜单
 const.CN_EDIT_MENU_ITEMS = {'refresh':'刷新','toggleCursor':'切换鼠标样式','editCategory':'重命名','deleteCategory':'删除','editCoord':'编辑','copyCategory':'复制分类','cutBBOX':'剪切BBOX','copyBBOX':'复制BBOX','pasteBBOX':'粘贴BBOX','toggleStyle':'切换虚实',
-                            'showALl':'全部选择','hideALl':'清除选择','invertSelect':'反向选择','undo':'撤销','restore':'恢复','copyFileName':'复制BBOX文件名'}
+                            'showALl':'全部选择','hideALl':'清除选择','invertSelect':'反向选择','undo':'撤销','restore':'恢复','copyFileName':'复制BBOX文件名','editProperty':'编辑属性'}
 const.EN_EDIT_MENU_ITEMS = {'refresh':'Refresh','toggleCursor':'Toggle Cursor','editCategory':'Rename','deleteCategory':'Delete Category','editCoord':'Edit Coord','cutBBOX':'Cut BBOX','copyCategory':'Copy Category','copyBBOX':'Copy BBOX','pasteBBOX':'Paste BBOX','toggleStyle':'Toggle Style',
-                            'showALl':'Show ALl','hideALl':'Hide ALl','invertSelect':'Invert Select','undo':'Undo','restore':'Restore','copyFileName':'Copy File Name'}
+                            'showALl':'Show ALl','hideALl':'Hide ALl','invertSelect':'Invert Select','undo':'Undo','restore':'Restore','copyFileName':'Copy File Name','editProperty':'Edit Property'}
 
 #View菜单选项子菜单
 const.CN_VIEW_MENU_ITEMS ={'refresh':'刷新','pollmode':'轮询模式','autoLocation':'BBOX自动定位模式','toggleSKU':'切换SKU库','SKU':'饮料SKU库','SKU_MARS':'玛氏SKU库','linkage':'SKU-BBOX联动'}
