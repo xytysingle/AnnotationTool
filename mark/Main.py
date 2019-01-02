@@ -115,7 +115,7 @@ class Main(BaseApp):
     def bind_event(self):
         # category_istbox_event_bind
         self.category_listbox.bind('<<ListboxSelect>>', self.select_correct_category)#<<ListboxSelect>>:选中item变化监听事件
-        self.category_listbox.bind('<Double-Button-1>', lambda t:self.open_sku_lib(True))
+        self.category_listbox.bind('<Double-Button-1>', lambda:self.open_sku_lib(True))
         self.category_listbox.bind('<Escape>', self.cancel_select_category)
         self.category_listbox.bind('<Control-c>', self.copy_category_)
         # annotation_istbox_event_bind
@@ -1311,6 +1311,25 @@ class Main(BaseApp):
         #self.editMenu.add_separator()#分割线
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['editCategory'], command=self.change_annotation_name, accelerator="F2")
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['editCoord'], command=self.change_coord, accelerator="左键双击")
+        # editProperty
+        self.editProperty = Menu(self.editMenu, tearoff=0)
+        self.property0_StringVar = BooleanVar()
+        self.property0_StringVar.set(False)
+        self.property1_StringVar = BooleanVar()
+        self.property1_StringVar.set(False)
+        self.property2_StringVar = BooleanVar()
+        self.property2_StringVar.set(False)
+        self.editProperty.add_checkbutton(label='无',
+                                          command=lambda: self.property_rdBtn_callback('无'), variable=self.property0_StringVar,
+                                          onvalue=True)  # value=0为默认选中
+        self.editProperty.add_checkbutton(label='属性0',
+                                          command=lambda: self.property_rdBtn_callback('属性0'), variable=self.property1_StringVar,
+                                          onvalue=True)
+        self.editProperty.add_checkbutton(label='属性1',
+                                          command=lambda: self.property_rdBtn_callback('属性1'), variable=self.property2_StringVar,
+                                          onvalue=True)
+        # self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['editProperty'], command=self.change_coord, accelerator="")
+        self.editMenu.add_cascade(label=self.MENU_EDIT_ITEMS['editProperty'], menu=self.editProperty)
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['deleteCategory'], command=self.delete_annotation, accelerator="Delete")
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['copyCategory'], command=self.copy_category, accelerator="")
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['copyFileName'], command=self.copy_fileName, accelerator="")
@@ -1323,6 +1342,7 @@ class Main(BaseApp):
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['showALl'], command=self.show_all_bbox, accelerator="Ctrl+A")
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['invertSelect'], command=self.invert_select, accelerator="Ctrl+I")
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['hideALl'], command=self.hide_all_bbox, accelerator="Esc")
+
         self.menu.add_cascade(label=self.MENU_BAR['edit'], menu=self.editMenu)
         #view_menu
         self.viewMenu = Menu(self.menu, tearoff=0)
@@ -1409,6 +1429,30 @@ class Main(BaseApp):
         self.config[const.LOGIN][const.ISPOLL]='1' if self.pollmode_StrVar.get() == 'pollmode' else '0'
         self.config[const.LOGIN][const.ISLINKAGE]='1' if self.linkage_StrVar.get() == 'linkage' else '0'
         self.config.write()
+    def property_rdBtn_callback(self,selected_attribute):
+        # category_curselection = self.category_listbox.curselection()
+        curselection = self.annotation_listbox.curselection()
+        if len(curselection) < 1:
+            return
+        if selected_attribute=='无':
+            self.property0_StringVar.set( self.property0_StringVar.get())
+        elif selected_attribute=='属性0':
+            self.property1_StringVar.set(self.property1_StringVar.get())
+        elif selected_attribute=='属性1':
+            self.property2_StringVar.set( self.property2_StringVar.get())
+
+        for i in curselection:
+            self.bbox_list[i].attribute = selected_attribute
+            self.annotations[i] = self.bbox_list[i].annotation
+        # refresh listbox variable
+        self.annotation_str_var.set(self.annotations)
+
+        # 数据缓存
+        self.data_cache()
+        # 更新BBox状态栏
+        curselection = len(self.annotation_listbox.curselection())
+        amount = len(self.bbox_list)
+        self.state_label.configure(text='BBOX: %d/%d' % (curselection, amount))
     def rdBtn_callback(self,language):
         print(language)
         if language==self.is_cn or language==self.cur_sku_lib:
