@@ -115,7 +115,7 @@ class Main(BaseApp):
     def bind_event(self):
         # category_istbox_event_bind
         self.category_listbox.bind('<<ListboxSelect>>', self.select_correct_category)#<<ListboxSelect>>:选中item变化监听事件
-        self.category_listbox.bind('<Double-Button-1>', lambda:self.open_sku_lib(True))
+        self.category_listbox.bind('<Double-Button-1>', lambda t:self.open_sku_lib(True))
         self.category_listbox.bind('<Escape>', self.cancel_select_category)
         self.category_listbox.bind('<Control-c>', self.copy_category_)
         # annotation_istbox_event_bind
