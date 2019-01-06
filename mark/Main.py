@@ -1424,7 +1424,6 @@ class Main(BaseApp):
         #refresh root_main window config
         self.master.config(menu=self.menu)
     def ckBtn_callback(self):
-
         self.config[const.LOGIN][const.ISAUTOLOGIN]='1' if self.autologin_StrVar.get()=='autologin' else '0'
         self.config[const.LOGIN][const.ISWELCOMEMSG]= '1' if self.welcome_StrVar.get()=='welcome' else  '0'
         self.config[const.LOGIN][const.ISPOWERON]='1' if self.poweron_StrVar.get()=='poweron' else '0'
