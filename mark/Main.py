@@ -1360,15 +1360,17 @@ class Main(BaseApp):
         self.toggleSKUMenu = Menu(self.viewMenu, tearoff=0)
         self.rdBtn_IntVar_SKU = IntVar()
         
-        # for key in list(const.DATA_ADDR.keys()):
+        # for key in const.DATA_ADDR.keys():
         #     self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS[key],
         #                                        command=lambda : self.rdBtn_callback(key), variable=self.rdBtn_IntVar_SKU,
         #                                        value=0 if self.cur_sku_lib == key else 1)  # value=0为默认选中
-											   
-											   
+
         self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU'],
                                                command=lambda: self.rdBtn_callback('SKU'), variable=self.rdBtn_IntVar_SKU,
                                                value=0 if self.cur_sku_lib == 'SKU' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_MOUTH'],
+                                               command=lambda: self.rdBtn_callback('SKU_MOUTH'), variable=self.rdBtn_IntVar_SKU,
+                                               value=0 if self.cur_sku_lib == 'SKU_MOUTH' else 1)  # value=0为默认选中
         self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_MARS'],
                                                command=lambda: self.rdBtn_callback('SKU_MARS'), variable=self.rdBtn_IntVar_SKU,
                                                value=0 if self.cur_sku_lib == 'SKU_MARS' else 1)  # value=0为默认选中
@@ -1422,7 +1424,6 @@ class Main(BaseApp):
         #refresh root_main window config
         self.master.config(menu=self.menu)
     def ckBtn_callback(self):
-
         self.config[const.LOGIN][const.ISAUTOLOGIN]='1' if self.autologin_StrVar.get()=='autologin' else '0'
         self.config[const.LOGIN][const.ISWELCOMEMSG]= '1' if self.welcome_StrVar.get()=='welcome' else  '0'
         self.config[const.LOGIN][const.ISPOWERON]='1' if self.poweron_StrVar.get()=='poweron' else '0'
@@ -1465,7 +1466,6 @@ class Main(BaseApp):
             return
 
         if language in list(const.DATA_ADDR.keys()):
-
             self.config[const.LOGIN][const.SKU_LIB]=language
             self.cur_sku_lib=language
             self.cur_img_index = int(self.config[const.LOGIN][language + '_IMAGE_INDEX'])
