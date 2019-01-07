@@ -150,45 +150,114 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 import sys
 
+from tkinter import *
 
-class LineEditEx(QLineEdit):
-    def __init__(self, parent=None):
-        super().__init__(None, parent)
-        self.setGeometry(50, 50, 100, 20)
-        self.setAcceptDrops(True)
-        self.setDragEnabled(True)  # 开启可拖放事件
+import ttk
 
-    def dragEnterEvent(self, QDragEnterEvent):
-        e = QDragEnterEvent  # type:QDragEnterEvent
-        print('type:', e.type())  # 事件的类型
-        print('pos:', e.pos())  # 拖放位置
-        print(e.mimeData().urls())  # 文件所有的路径
-        print(e.mimeData().text())  # 文件路径
-        print(e.mimeData().formats())  # 支持的所有格式
-        print(e.mimeData().data('text/plain'))  # 根据mime类型取路径 值为字节数组
-        print(e.mimeData().hasText())  # 是否支持文本文件格式
-        if e.mimeData().hasText():
-            e.accept()
-        else:
-            e.ignore()
+import threading
 
-    def dropEvent(self, e):
-        self.setText(e.mimeData().text()) #如果之前设置ignore 为False 这里将不会生效
+import random
 
-class Example(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setUi()
+import time
 
-    def setUi(self):
-        self.setGeometry(100, 100, 300, 300)
-        self.setWindowTitle('demo_ui_2')
-        self.textEdit = LineEditEx(self)
 
-        self.show()
+class UIThread:
+
+    def __init__(self, root, count=10):
+
+        self.count = count
+
+        self.value = 0
+
+        self.b_exit = False
+
+        self.root = root
+
+        self.event = threading.Event()
+
+        self.pbar = ttk.Progressbar(root, length=200, maximum=count)
+
+        self.pbar.pack()
+
+        root.after(0, self.update)
+
+    def set_max(self, max):
+
+        self.pbar.config(maximum=max)
+
+    def set_val(self, val):
+
+        self.value = val
+
+    def start(self):
+
+        self.event.set()
+
+    def stop(self):
+
+        self.b_exit = True
+
+    def update(self):
+
+        print
+        'waiting...'
+
+        self.event.wait()
+
+        print
+        'start progress...'
+
+        while 1:
+
+            self.pbar.config(value=self.value)
+
+            self.pbar.update()
+
+            if self.b_exit:
+                break
+
+        self.root.quit()
+
+        print
+        'root quit()'
+
+    def increase(slef):
+
+        self.value += 1
+
+
+def work_func(count, ui):
+    ui.set_max(count)
+
+    ui.start()
+
+    print
+    '->working<-'
+
+    for i in range(1, count + 1):
+        rnd_t = random.uniform(.2, .5)
+
+        print
+        i, threading.currentThread().getName(), ':', time.ctime()
+
+        ui.set_val(i)
+
+        time.sleep(rnd_t)
+
+    ui.stop()
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = Example()
-    sys.exit(app.exec_())
+    root = Tk()
+
+    ui = UIThread(root)
+
+    work_thread = threading.Thread(target=work_func, args=(5, ui))
+
+    work_thread.start()
+
+    root.mainloop()
+
+    work_thread.join()
+
+    raw_input('Press return...')

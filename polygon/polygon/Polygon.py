@@ -128,6 +128,7 @@ class Main(BaseApp):
         # self.annotation_listbox.bind('<Escape>', self.cancel_select)
         # canvas_event_bind
         self.canvas.bind("<Control-MouseWheel>", self.zoom_img)
+        self.canvas.bind_all("<Control-r>", self.zoom_img_restore)
         self.canvas.bind("<Alt-MouseWheel>", self.rotate_img)
         self.canvas.bind("<MouseWheel>", self.v_bound_to_mousewheel)
         self.canvas.bind("<Shift-MouseWheel>", self.h__bound_to_mousewheel)
@@ -1174,6 +1175,47 @@ class Main(BaseApp):
                 return  items[-1]
             else:
                 return None
+
+    def zoom_img_restore(self, event):
+        self.cur_zoom_level = 1.0
+        img_rotate = self.img.rotate(self.cur_img_rotate, expand=True)
+
+
+        w, h = self.img_size
+        zoom_width = w * self.cur_zoom_level
+        zoom_height = h * self.cur_zoom_level
+        img_resize = self.resize(zoom_width, zoom_height, zoom_width, zoom_height, img_rotate)
+        self.cur_img_size=img_resize.size
+        # img_resize = self.img.resize((int(zoom_width), int(zoom_height)))
+        # img_rotate = self.img.cur_img_rotate(45)
+        # self.img.resize((w  * 2, h * 2), Image.ANTIALIAS)
+        self.tk_img = ImageTk.PhotoImage(img_resize)
+        self.canvas.itemconfigure(self.cur_img_id, image=self.tk_img, anchor=N + W)
+        # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
+        # self.canvas.config(scrollregion=(0,0,self.zoom_width*2, self.zoom_height*2))
+        # self.canvas.config(width=zoom_width,height=zoom_height)
+
+        # show
+        self.percent.configure(text='%d%%' % (self.cur_zoom_level*100))
+        print(str(self.cur_zoom_level * 10) + "%", self.main_panel_frame.winfo_height() - zoom_height, self.img.size)
+        # preview_box zoom
+        self.make_preview_box(event)
+        # bbox zoom
+        # for bbox in self.bbox_list:
+        #     # coord zoom
+        #     x = self.getCoordByZoom(bbox.x1)
+        #     y = self.getCoordByZoom(bbox.y1)
+        #     x1 = self.getCoordByZoom(bbox.x2 )
+        #     y1 = self.getCoordByZoom(bbox.y2)
+        #     self.canvas.coords(bbox.sku_name, (x, y, x1, y1))
+
+        curselections = self.annotation_listbox.curselection()
+        if len(curselections)<2:
+            self.show_bbox()
+        else:
+            self.show_all_bbox(self.annotation_curselection)#todo 框缩放的bug临时解决方案
+        self.canvas.config(scrollregion=self.canvas.bbox(ALL))
+
     def zoom_img(self, event):
         if event.delta > 0:
             if self.cur_zoom_level > 2.0:
@@ -1476,14 +1518,18 @@ class Main(BaseApp):
         #     self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS[key],
         #                                        command=lambda : self.rdBtn_callback(key), variable=self.rdBtn_IntVar_SKU,
         #                                        value=0 if self.cur_sku_lib == key else 1)  # value=0为默认选中
-											   
-											   
+
         self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU'],
-                                               command=lambda: self.rdBtn_callback('SKU'), variable=self.rdBtn_IntVar_SKU,
-                                               value=0 if self.cur_sku_lib == 'SKU' else 1)  # value=0为默认选中
+                                           command=lambda: self.rdBtn_callback('SKU'), variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU' else 1)  # value=0为默认选中
         self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_MARS'],
-                                               command=lambda: self.rdBtn_callback('SKU_MARS'), variable=self.rdBtn_IntVar_SKU,
-                                               value=0 if self.cur_sku_lib == 'SKU_MARS' else 1)  # value=0为默认选中
+                                           command=lambda: self.rdBtn_callback('SKU_MARS'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_MARS' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_MOUTH'],
+                                           command=lambda: self.rdBtn_callback('SKU_MOUTH'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_MOUTH' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
