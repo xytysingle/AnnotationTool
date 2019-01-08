@@ -98,7 +98,7 @@ class Main(BaseApp):
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
         self.bd_width = 1
-        self.is_stipple = 'gray75'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.is_stipple = 'gray12'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -617,6 +617,7 @@ class Main(BaseApp):
                     self.bbox_list[curselection].className = selected_category
                     self.bbox_list[curselection].color = self.getObjByCategory(selected_category).color
                     self.annotations[curselection] = self.bbox_list[curselection].annotation
+                    self.bbox_list[curselection].username = self.user_info.user_name
                 # refresh listbox variable
                 self.annotation_str_var.set(self.annotations)
 
