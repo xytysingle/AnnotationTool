@@ -1514,6 +1514,10 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_MOUTH'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_MOUTH' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_SEASONING'],
+                                           command=lambda: self.rdBtn_callback('SKU_SEASONING'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_SEASONING' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1892,7 +1896,7 @@ def goto_main():
     # 得到屏幕宽度
     sh = root_main.winfo_screenheight()
     # 得到屏幕高度
-    ww = 1210
+    ww = 1400
     wh = 800
     # 窗口宽高为100
     x = (sw - ww) / 2
