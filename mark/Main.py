@@ -468,7 +468,7 @@ class Main(BaseApp):
         self.canvas.delete('info_label')
         for index in curselections:
             cur_bbox = self.bbox_list[index]
-            print(cur_bbox.truncated)
+            # print(cur_bbox.truncated)
             dash = 1 if type(cur_bbox.truncated) == int else ''
             self.make_rectangle(cur_bbox, dash)
             #TODO 待优化
@@ -1701,6 +1701,9 @@ class Main(BaseApp):
     def get_annotation_data(self,imgBaseName,imgNoWithLocation,is_search):
         self.annotations.clear()
         self.bbox_list.clear()
+        self.init_dot_initialized()
+        self.is_change_coord = False
+        self.is_change_annotation_name = False
 
         response = requests.get(const.DATA_ADDR[self.cur_sku_lib]['ANNOTATION'],{'image':imgBaseName})
         # print(response.json())

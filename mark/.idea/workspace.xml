@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +33,7 @@
     <SUITE FILE_PATH="coverage/mark$py_test_in_test__py.coverage" NAME="py.test in test_.py Coverage Results" MODIFIED="1537776095665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
     <SUITE FILE_PATH="coverage/mark$mainfile.coverage" NAME="mainfile Coverage Results" MODIFIED="1546417092954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/wangyong_09" />
     <SUITE FILE_PATH="coverage/mark$ui_test1.coverage" NAME="ui_test1 Coverage Results" MODIFIED="1542173628999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mark$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1546864241821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../polygon/polygon" />
+    <SUITE FILE_PATH="coverage/mark$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1547295240215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../polygon/polygon" />
     <SUITE FILE_PATH="coverage/mark$Const.coverage" NAME="Const Coverage Results" MODIFIED="1542101736494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1537095474589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1538484485988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline/mark_samples/BBOX-Label-Tool-master-" />
@@ -45,7 +44,7 @@
     <SUITE FILE_PATH="coverage/mark$Login.coverage" NAME="Login Coverage Results" MODIFIED="1544532626167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$Login__1_.coverage" NAME="Login (1) Coverage Results" MODIFIED="1538383174405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/mark$tt.coverage" NAME="tt Coverage Results" MODIFIED="1538460202424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline" />
-    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547018289512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547296329530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$calc.coverage" NAME="calc Coverage Results" MODIFIED="1531053541905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/mark$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1542174177696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/AppInstall/Anaconda3/Lib/tkinter" />
     <SUITE FILE_PATH="coverage/mark$test.coverage" NAME="test Coverage Results" MODIFIED="1543489814156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -81,8 +80,17 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="1897" column="12" lean-forward="true" selection-start-line="1897" selection-start-column="12" selection-end-line="1897" selection-end-column="12" />
+            <state relative-caret-position="223">
+              <caret line="467" column="40" lean-forward="true" selection-start-line="467" selection-start-column="40" selection-end-line="467" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="480" column="37" lean-forward="true" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -155,9 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create_rectangle</find>
-      <find>deep</find>
-      <find>append(i[0])</find>
       <find>create_polygon</find>
       <find>'point'</find>
       <find>event_b</find>
@@ -171,13 +176,11 @@
       <find>open_img</find>
       <find>COLOR</find>
       <find>menu</find>
-      <find>click</find>
       <find>lambda</find>
       <find>show_bbox</find>
       <find>cancel_sel</find>
       <find>category_listbox.se</find>
       <find>bind_event</find>
-      <find>event_bind</find>
       <find>cur_sku_lib</find>
       <find>stipple</find>
       <find>ttk</find>
@@ -185,6 +188,11 @@
       <find>'AnnotationTool'</find>
       <find>change_coord</find>
       <find>make_menu</find>
+      <find>next_</find>
+      <find>click</find>
+      <find>del_point</find>
+      <find>get_annotation_data</find>
+      <find>event_bind</find>
     </findStrings>
     <replaceStrings>
       <replace>init_dot['y']</replace>
@@ -265,10 +273,10 @@
         <option value="$PROJECT_DIR$/../polygon/polygon/test/t.py" />
         <option value="$PROJECT_DIR$/untitled.py" />
         <option value="$PROJECT_DIR$/test/t.py" />
-        <option value="$PROJECT_DIR$/../polygon/polygon/Polygon.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/entity/BaseApp.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/Const.py" />
         <option value="$PROJECT_DIR$/Const.py" />
+        <option value="$PROJECT_DIR$/../polygon/polygon/Polygon.py" />
         <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
@@ -661,7 +669,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="161" width="1372" height="794" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -669,9 +677,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977098" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" weight="0.2961832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.2955289" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.13948171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.09914712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -1026,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="1519" column="50" lean-forward="true" selection-start-line="1519" selection-start-column="50" selection-end-line="1519" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1047,10 +1048,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="480" column="37" lean-forward="true" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1897" column="12" lean-forward="true" selection-start-line="1897" selection-start-column="12" selection-end-line="1897" selection-end-column="12" />
+        <state relative-caret-position="223">
+          <caret line="467" column="40" lean-forward="true" selection-start-line="467" selection-start-column="40" selection-end-line="467" selection-end-column="40" />
         </state>
       </provider>
     </entry>
