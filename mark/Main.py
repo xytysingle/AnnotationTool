@@ -168,6 +168,7 @@ class Main(BaseApp):
         self.master.bind_all("<Control-x>", self.cut_bbox)
         self.master.bind_all("<Control-c>", self.copy_bbox)
         self.master.bind_all("<Control-v>", self.paste_bbox)
+        self.master.bind_all("<Control-b>", self.clone_bbox)
         self.master.bind_all("<Control-z>", self.undo_operate)
         self.master.bind_all("<Control-y>", self.redo_operate)
         self.master.bind_all("<KeyPress-F2>", self.change_annotation_name)
@@ -245,6 +246,33 @@ class Main(BaseApp):
                 text+= '%s_%s_%s_%s_%s_%s.jpg | ' % (self.images[self.cur_img_index].rstrip('.jpg'), bbox.x1, bbox.y1, bbox.x2, bbox.y2,truncated)
             text=text.rstrip(' | ')
             pyperclip.copy(text)
+    def clone_bbox(self,*args):
+        if args and type(args[0].widget)==Entry :
+            # print(args[0].widget)
+            return
+        curselections = self.annotation_listbox.curselection()
+        if curselections:
+            copy_bbox_list = []
+            # for index in curselections:
+            #     copy_bbox_list.append(copy.deepcopy(self.bbox_list[index]))
+            copy_bbox_list.append(copy.deepcopy(self.bbox_list[curselections[-1]]))
+
+            start = len(self.bbox_list)
+            for bbox in copy_bbox_list:
+                self.bbox_list.append(bbox)
+                bbox.username = BaseApp.user_info.user_name
+                bbox.x1, bbox.x2 = bbox.x1 + abs(bbox.x2 - bbox.x1), bbox.x2 + abs(bbox.x2 - bbox.x1)
+            if copy_bbox_list and len(copy_bbox_list) < 2:
+                self.show_info_bbox(bbox)
+            end = len(self.bbox_list) - 1
+            # annotations update
+            self.annotations_data_update()
+            self.annotation_listbox.selection_clear(0, END)
+            self.annotation_listbox.selection_set(start, end)
+            print(start, end)
+            self.show_bbox()
+            # 数据缓存
+            self.data_cache()
     def copy_bbox(self,*args):
         if args and type(args[0].widget)==Entry :
             # print(args[0].widget)

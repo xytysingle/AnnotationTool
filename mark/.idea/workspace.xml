@@ -4,6 +4,7 @@
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/t.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +18,7 @@
     <SUITE FILE_PATH="coverage/mark$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1538484551507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline/mark_samples/BBox-Label-Tool-master" />
     <SUITE FILE_PATH="coverage/mark$t1est.coverage" NAME="t1est Coverage Results" MODIFIED="1529735926403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$t__1_.coverage" NAME="t (1) Coverage Results" MODIFIED="1545734813450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../polygon/polygon/test" />
-    <SUITE FILE_PATH="coverage/mark$t.coverage" NAME="t Coverage Results" MODIFIED="1546852430256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/mark$t.coverage" NAME="t Coverage Results" MODIFIED="1547465168732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mark$tab__1_.coverage" NAME="tab (1) Coverage Results" MODIFIED="1537161472363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$popup_menu.coverage" NAME="popup_menu Coverage Results" MODIFIED="1531053523610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/mark$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1541508111748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -44,7 +45,7 @@
     <SUITE FILE_PATH="coverage/mark$Login.coverage" NAME="Login Coverage Results" MODIFIED="1544532626167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$Login__1_.coverage" NAME="Login (1) Coverage Results" MODIFIED="1538383174405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/mark$tt.coverage" NAME="tt Coverage Results" MODIFIED="1538460202424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline" />
-    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547296329530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547436239143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$calc.coverage" NAME="calc Coverage Results" MODIFIED="1531053541905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/mark$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1542174177696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/AppInstall/Anaconda3/Lib/tkinter" />
     <SUITE FILE_PATH="coverage/mark$test.coverage" NAME="test Coverage Results" MODIFIED="1543489814156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -80,8 +81,20 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="467" column="40" lean-forward="true" selection-start-line="467" selection-start-column="40" selection-end-line="467" selection-end-column="40" />
+            <state relative-caret-position="145">
+              <caret line="1639" column="28" selection-start-line="1639" selection-start-column="23" selection-end-line="1639" selection-end-column="28" />
+              <folding>
+                <element signature="e#120#135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bbox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -89,20 +102,17 @@
       <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="480" column="37" lean-forward="true" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
+            <state relative-caret-position="22">
+              <caret line="480" column="37" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/t.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mark_offline/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="177" column="30" selection-start-line="177" selection-start-column="30" selection-end-line="177" selection-end-column="30" />
-              <folding>
-                <element signature="e#150#161#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -119,8 +129,8 @@
       <file leaf-file-name="BaseApp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -143,15 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotationData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../polygon/polygon/entity/AnnotationData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -163,12 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create_polygon</find>
-      <find>'point'</find>
-      <find>event_b</find>
-      <find>show_info</find>
-      <find>i[0]</find>
-      <find>zoom_</find>
       <find>Zoom(i[0]</find>
       <find>self.h_line</find>
       <find>move</find>
@@ -189,10 +184,16 @@
       <find>change_coord</find>
       <find>make_menu</find>
       <find>next_</find>
-      <find>click</find>
       <find>del_point</find>
       <find>get_annotation_data</find>
       <find>event_bind</find>
+      <find>click</find>
+      <find>filedialog</find>
+      <find>askdirectory</find>
+      <find>SimpleBBoxLabeling</find>
+      <find>format</find>
+      <find>data_dir</find>
+      <find>keys</find>
     </findStrings>
     <replaceStrings>
       <replace>init_dot['y']</replace>
@@ -272,12 +273,12 @@
         <option value="$PROJECT_DIR$/../polygon/polygon/entity/Bbox.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/test/t.py" />
         <option value="$PROJECT_DIR$/untitled.py" />
-        <option value="$PROJECT_DIR$/test/t.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/entity/BaseApp.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/Const.py" />
         <option value="$PROJECT_DIR$/Const.py" />
         <option value="$PROJECT_DIR$/../polygon/polygon/Polygon.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/test/t.py" />
       </list>
     </option>
   </component>
@@ -291,8 +292,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
-    <option name="y" value="161" />
+    <option name="x" value="-1395" />
+    <option name="y" value="213" />
     <option name="width" value="1372" />
     <option name="height" value="794" />
   </component>
@@ -320,24 +321,7 @@
           <expand>
             <path>
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="mark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="mark" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="mark" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mark_offline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
@@ -347,12 +331,6 @@
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
               <item name="polygon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
-              <item name="polygon" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.t">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -510,9 +488,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Polygon" />
-        <item itemvalue="Python.t" />
         <item itemvalue="Python.untitled" />
         <item itemvalue="Python.mainfile" />
       </list>
@@ -645,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546864645019</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="company">
+      <created>1547296433811</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547296433811</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -669,7 +654,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1395" y="213" width="1372" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -677,9 +662,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977098" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.2955289" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" weight="0.16946565" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.09914712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.14634146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -778,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mark_offline/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="854" column="8" selection-start-line="854" selection-start-column="4" selection-end-line="854" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -907,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/AppInstall/Anaconda3/Lib/tkinter/messagebox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -925,13 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="2492" column="42" lean-forward="true" selection-start-line="2492" selection-start-column="42" selection-end-line="2492" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1439372835/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="3634" column="35" selection-start-line="3634" selection-start-column="35" selection-end-line="3634" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -996,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="177" column="30" selection-start-line="177" selection-start-column="30" selection-end-line="177" selection-end-column="30" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../polygon/polygon/test/t.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1034,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Const.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
@@ -1048,17 +995,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mark_offline/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1439372835/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="3694" column="8" selection-start-line="3694" selection-start-column="8" selection-end-line="3694" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="191" column="42" selection-start-line="191" selection-start-column="42" selection-end-line="191" selection-end-column="42" />
+          <folding>
+            <element signature="e#150#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../polygon/polygon/Polygon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="480" column="37" lean-forward="true" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
+        <state relative-caret-position="22">
+          <caret line="480" column="37" selection-start-line="480" selection-start-column="37" selection-end-line="480" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="467" column="40" lean-forward="true" selection-start-line="467" selection-start-column="40" selection-end-line="467" selection-end-column="40" />
+        <state relative-caret-position="145">
+          <caret line="1639" column="28" selection-start-line="1639" selection-start-column="23" selection-end-line="1639" selection-end-column="28" />
+          <folding>
+            <element signature="e#120#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
