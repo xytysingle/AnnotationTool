@@ -11,6 +11,7 @@
 
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
+from PyQt5 import *
 import sys
 
 QTextCodec.setCodecForTr(QTextCodec.codecForName("utf8"))
