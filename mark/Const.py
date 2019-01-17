@@ -78,6 +78,22 @@ const.DATA_ADDR={
             'IMAGE':const.IMAGE,
             'ANNOTATION':const.ANNOTATION,
             'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
+        },
+    'SKU_CLEANING':{
+            'SERVER_LOGIN':const.SERVER_LOGIN,
+            'SKUS':const.SKUS+'type=8',
+            'IMAGES':const.IMAGES,
+            'IMAGE':const.IMAGE,
+            'ANNOTATION':const.ANNOTATION,
+            'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
+        },
+    'SKU_MB_PRODUCTS':{
+            'SERVER_LOGIN':const.SERVER_LOGIN,
+            'SKUS':const.SKUS+'type=9',
+            'IMAGES':const.IMAGES,
+            'IMAGE':const.IMAGE,
+            'ANNOTATION':const.ANNOTATION,
+            'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
         }
      }
 #菜单条选项
@@ -95,8 +111,8 @@ const.EN_EDIT_MENU_ITEMS = {'refresh':'Refresh','toggleCursor':'Toggle Cursor','
                             'showALl':'Show ALl','hideALl':'Hide ALl','invertSelect':'Invert Select','undo':'Undo','restore':'Restore','copyFileName':'Copy File Name','editProperty':'Edit Property'}
 
 #View菜单选项子菜单
-const.CN_VIEW_MENU_ITEMS ={'refresh':'刷新','pollmode':'轮询模式','autoLocation':'BBOX自动定位模式','toggleSKU':'切换SKU库','SKU':'饮料SKU库','SKU_MARS':'玛氏SKU库','SKU_MOUTH':'口腔清洁SKU库','SKU_SEASONING':'粮油调味SKU库','linkage':'SKU-BBOX联动'}
-const.EN_VIEW_MENU_ITEMS ={'refresh':'Refresh','pollmode':'Poll Mode','autoLocation':'Auto Location','toggleSKU':'Toggle SKU Lib','SKU':'Drink SKU Lib','SKU_MARS':'MARS SKU Lib','SKU_MOUTH':'SKU MOUTH','SKU_SEASONING':'SKU SEASONING','linkage':'SKU-BBOX Linkage'}
+const.CN_VIEW_MENU_ITEMS ={'refresh':'刷新','pollmode':'轮询模式','autoLocation':'BBOX自动定位模式','toggleSKU':'切换SKU库','SKU':'饮料SKU库','SKU_MARS':'玛氏SKU库','SKU_MOUTH':'口腔清洁SKU库','SKU_SEASONING':'粮油调味SKU库','SKU_CLEANING':'个护清洁','SKU_MB_PRODUCTS':'母婴用品','linkage':'SKU-BBOX联动'}
+const.EN_VIEW_MENU_ITEMS ={'refresh':'Refresh','pollmode':'Poll Mode','autoLocation':'Auto Location','toggleSKU':'Toggle SKU Lib','SKU':'Drink SKU Lib','SKU_MARS':'MARS SKU Lib','SKU_MOUTH':'SKU MOUTH','SKU_SEASONING':'SKU SEASONING','SKU_CLEANING':'SKU CLEANING','SKU_MB_PRODUCTS':'SKU MB_PRODUCTS','linkage':'SKU-BBOX Linkage'}
 #Tools菜单选项子菜单
 const.CN_TOOLS_MENU_ITEMS ={'options':'选项','semiAuto':'半自动标注模式','close':'关闭主面板时','minimize':'最小化','exit':'退出','poweron':'开机启动','welcome':'登录问候语','autologin':'自动登录'}
 const.EN_TOOLS_MENU_ITEMS ={'options':'Options','semiAuto':'Semi Auto','close':'Close','minimize':'Minimize','exit':'Exit','poweron':'Power On','welcome':'Login Greeting','autologin':'AutoLogin'}

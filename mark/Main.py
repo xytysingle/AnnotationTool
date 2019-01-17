@@ -530,8 +530,8 @@ class Main(BaseApp):
         bbox.is_show=True
         rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1), self.getCoordByZoom(bbox.y1), self.getCoordByZoom(bbox.x2),
                                                     self.getCoordByZoom(bbox.y2),
-                                                    width=self.bd_width, outline=bbox.color, dash=dash,
-                                                    tags=('bbox',),stipple=self.is_stipple, fill=bbox.color,)#stipple=self.is_stipple, fill=bbox.color,
+                                                    width=self.bd_width, outline=bbox.color, dash=dash,#stipple=self.is_stipple, fill=bbox.color,
+                                                    tags=('bbox',))#stipple=self.is_stipple, fill=bbox.color,
         bbox.id=rectangle_id
 
     def hide_all_bbox(self, *args):
@@ -1546,6 +1546,14 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_SEASONING'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_SEASONING' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_CLEANING'],
+                                           command=lambda: self.rdBtn_callback('SKU_CLEANING'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_CLEANING' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_MB_PRODUCTS'],
+                                           command=lambda: self.rdBtn_callback('SKU_MB_PRODUCTS'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_MB_PRODUCTS' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1751,7 +1759,7 @@ class Main(BaseApp):
             if  self.getObjByCategory(bbox.className):
                 bbox.color = self.getObjByCategory(bbox.className).color
             bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
-                                                             width=self.bd_width, outline=bbox.color,stipple=self.is_stipple, fill=bbox.color,
+                                                             width=self.bd_width, outline=bbox.color,#stipple=self.is_stipple, fill=bbox.color,
                                                              dash=bbox.truncated, tags=('bbox',))#fill=bbox.color,, stipple=self.is_stipple
             # print(bbox.annotation)
             self.annotations.append(bbox.annotation)
