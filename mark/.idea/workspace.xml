@@ -4,8 +4,6 @@
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/t.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.ui" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,7 @@
     <SUITE FILE_PATH="coverage/mark$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1530102689003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark_samples/labelImg-master" />
     <SUITE FILE_PATH="coverage/mark$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1538484551507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mark_offline/mark_samples/BBox-Label-Tool-master" />
     <SUITE FILE_PATH="coverage/mark$t1est.coverage" NAME="t1est Coverage Results" MODIFIED="1529735926403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mark$t__1_.coverage" NAME="t (1) Coverage Results" MODIFIED="1547730150311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mark$t__1_.coverage" NAME="t (1) Coverage Results" MODIFIED="1547789783539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$t.coverage" NAME="t Coverage Results" MODIFIED="1547641400732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mark$tab__1_.coverage" NAME="tab (1) Coverage Results" MODIFIED="1537161472363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$popup_menu.coverage" NAME="popup_menu Coverage Results" MODIFIED="1531053523610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
@@ -46,7 +44,7 @@
     <SUITE FILE_PATH="coverage/mark$Login.coverage" NAME="Login Coverage Results" MODIFIED="1544532626167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$Login__1_.coverage" NAME="Login (1) Coverage Results" MODIFIED="1538383174405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/mark$tt.coverage" NAME="tt Coverage Results" MODIFIED="1547643561322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547636359526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1547803786539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$calc.coverage" NAME="calc Coverage Results" MODIFIED="1531053541905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/mark$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1542174177696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/AppInstall/Anaconda3/Lib/tkinter" />
     <SUITE FILE_PATH="coverage/mark$test.coverage" NAME="test Coverage Results" MODIFIED="1547641374135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -79,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="t.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="242">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#238#263#0" expanded="true" />
               </folding>
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="untitled.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="untitled.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4064">
-              <caret line="189" column="31" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="31" />
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -103,7 +101,7 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="33704">
               <caret line="1555" column="51" selection-start-line="1552" selection-start-column="45" selection-end-line="1555" selection-end-column="51" />
               <folding>
                 <element signature="e#120#135#0" expanded="true" />
@@ -115,8 +113,8 @@
       <file leaf-file-name="Const.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Const.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="106" column="12" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+            <state relative-caret-position="2332">
+              <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -132,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.h_line</find>
       <find>image</find>
       <find>open_img</find>
       <find>COLOR</find>
@@ -162,6 +159,7 @@
       <find>poll</find>
       <find>move</find>
       <find>make_menu</find>
+      <find>QWorkspace</find>
     </findStrings>
     <replaceStrings>
       <replace>init_dot['y']</replace>
@@ -187,6 +185,7 @@
       <replace>删除</replace>
       <replace>self.is_cur_img_change()</replace>
       <replace>'PolygonAnnotationTool'</replace>
+      <replace>QMdiAre</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -259,9 +258,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="y" value="418" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
+    <option name="y" value="174" />
     <option name="width" value="1372" />
     <option name="height" value="794" />
   </component>
@@ -320,19 +319,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Library\Documents\PycharmProjects\polygon\polygon\entity" />
-      <recent name="E:\Library\Documents\PycharmProjects\polygon\polygon" />
-      <recent name="E:\Library\Documents\PycharmProjects\polygon" />
-      <recent name="E:\Library\Documents\PycharmProjects" />
-      <recent name="E:\Library\Documents\PycharmProjects\mark\libs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Library\Documents\PycharmProjects\mark" />
       <recent name="E:\Library\Documents\PycharmProjects\mark\test" />
       <recent name="E:\Library\Documents\PycharmProjects\polygon\polygon" />
       <recent name="E:\Library\Documents\PycharmProjects\polygon" />
       <recent name="E:\Library\Documents\PycharmProjects\mark\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Library\Documents\PycharmProjects\polygon\polygon\entity" />
+      <recent name="E:\Library\Documents\PycharmProjects\polygon\polygon" />
+      <recent name="E:\Library\Documents\PycharmProjects\polygon" />
+      <recent name="E:\Library\Documents\PycharmProjects" />
+      <recent name="E:\Library\Documents\PycharmProjects\mark\libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,7 +346,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t (1)">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="t (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,25 +399,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/t.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mark" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,17 +445,17 @@
     <list>
       <item itemvalue="Python.t" />
       <item itemvalue="Python.tt" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.ui_test" />
       <item itemvalue="Python.t (1)" />
+      <item itemvalue="Python.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.t (1)" />
         <item itemvalue="Python.tt" />
         <item itemvalue="Python.ui_test" />
         <item itemvalue="Python.t" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547727708435</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="company">
+      <created>1547733306150</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547733306150</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -632,16 +638,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="62" y="174" width="1372" height="794" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50405186" side_tool="true" weight="0.22836879" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977098" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.12104689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.16946565" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.10714286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.1554878" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -974,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="33704">
           <caret line="1555" column="51" selection-start-line="1552" selection-start-column="45" selection-end-line="1555" selection-end-column="51" />
           <folding>
             <element signature="e#120#135#0" expanded="true" />
@@ -1001,32 +1007,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Const.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="106" column="12" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+        <state relative-caret-position="2332">
+          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/untitled.py">
+    <entry file="file://$PROJECT_DIR$/test/untitled.py" />
+    <entry file="file://$PROJECT_DIR$/untitled.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="242">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#238#263#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4064">
-          <caret line="189" column="31" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="31" />
         </state>
       </provider>
     </entry>
