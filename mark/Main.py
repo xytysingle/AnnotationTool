@@ -131,6 +131,7 @@ class Main(BaseApp):
         self.canvas.bind("<MouseWheel>", self.v_bound_to_mousewheel)
         self.canvas.bind("<Shift-MouseWheel>", self.h__bound_to_mousewheel)
         self.canvas.bind('<Button-1>', self.mouse_click)
+        self.canvas.bind('<Control-Button-1>', self.mouse_multi_select)
         self.canvas.bind('<Double-Button-1>', self.mouse_double_click)
         # self.canvas.bind('<KeyPress-Return>', self.mouse_double_click)
         self.canvas.bind('<ButtonRelease-1>', self.mouse_right_release)
@@ -530,7 +531,7 @@ class Main(BaseApp):
         bbox.is_show=True
         rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1), self.getCoordByZoom(bbox.y1), self.getCoordByZoom(bbox.x2),
                                                     self.getCoordByZoom(bbox.y2),
-                                                    width=self.bd_width, outline=bbox.color, dash=dash,#stipple=self.is_stipple, fill=bbox.color,
+                                                    width=self.bd_width, outline=bbox.color, dash=dash,stipple=self.is_stipple, fill=bbox.color,
                                                     tags=('bbox',))#stipple=self.is_stipple, fill=bbox.color,
         bbox.id=rectangle_id
 
@@ -787,6 +788,44 @@ class Main(BaseApp):
         finally:
             if  index > -1:
                 self.annotation_listbox.selection_clear(0, END)
+                self.annotation_listbox.selection_set(index)
+                self.annotation_listbox.yview(index)
+                self.show_bbox()
+    def mouse_multi_select(self, event):
+        event.x, event.y = self.canvas.canvasx(event.x), self.canvas.canvasy(event.y)  # 窗口坐标系转换为画布坐标系
+        if event.x < 0 or event.y < 0:
+            return
+        if event.x > self.cur_img_size[0] or event.y > self.cur_img_size[1]:
+            return
+        self.toggle_cursor()
+        if not self.is_cursor_select:
+            if  not self.is_cursor_select:
+                self.canvas.delete(self.h_line)
+                self.canvas.delete(self.v_line)
+                self.canvas.config(cursor='arrow')
+                # self.is_cursor_select=False
+            else:
+                self.canvas.config(cursor='tcross')
+        self.tmp_dot['x'] = event.x
+        self.tmp_dot['y'] = event.y
+        self.tmp_dot['zoom_level']=self.cur_zoom_level
+        # print(event)
+        # print(event.state)
+        # if event.num != 1:# or (event.num==1 and  self.is_cursor_select):#左击
+        #     return
+        if (self.is_cursor_select and event.num==3) or (not self.is_cursor_select and event.num==1):
+            return
+        min_item=self.getIndexOfCursor(event)
+        try:
+            index=self.bbox_list.index(min_item)
+            self.show_info_bbox(min_item)
+
+            #print(min_item.className)
+        except:
+            index=-1
+        finally:
+            if  index > -1:
+                # self.annotation_listbox.selection_clear(0, END)
                 self.annotation_listbox.selection_set(index)
                 self.annotation_listbox.yview(index)
                 self.show_bbox()
@@ -1712,7 +1751,12 @@ class Main(BaseApp):
             imgNo=''
             if is_search:
                 imgNo=imgNoWithLocation.replace(' ','')
-                imgNo= imgNo.split('_')[0]
+                imgFileName_split_tuple = ''
+                if imgNo.find('_') < 0:
+                    imgNo = imgNo.split('-')[0]
+                else:
+                    imgNo = imgNo.split('_')[0]
+
             imgNo=imgNo+'.jpg' if  imgNo else self.images[self.cur_img_index]
             
             if imgNo in self.images:
@@ -1774,6 +1818,7 @@ class Main(BaseApp):
             self.annotation_listbox.itemconfigure(i, fg=bbox.color)
         if is_search:
             imgFileName_split_tuple=imgNoWithLocation.split('_')
+
             for i, bbox in enumerate(self.bbox_list):
                 coords=(str(bbox.x1), str(bbox.y1), str(bbox.x2), str(bbox.y2))
                 if  not  [False for j in coords if j not in imgFileName_split_tuple]:
