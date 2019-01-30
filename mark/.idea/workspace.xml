@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,11 +100,20 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="1733" column="79" lean-forward="true" selection-start-line="1733" selection-start-column="79" selection-end-line="1733" selection-end-column="79" />
+            <state relative-caret-position="220">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#120#135#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bbox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>image</find>
       <find>open_img</find>
       <find>COLOR</find>
       <find>menu</find>
@@ -160,6 +167,7 @@
       <find>move</find>
       <find>make_menu</find>
       <find>QWorkspace</find>
+      <find>search</find>
     </findStrings>
     <replaceStrings>
       <replace>init_dot['y']</replace>
@@ -294,6 +302,12 @@
               <item name="mark" type="b2602c69:ProjectViewProjectNode" />
               <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
               <item name="mark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mark" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="mark" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -621,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548675071558</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="company">
+      <created>1548830871769</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548830871769</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,9 +674,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977098" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.23206107" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.23206107" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.16920732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.16920732" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -926,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../test/test.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1052,10 +1066,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity/Bbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1733" column="79" lean-forward="true" selection-start-line="1733" selection-start-column="79" selection-end-line="1733" selection-end-column="79" />
+        <state relative-caret-position="220">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#120#135#0" expanded="true" />
           </folding>
