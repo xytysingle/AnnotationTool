@@ -825,8 +825,12 @@ class Main(BaseApp):
             index=-1
         finally:
             if  index > -1:
-                # self.annotation_listbox.selection_clear(0, END)
-                self.annotation_listbox.selection_set(index)
+                curselection = self.annotation_listbox.curselection()
+                if index in curselection:
+                    self.annotation_listbox.selection_clear(index)
+                else:
+                    # self.annotation_listbox.selection_clear(0, END)
+                    self.annotation_listbox.selection_set(index)
                 self.annotation_listbox.yview(index)
                 self.show_bbox()
 
@@ -1727,8 +1731,8 @@ class Main(BaseApp):
                     self.annotation_listbox.selection_clear(0, END)
                     self.annotation_listbox.selection_set(i)
                     self.annotation_listbox.yview(i)
-                    self.canvas.xview_moveto((1/self.cur_img_size[0])*bbox.x1)
-                    self.canvas.yview_moveto((1/self.cur_img_size[1])*(bbox.y1-25))
+                    self.canvas.xview_moveto((1/self.cur_img_size[0])*self.getCoordByZoom(bbox.x1))
+                    self.canvas.yview_moveto((1/self.cur_img_size[1])*(self.getCoordByZoom(bbox.y1)-25))
                     # print((1/self.cur_img_size[0])*bbox.x1)
                     # print((1/self.cur_img_size[1])*bbox.y1)
                     self.show_bbox()
