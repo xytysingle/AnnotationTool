@@ -555,6 +555,10 @@ class Main(BaseApp):
                 return True
             elif bbox.className!=self.bbox_list_original[i].className:
                 return True
+            elif bbox.className!=self.bbox_list_original[i].className:
+                return True
+            elif bbox.attribute!=self.bbox_list_original[i].attribute:
+                return True
             elif bbox.x1!=self.bbox_list_original[i].x1 or bbox.y1!=self.bbox_list_original[i].y1 or bbox.x2!=self.bbox_list_original[i].x2 or bbox.y2!=self.bbox_list_original[i].y2 :
                 return True
         return False
@@ -964,6 +968,9 @@ class Main(BaseApp):
         # print(event)
         # print(event.type)
         if event.num==3:
+            self.property0_StringVar.set(False)
+            self.property1_StringVar.set(False)
+            self.property2_StringVar.set(False)
             self.editMenu.post(event.x_root, event.y_root)
 
 
@@ -1361,7 +1368,7 @@ class Main(BaseApp):
         y2_ =center_y + 10
         self.canvas.create_rectangle(x1_, y1_, x2_, y2_, fill='white', tags='info_label', outline='#fff')
         # print(self.canvas.canvasx(x1_,), y1_, x2_, y2_)
-        self.canvas.create_text(center_x, center_y, text=bbox.className+username, tags="info_label")
+        self.canvas.create_text(center_x, center_y, text=bbox.attribute+' '+bbox.className+username, tags="info_label")
         # self.info_label_id = self.canvas.create_window(center_x, center_y, window=self.info_label,tags='info_label')
 
     def getCoordByZoom(self,coord):
@@ -1434,11 +1441,11 @@ class Main(BaseApp):
         self.editProperty.add_checkbutton(label='无',
                                           command=lambda: self.property_rdBtn_callback('无'), variable=self.property0_StringVar,
                                           onvalue=True)  # value=0为默认选中
-        self.editProperty.add_checkbutton(label='属性0',
-                                          command=lambda: self.property_rdBtn_callback('属性0'), variable=self.property1_StringVar,
+        self.editProperty.add_checkbutton(label='侧面',
+                                          command=lambda: self.property_rdBtn_callback('侧面'), variable=self.property1_StringVar,
                                           onvalue=True)
-        self.editProperty.add_checkbutton(label='属性1',
-                                          command=lambda: self.property_rdBtn_callback('属性1'), variable=self.property2_StringVar,
+        self.editProperty.add_checkbutton(label='顶面',
+                                          command=lambda: self.property_rdBtn_callback('顶面'), variable=self.property2_StringVar,
                                           onvalue=True)
         # self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['editProperty'], command=self.change_coord, accelerator="")
         self.editMenu.add_cascade(label=self.MENU_EDIT_ITEMS['editProperty'], menu=self.editProperty)
@@ -1499,6 +1506,14 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_MB_PRODUCTS'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_MB_PRODUCTS' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_LIQUORS'],
+                                           command=lambda: self.rdBtn_callback('SKU_LIQUORS'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_LIQUORS' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_BEER'],
+                                           command=lambda: self.rdBtn_callback('SKU_BEER'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_BEER' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1562,13 +1577,13 @@ class Main(BaseApp):
             return
         if selected_attribute=='无':
             self.property0_StringVar.set( self.property0_StringVar.get())
-        elif selected_attribute=='属性0':
+        elif selected_attribute=='侧面':
             self.property1_StringVar.set(self.property1_StringVar.get())
-        elif selected_attribute=='属性1':
+        elif selected_attribute=='顶面':
             self.property2_StringVar.set( self.property2_StringVar.get())
 
         for i in curselection:
-            self.bbox_list[i].attribute = selected_attribute
+            self.bbox_list[i].attribute = selected_attribute if selected_attribute!='无' else ''
             self.annotations[i] = self.bbox_list[i].annotation
         # refresh listbox variable
         self.annotation_str_var.set(self.annotations)
