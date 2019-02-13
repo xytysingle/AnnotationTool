@@ -139,12 +139,12 @@ class Main(BaseApp):
         self.canvas.bind('<ButtonPress-3>', self.mouse_right_press)
         self.canvas.bind('<Motion>', self.mouse_move)
 
-        self.canvas.bind("<KeyPress-Left>", self.prevImage)
-        self.canvas.bind("<KeyPress-Up>", self.prevImage)
+        # self.canvas.bind("<KeyPress-Left>", self.prevImage)
+        # self.canvas.bind("<KeyPress-Up>", self.prevImage)
         # self.canvas.bind("<KeyPress-w>", self.prevImage)
         # self.canvas.bind("<KeyPress-a>", self.prevImage)
-        self.canvas.bind("<KeyPress-Right>", self.nextImage)
-        self.canvas.bind("<KeyPress-Down>", self.nextImage)
+        # self.canvas.bind("<KeyPress-Right>", self.nextImage)
+        # self.canvas.bind("<KeyPress-Down>", self.nextImage)
         self.canvas.bind("<ButtonPress-2>", self.cancel_select_category)
 
         self.canvas.bind("<Control-a>", self.show_all_bbox)
@@ -174,10 +174,10 @@ class Main(BaseApp):
         self.master.bind_all("<Control-y>", self.redo_operate)
         self.master.bind_all("<KeyPress-F2>", self.change_annotation_name)
         self.master.bind_all("<Control-i>", self.invert_select)
-        # master.bind("<Left>", self.prevImage)
-        # master.bind("<Right>", self.nextImage)
-        # self.canvas.bind("<Up>", self.prevImage)
-        # master.bind("<Down>", self.nextImage)
+        self.master.bind("<Alt-Left>", self.minitrim_bbox)
+        self.master.bind("<Alt-Right>", self.minitrim_bbox)
+        self.master.bind("<Alt-Up>", self.minitrim_bbox)
+        self.master.bind("<Alt-Down>", self.minitrim_bbox)
         # self.annotation_listbox.bind('<<ListboxSelect>>', self.msgBox)
         self.img_number_Entry.bind("<KeyPress-Return>",lambda t:self.get_data(self.img_number_Entry.get(),True))
     def open_sku_lib(self,isSearchTxt=False):
@@ -271,6 +271,34 @@ class Main(BaseApp):
             self.annotation_listbox.selection_clear(0, END)
             self.annotation_listbox.selection_set(start, end)
             print(start, end)
+            self.show_bbox()
+            # 数据缓存
+            self.data_cache()
+    def minitrim_bbox(self,*args):
+        # print(args[0].state=='Control')
+        if args and type(args[0].widget)==Entry :
+            # print(args[0].widget)
+            return
+        if args[0].state!=262156:#ctrl状态码
+            return
+        curselections = self.annotation_listbox.curselection()
+        if curselections:
+
+            for index in curselections:
+                bbox=self.bbox_list[index]
+                if args[0].keysym=='Left':
+                    bbox.x1, bbox.x2 = bbox.x1 -1, bbox.x2 -1
+                elif args[0].keysym=='Right':
+                    bbox.x1, bbox.x2 = bbox.x1 +1, bbox.x2 +1
+                elif args[0].keysym=='Up':
+                    bbox.y1, bbox.y2 = bbox.y1-1, bbox.y2 -1
+                elif args[0].keysym=='Down':
+                    bbox.y1, bbox.y2 = bbox.y1 +1, bbox.y2 +1
+                bbox.username = BaseApp.user_info.user_name
+            if len(curselections) < 2:
+                self.show_info_bbox(bbox)
+            # annotations update
+            self.annotations_data_update()
             self.show_bbox()
             # 数据缓存
             self.data_cache()
@@ -1438,15 +1466,19 @@ class Main(BaseApp):
         self.property1_StringVar.set(False)
         self.property2_StringVar = BooleanVar()
         self.property2_StringVar.set(False)
-        self.editProperty.add_checkbutton(label='无',
-                                          command=lambda: self.property_rdBtn_callback('无'), variable=self.property0_StringVar,
-                                          onvalue=True)  # value=0为默认选中
         self.editProperty.add_checkbutton(label='侧面',
                                           command=lambda: self.property_rdBtn_callback('侧面'), variable=self.property1_StringVar,
                                           onvalue=True)
         self.editProperty.add_checkbutton(label='顶面',
                                           command=lambda: self.property_rdBtn_callback('顶面'), variable=self.property2_StringVar,
                                           onvalue=True)
+        self.editProperty.add_checkbutton(label='底面',
+                                          command=lambda: self.property_rdBtn_callback('底面'), variable=self.property2_StringVar,
+                                          onvalue=True)
+        self.editProperty.add_checkbutton(label='无',
+                                          command=lambda: self.property_rdBtn_callback('无'),
+                                          variable=self.property0_StringVar,
+                                          onvalue=True)  # value=0为默认选中
         # self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['editProperty'], command=self.change_coord, accelerator="")
         self.editMenu.add_cascade(label=self.MENU_EDIT_ITEMS['editProperty'], menu=self.editProperty)
         self.editMenu.add_command(label=self.MENU_EDIT_ITEMS['deleteCategory'], command=self.delete_annotation, accelerator="Delete")
