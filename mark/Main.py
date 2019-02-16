@@ -25,7 +25,7 @@ import json
 import copy
 import pyperclip
 import ctypes
-
+import time
 from configobj import ConfigObj
 # en_help_str_var = StringVar()
 # en_help_str_var.set('Help')
@@ -174,10 +174,10 @@ class Main(BaseApp):
         self.master.bind_all("<Control-y>", self.redo_operate)
         self.master.bind_all("<KeyPress-F2>", self.change_annotation_name)
         self.master.bind_all("<Control-i>", self.invert_select)
-        self.master.bind("<Alt-Left>", self.minitrim_bbox)
-        self.master.bind("<Alt-Right>", self.minitrim_bbox)
-        self.master.bind("<Alt-Up>", self.minitrim_bbox)
-        self.master.bind("<Alt-Down>", self.minitrim_bbox)
+        self.master.bind("<Control-Left>", self.minitrim_bbox)
+        self.master.bind("<Control-Right>", self.minitrim_bbox)
+        self.master.bind("<Control-Up>", self.minitrim_bbox)
+        self.master.bind("<Control-Down>", self.minitrim_bbox)
         # self.annotation_listbox.bind('<<ListboxSelect>>', self.msgBox)
         self.img_number_Entry.bind("<KeyPress-Return>",lambda t:self.get_data(self.img_number_Entry.get(),True))
     def open_sku_lib(self,isSearchTxt=False):
@@ -259,9 +259,11 @@ class Main(BaseApp):
             copy_bbox_list.append(copy.deepcopy(self.bbox_list[curselections[-1]]))
 
             start = len(self.bbox_list)
+            now_time = int(time.time())
             for bbox in copy_bbox_list:
                 self.bbox_list.append(bbox)
                 bbox.username = BaseApp.user_info.user_name
+                bbox.time = now_time
                 bbox.x1, bbox.x2 = bbox.x1 + abs(bbox.x2 - bbox.x1), bbox.x2 + abs(bbox.x2 - bbox.x1)
             if copy_bbox_list and len(copy_bbox_list) < 2:
                 self.show_info_bbox(bbox)
@@ -284,6 +286,7 @@ class Main(BaseApp):
         curselections = self.annotation_listbox.curselection()
         if curselections:
 
+            now_time = int(time.time())
             for index in curselections:
                 bbox=self.bbox_list[index]
                 if args[0].keysym=='Left':
@@ -295,6 +298,7 @@ class Main(BaseApp):
                 elif args[0].keysym=='Down':
                     bbox.y1, bbox.y2 = bbox.y1 +1, bbox.y2 +1
                 bbox.username = BaseApp.user_info.user_name
+                bbox.time = now_time
             if len(curselections) < 2:
                 self.show_info_bbox(bbox)
             # annotations update
@@ -325,8 +329,10 @@ class Main(BaseApp):
                     self.canvas.delete(self.bbox_list[curselection].rectangle_id)
                     self.bbox_list.pop(curselection)
             start = len(self.bbox_list)
+            now_time = int(time.time())
             for bbox in  self.copy_bbox_list:
                 bbox.username=BaseApp.user_info.user_name
+                bbox.time = now_time
                 self.bbox_list.append(bbox)
             if self.copy_bbox_list and len(self.copy_bbox_list)<2:
                 self.show_info_bbox(bbox)
@@ -616,6 +622,7 @@ class Main(BaseApp):
         annotationDataOfjson.pop('id')
         annotationDataOfjson.pop('created_at')
         annotationDataOfjson.pop('updated_at')
+
         for bbox in annotationDataOfjson['bboxes']:
             bbox.pop('color')
             bbox.pop('rectangle_id')
@@ -666,19 +673,21 @@ class Main(BaseApp):
         #         f.write(content + '\n')
 
 
-
     def select_correct_category(self, event):
         category_listbox_curselection = self.category_listbox.curselection()
         if category_listbox_curselection:
             if self.is_change_annotation_name:
                 # state reset
                 self.is_change_annotation_name = False
+                now_time = int(time.time())
                 for curselection in reversed(self.annotation_curselection):
                     selected_category = self.categories[category_listbox_curselection[0]]
                     self.bbox_list[curselection].className = selected_category
+                    self.bbox_list[curselection].id = self.getObjByCategory(selected_category).id
                     self.bbox_list[curselection].color = self.getObjByCategory(selected_category).color
                     self.annotations[curselection] = self.bbox_list[curselection].annotation
                     self.bbox_list[curselection].username = self.user_info.user_name
+                    self.bbox_list[curselection].time = now_time
                 # refresh listbox variable
                 self.annotation_str_var.set(self.annotations)
 
@@ -938,15 +947,17 @@ class Main(BaseApp):
                 x2=max(self.getCoordByRestore(self.init_dot['x']),self.getCoordByRestore(event.x))
                 y1=min(self.getCoordByRestore(self.init_dot['y']),self.getCoordByRestore(event.y))
                 y2=max(self.getCoordByRestore(self.init_dot['y']),self.getCoordByRestore(event.y))
-
+                now_time=int(time.time())  #当前时间戳
                 bbox = Bbox(rectangle_id, curselection_category, self.getObjByCategory(curselection_category).color,const.USERNAME,self.truncated,
-                            x1, y1, x2, y2)
+                            x1, y1, x2, y2,self.getObjByCategory(curselection_category).id,now_time)
                 # self.canvas.tag_bind(CURRENT, '', self.show_box(bbox))
                 self.show_info_bbox(bbox)
                 if self.is_change_coord:
                     curselection_bbox = self.bbox_list[self.annotation_curselection]
                     curselection_bbox.x1,curselection_bbox.y1,curselection_bbox.x2,curselection_bbox.y2 = x1, y1, x2, y2
                     curselection_bbox.username=self.user_info.user_name
+                    curselection_bbox.time=now_time
+                    curselection_bbox.id=self.getObjByCategory(curselection_category).id
                     self.is_change_coord = False
                     self.annotations_data_update()
                 else:
@@ -1614,9 +1625,12 @@ class Main(BaseApp):
         elif selected_attribute=='顶面':
             self.property2_StringVar.set( self.property2_StringVar.get())
 
+        now_time = int(time.time())
         for i in curselection:
             self.bbox_list[i].attribute = selected_attribute if selected_attribute!='无' else ''
             self.annotations[i] = self.bbox_list[i].annotation
+            self.bbox_list[i].username = BaseApp.user_info.user_name
+            self.bbox_list[i].time = now_time
         # refresh listbox variable
         self.annotation_str_var.set(self.annotations)
 
@@ -1893,19 +1907,25 @@ class Main(BaseApp):
 
 
     def data_cache(self):
+
         if self.cur_annotation_index<len(self.annotations_list)-1:
             for i in reversed(range(self.cur_annotation_index + 1, len(self.annotations_list))):
                 self.annotations_list.pop(i)
         self.annotations_list.append(copy.deepcopy(self.bbox_list))
         self.cur_annotation_index = len(self.annotations_list) - 1
 
+
+
     def toggle_style(self, *event):
         curselections = self.annotation_listbox.curselection()
         if curselections:
             self.bbox_clear()
+            now_time = int(time.time())
             for index in curselections:
                 cur_bbox = self.bbox_list[index]
                 cur_bbox.truncated = 1 if type(cur_bbox.truncated) == str else ''
+                cur_bbox.username = BaseApp.user_info.user_name
+                cur_bbox.time = now_time
                 self.make_rectangle(cur_bbox, cur_bbox.truncated)
             #数据缓存
             self.data_cache()

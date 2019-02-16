@@ -8,7 +8,7 @@ from libs.jsonModel import jsonModel
 
 @jsonModel()
 class Bbox(object):
-    def __init__(self, rectangle_id="",className="",color="",username=None,truncated=0,x1=0,y1=0,x2=0,y2=0,side_truncated=0,type_id="1",sceneType="-1",id="",check="False",score=0,type="0",attribute=''):
+    def __init__(self, rectangle_id="",className="",color="",username=None,truncated=0,x1=0,y1=0,x2=0,y2=0,id="",time='',side_truncated=0,type_id="1",sceneType="-1",check="False",score=0,type="0",attribute=''):
         # self.__id=sku_name
         # self.__category= category
         # self.__coord= coord
@@ -42,6 +42,7 @@ class Bbox(object):
         self.x2=x2
         self.y2=y2
         self.attribute=attribute
+        self.time=time
     # def __str__(self):
     #     print()
 
