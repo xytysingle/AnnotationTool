@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../polygon/polygon/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/../polygon/polygon/Const.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -671,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550325111138</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="company">
+      <created>1550555957757</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1550555957758</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
