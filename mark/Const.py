@@ -30,7 +30,8 @@ const.USERNAME='TanXin'
 const.PWD='iisnow'
 const.ROTATE_ANGLE=5
 # 服务器地址
-const.SERVER_ADDR="http://ubuntu.zhixiang.co:8889"
+# const.SERVER_ADDR="http://ubuntu.zhixiang.co:8889"
+const.SERVER_ADDR="http://annotation.lingmou.ai:8000"
 # 数据接口
 const.SERVER_LOGIN=const.SERVER_ADDR+"/index.php/user/login"
 const.SKUS=const.SERVER_ADDR+"/index.php/skus/list?"

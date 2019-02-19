@@ -514,6 +514,7 @@ class Main(BaseApp):
         self.truncated = 1 if type(self.truncated) == str else ''
 
     def change_coord(self, *args):
+
         curselection = self.annotation_listbox.curselection()
         if len(curselection) == 1:
             self.annotation_curselection = curselection[0]
@@ -605,7 +606,7 @@ class Main(BaseApp):
         else:
             self.cur_img_index += 1
     def save(self, isNext=1,*args):
-
+        
         if not self.is_cur_img_change():
             return
         #标注数据更新
@@ -613,6 +614,7 @@ class Main(BaseApp):
         for bbox in self.annotationData.bboxes:
             # bbox.truncated = 1 if type(bbox.truncated) == int else 0
             bbox.truncated =0 if bbox.truncated==''else int(bbox.truncated)
+
         #图片数据更新
         self.annotationData.username=BaseApp.user_info.user_name#
         self.annotationData.rotate=self.cur_img_rotate
@@ -627,6 +629,7 @@ class Main(BaseApp):
             bbox.pop('color')
             bbox.pop('rectangle_id')
             bbox.pop('is_show')
+            bbox['id']=self.getObjByCategory(bbox['className']).id#为了解决任何有关bbox的操作都会修改bbox.id 的bug
             # bbox.pop('_Bbox__annotation')
         annotationDataOfjsonStr=json.dumps(annotationDataOfjson)#dict->jsonStr用于存储和传输数据
         print(annotationDataOfjsonStr)
@@ -892,6 +895,7 @@ class Main(BaseApp):
                 if len(curselection) == 1:
                     curselection_category = self.bbox_list[curselection[0]].className
 
+
             else:
                 curselections = self.category_listbox.curselection()
                 if len(curselections) < 1:
@@ -957,7 +961,8 @@ class Main(BaseApp):
                     curselection_bbox.x1,curselection_bbox.y1,curselection_bbox.x2,curselection_bbox.y2 = x1, y1, x2, y2
                     curselection_bbox.username=self.user_info.user_name
                     curselection_bbox.time=now_time
-                    curselection_bbox.id=self.getObjByCategory(curselection_category).id
+
+                    # curselection_bbox.id=self.getObjByCategory(curselection_category).id
                     self.is_change_coord = False
                     self.annotations_data_update()
                 else:
@@ -966,6 +971,7 @@ class Main(BaseApp):
                     self.annotation_listbox.select_set(END)
                     self.annotation_listbox.yview(END)
                 # annotations update
+                self.annotations_data_update()
 
                 # 更新BBox状态栏
                 curselection = len(self.annotation_listbox.curselection())
@@ -978,6 +984,7 @@ class Main(BaseApp):
                 # self.canvas.create_oval(
                 #     (event.x - self.r, event.y - self.r, event.x + self.r, event.y + self.r), fill='black')
                 self.init_dot_initialized()
+
             else:
                 # self.init_dot['sku_name'] = self.canvas.create_oval(
                 #     (event.x - self.r, event.y - self.r, event.x + self.r, event.y + self.r), fill='black')
@@ -1037,7 +1044,8 @@ class Main(BaseApp):
         # if self.canvas.find_withtag(CURRENT)[0] !=self.cur_img_id:
         # print(self.canvas.find_withtag(CURRENT))
         # self.canvas.tag_bind(CURRENT, '', self.msgBox())
-
+		
+        #print('id:' + str(self.bbox_list[0].id))
         tmp_dot_x = self.tmp_dot['x']
         tmp_dot_y = self.tmp_dot['y']
         if tmp_dot_x:
@@ -1810,6 +1818,7 @@ class Main(BaseApp):
         amount = len(self.bbox_list)
         self.state_label.configure(text='BBOX: %d/%d'% (curselection,amount))
 
+
     def getObjByCategory(self, category):
         if self.categoryObjsOfAll:
             categoryObjsOfAll = list(filter(lambda categoryObj: categoryObj.category == category, self.categoryObjsOfAll))
@@ -1897,7 +1906,6 @@ class Main(BaseApp):
             # print(curselection,self.annotations,self.bbox_list[curselection].sku_name)
         # listbox variable refresh
         self.annotation_str_var.set(self.annotations)
-
         self.annotation_listbox.selection_clear(0,END)
         print(curselections[0])
         self.annotation_listbox.selection_set(curselections[0])
