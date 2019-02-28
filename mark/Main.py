@@ -1565,6 +1565,34 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_BEER'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_BEER' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_JTHJQJ'],
+                                           command=lambda: self.rdBtn_callback('SKU_JTHJQJ'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_JTHJQJ' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_HEALTH_CARE'],
+                                           command=lambda: self.rdBtn_callback('SKU_HEALTH_CARE'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_HEALTH_CARE' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_PAPER'],
+                                           command=lambda: self.rdBtn_callback('SKU_PAPER'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_PAPER' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_HAIR'],
+                                           command=lambda: self.rdBtn_callback('SKU_HAIR'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_HAIR' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_CLOTHES_CLEAN'],
+                                           command=lambda: self.rdBtn_callback('SKU_CLOTHES_CLEAN'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_CLOTHES_CLEAN' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_FACIAL_CARE'],
+                                           command=lambda: self.rdBtn_callback('SKU_FACIAL_CARE'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_FACIAL_CARE' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_DRINKS_RICH'],
+                                           command=lambda: self.rdBtn_callback('SKU_DRINKS_RICH'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_DRINKS_RICH' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
