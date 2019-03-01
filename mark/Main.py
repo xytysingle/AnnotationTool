@@ -4,6 +4,7 @@
 # !@Author :SINGLEquit
 # !@File   :Polygon.py
 import win32api
+from operator import itemgetter, attrgetter
 from tkinter import messagebox
 from tkinter import *
 from tkinter.constants import *
@@ -555,7 +556,8 @@ class Main(BaseApp):
             # if self.is_change_coord and bbox.id==cur_bbox.id:
             #     continue
             dash = 1 if type(bbox.truncated) == int else ''
-            self.make_rectangle(bbox, dash)
+            if bbox.score<0.91:
+                self.make_rectangle(bbox, dash)
         self.annotation_listbox.selection_set(0,END)
         # 更新BBox状态栏
         curselection = len(self.annotation_listbox.curselection())
@@ -630,6 +632,8 @@ class Main(BaseApp):
             bbox.pop('rectangle_id')
             bbox.pop('is_show')
             bbox['id']=self.getObjByCategory(bbox['className']).id#为了解决任何有关bbox的操作都会修改bbox.id 的bug
+            if bbox['username']!=None:
+                bbox['score'] = 1
             # bbox.pop('_Bbox__annotation')
         annotationDataOfjsonStr=json.dumps(annotationDataOfjson)#dict->jsonStr用于存储和传输数据
         print(annotationDataOfjsonStr)
@@ -1793,8 +1797,10 @@ class Main(BaseApp):
         self.annotationData = AnnotationData()
         self.annotationData.fromJson(response.json())  # json to model
         self.bbox_list = self.annotationData.bboxes
-
+        #sort
+        # self.bbox_list.sort
         self.cur_img_rotate = self.annotationData.rotate
+        self.bbox_list.sort(key=attrgetter('score'))
 
         #图片文件名刷新
         self.master.title('AnnotationTool —%s'%self.images[self.cur_img_index])  # 修改框体的名字,也可在创建时使用className参数来命名

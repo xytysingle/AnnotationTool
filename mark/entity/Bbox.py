@@ -68,7 +68,7 @@ class Bbox(object):
     #     self.annotation = '%s%s' % (self.category, value)
     @property
     def annotation(self):
-        return  '%s %s %s%s'%(self.username,self.attribute,self.className,( self.x1,self.y1,self.x2,self.y2))
+        return  '%.3f %s %s %s%s'%(self.score,self.username,self.attribute,self.className,( self.x1,self.y1,self.x2,self.y2))
 
     # @annotation.setter
     # def annotation(self, value):

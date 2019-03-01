@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>865</width>
-    <height>436</height>
+    <width>940</width>
+    <height>529</height>
    </rect>
   </property>
   <property name="cursor">
@@ -173,8 +173,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>275</width>
-           <height>308</height>
+           <width>298</width>
+           <height>384</height>
           </rect>
          </property>
         </widget>
@@ -267,8 +267,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>865</width>
-     <height>23</height>
+     <width>940</width>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
