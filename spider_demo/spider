@@ -32,7 +32,7 @@ def parse_page(pageIndex):
         #star.*?：(.*?).*?</p>.*?releasetime.*?：(.*?)</p>
         response = requests.get('https://maoyan.com/board/4', data='{"offset":' + str(pageIndex) + '}')
         if response.status_code==200:
-            pattern=re.compile('board-index-(\d+).*?data-src="(.*?)".*?movie-item-info.*?title="(.*?)".*?star.*?：(.*?).*?</p>.*?releasetime.*?：(.*?)</p>',re.S)
+            pattern=re.compile('board-index-(\d+).*?data-src="(.*?)".*?movie-item-info.*?title="(.*?)".*?star.*?：(.*?)\n.*?</p>.*?releasetime.*?：(.*?)</p>',re.S)
             items=re.findall(pattern,response.text)
             return items
             for item in items:
