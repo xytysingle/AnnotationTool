@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'untitled.ui'
+# Form implementation generated from reading ui file 'spider_demo.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.3
 #

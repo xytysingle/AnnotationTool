@@ -168,6 +168,14 @@ const.DATA_ADDR={
             'ANNOTATION':const.ANNOTATION,
             'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
         },
+    'SKU_SNACK_FOOD':{
+            'SERVER_LOGIN':const.SERVER_LOGIN,
+            'SKUS':const.SKUS+'type=19',
+            'IMAGES':const.IMAGES,
+            'IMAGE':const.IMAGE,
+            'ANNOTATION':const.ANNOTATION,
+            'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
+        },
      }
 #菜单条选项
 const.CN_MENU_ITEMS = {'file':'文件','edit':'编辑','view':'视图','tools':'工具','language':'语言','help':'帮助'}
@@ -189,12 +197,14 @@ const.CN_VIEW_MENU_ITEMS ={'refresh':'刷新','pollmode':'轮询模式','autoLoc
                            'SKU_CLEANING':'个护清洁','SKU_MB_PRODUCTS':'母婴用品','SKU_LIQUORS':'洋酒','SKU_BEER':'啤酒',
                            'SKU_PAPER':'清洁纸品','SKU_JTHJQJ':'家庭环境清洁','SKU_HEALTH_CARE':'身体护理','SKU_HAIR':'洗发护发',
                            'SKU_CLOTHES_CLEAN':'衣物清洁','SKU_FACIAL_CARE':'面部护理','SKU_DRINKS_RICH':'饮料冲调',
+                           'SKU_SNACK_FOOD':'休闲食品',
                            'linkage':'SKU-BBOX联动'}
 const.EN_VIEW_MENU_ITEMS ={'refresh':'Refresh','pollmode':'Poll Mode','autoLocation':'Auto Location','toggleSKU':'Toggle SKU Lib',
                            'SKU':'Drink SKU Lib','SKU_MARS':'MARS SKU Lib','SKU_MOUTH':'SKU MOUTH','SKU_SEASONING':'SKU SEASONING',
                            'SKU_CLEANING':'SKU CLEANING','SKU_MB_PRODUCTS':'SKU MB_PRODUCTS','SKU_LIQUORS':'SKU LIQUORS','SKU_BEER':'SKU BEER',
                            'SKU_PAPER':'SKU PAPER','SKU_JTHJQJ':'SKU JTHJQJ','SKU_HEALTH_CARE':'SKU HEALTH CARE','SKU_HAIR':'SKU HAIR',
                             'SKU_CLOTHES_CLEAN':'SKU CLOTHES CLEAN','SKU_FACIAL_CARE':'SKU FACIAL CARE','SKU_DRINKS_RICH':'SKU DRINKS RICH',
+                           'SKU_SNACK_FOOD':'SKU SNACK FOOD',
                            'linkage':'SKU-BBOX Linkage'}
 #Tools菜单选项子菜单
 const.CN_TOOLS_MENU_ITEMS ={'options':'选项','semiAuto':'半自动标注模式','close':'关闭主面板时','minimize':'最小化','exit':'退出','poweron':'开机启动','welcome':'登录问候语','autologin':'自动登录'}

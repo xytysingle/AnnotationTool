@@ -9,6 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mark_offline" />
     <orderEntry type="module" module-name="polygon" />
+    <orderEntry type="module" module-name="untitled" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />

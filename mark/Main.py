@@ -557,9 +557,9 @@ class Main(BaseApp):
             # if self.is_change_coord and bbox.id==cur_bbox.id:
             #     continue
             dash = 1 if type(bbox.truncated) == int else ''
-            if float('%.2f' % bbox.score)<0.9:
-                self.make_rectangle(bbox, dash)
-                self.annotation_listbox.selection_set(i)
+            # if float('%.2f' % bbox.score)<0.9:
+            self.make_rectangle(bbox, dash)
+            self.annotation_listbox.selection_set(i)
         # self.annotation_listbox.selection_set(0,END)
         # 更新BBox状态栏
         curselection = len(self.annotation_listbox.curselection())
@@ -1599,6 +1599,10 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_DRINKS_RICH'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_DRINKS_RICH' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_SNACK_FOOD'],
+                                           command=lambda: self.rdBtn_callback('SKU_SNACK_FOOD'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_SNACK_FOOD' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1813,8 +1817,8 @@ class Main(BaseApp):
             bbox.truncated = 1 if int(bbox.truncated) == 1 else ''
             if  self.getObjByCategory(bbox.className):
                 bbox.color = self.getObjByCategory(bbox.className).color
-            if float('%.2f' % bbox.score) < 0.9:
-                bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
+            # if float('%.2f' % bbox.score) < 0.9:
+            bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
                                                              width=self.bd_width, outline=bbox.color,#stipple=self.is_stipple, fill=bbox.color,
                                                              dash=bbox.truncated, tags=('bbox',))#fill=bbox.color,, stipple=self.is_stipple
             # print(bbox.annotation)
@@ -1845,10 +1849,10 @@ class Main(BaseApp):
                     break
         else:
             self.annotation_listbox.selection_clear(0, END)
-            for i, bbox in enumerate(self.bbox_list):
-                if float('%.2f' % bbox.score) < 0.9:
-                    self.annotation_listbox.selection_set(i)
-            # self.annotation_listbox.selection_set(0,END)
+            # for i, bbox in enumerate(self.bbox_list):
+            #     if float('%.2f' % bbox.score) < 0.9:
+            #         self.annotation_listbox.selection_set(i)
+            self.annotation_listbox.selection_set(0,END)
             self.annotation_listbox.yview(0)
             self.canvas.xview_moveto(0)
             self.canvas.yview_moveto(0)
