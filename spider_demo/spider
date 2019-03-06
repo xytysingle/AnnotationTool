@@ -13,9 +13,26 @@ def is_can_catch():
     print(rp.can_fetch('*','https://maoyan.com/board/4?offset=0'))
 def parse_page(pageIndex):
     try:
+        t='''
+            <dd>
+                        <i class="board-index board-index-1">1</i>
+    <a href="/films/1203" title="霸王别姬" class="image-link" data-act="boarditem-click" data-val="{movieId:1203}">
+      <img src="//s0.meituan.net/bs/?f=myfe/mywww:/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="https://p1.meituan.net/movie/20803f59291c47e1e116c11963ce019e68711.jpg@160w_220h_1e_1c" alt="霸王别姬" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1203" title="霸王别姬" data-act="boarditem-click" data-val="{movieId:1203}">霸王别姬</a></p>
+        <p class="star">
+                主演：张国荣,张丰毅,巩俐
+        </p>
+<p class="releasetime">上映时间：1993-01-01</p>    </div>
+        '''
+        #star.*?：(.*?).*?</p>.*?releasetime.*?：(.*?)</p>
         response = requests.get('https://maoyan.com/board/4', data='{"offset":' + str(pageIndex) + '}')
         if response.status_code==200:
-            pattern=re.compile('<p.*?>.*?:(.*?)</p><p.*?>.*?:(.*?)</p>',re.S)
+            pattern=re.compile('board-index-(\d+).*?data-src="(.*?)".*?movie-item-info.*?title="(.*?)".*?star.*?：(.*?).*?</p>.*?releasetime.*?：(.*?)</p>',re.S)
             items=re.findall(pattern,response.text)
             return items
             for item in items:
