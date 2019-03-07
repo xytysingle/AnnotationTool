@@ -38,7 +38,7 @@ t='''
     '''
 def parse_page(pageIndex):
     try:
-        response = requests.get('https://maoyan.com/board/4', data='{"offset":' + str(pageIndex) + '}')
+        response = requests.get('https://maoyan.com/board/4', params={"offset":pageIndex*10})
         if response.status_code==200:
             doc=pq(response.text)
             items= doc('dd').items()
@@ -61,4 +61,5 @@ def parse_page(pageIndex):
 if  __name__=='__main__':
     # if  not is_can_catch():
     #     return
-    page = parse_page(0)
+    for i in range(10):
+        parse_page(i)
