@@ -67,14 +67,14 @@ def parse_page(pageIndex):
                 img=dd.select_one('.board-img').attrs['data-src']
                 response = requests.get(img)
                 title=dd.select_one('.name a').string
-                with open('img/%s.jpg' % title,'wb') as img_file:
-                    img_file.write(response.content)
+                # with open('img/%s.jpg' % title,'wb') as img_file:
+                #     img_file.write(response.content)
                 actor=dd.select_one('.star').string.strip()[3:]
                 time=dd.select_one('.releasetime').string[5:]
                 score=dd.select_one('.integer').string+dd.select_one('.fraction').string
 
                 print(index,img,title,actor,time,score)
-                # with open('data.csv', 'a', encoding='utf-8') as csvfile:
+                # with open('..\data.csv', 'a', encoding='utf-8') as csvfile:
                 #     fieldnames = ['index', 'img', 'title', 'actor','time','score']
                 #     writer = csv.writer(csvfile)
                 #     writer.writerow([index,img,title,actor,time,score])
