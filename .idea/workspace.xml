@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b682922-a1fe-4090-b973-8192da89cc98" name="Default Changelist" comment="">
+    <list default="true" id="9b682922-a1fe-4090-b973-8192da89cc98" name="Default Changelist" comment="sku_lib">
+      <change afterPath="$PROJECT_DIR$/spider_demo/mv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_demo/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_demo/t.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1551975086961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
+    <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1552146995673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$spider.coverage" NAME="spider Coverage Results" MODIFIED="1551888320651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
-    <SUITE FILE_PATH="coverage/GitHub$t.coverage" NAME="t Coverage Results" MODIFIED="1546155321864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/test" />
+    <SUITE FILE_PATH="coverage/GitHub$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1552058260567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
+    <SUITE FILE_PATH="coverage/GitHub$t.coverage" NAME="t Coverage Results" MODIFIED="1552147947050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$Main.coverage" NAME="Main Coverage Results" MODIFIED="1551430125201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark" />
     <SUITE FILE_PATH="coverage/GitHub$Login.coverage" NAME="Login Coverage Results" MODIFIED="1545574700196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
     <SUITE FILE_PATH="coverage/GitHub$Bbox.coverage" NAME="Bbox Coverage Results" MODIFIED="1551427569638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/entity" />
     <SUITE FILE_PATH="coverage/GitHub$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1546153532136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
+    <SUITE FILE_PATH="coverage/GitHub$mv.coverage" NAME="mv Coverage Results" MODIFIED="1552227045547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GitHub" />
@@ -25,33 +29,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/Main.py">
+        <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13376">
-              <caret line="632" column="29" selection-start-line="632" selection-start-column="29" selection-end-line="632" selection-end-column="29" />
+            <state relative-caret-position="1474">
+              <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
               <folding>
-                <element signature="e#120#135#0" expanded="true" />
+                <element signature="e#112#158#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_demo/spider.py">
+        <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="34" column="123" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+            <state relative-caret-position="169">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
+        <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="56" column="71" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="56" selection-end-column="71" />
+            <state relative-caret-position="110">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
-                <element signature="e#112#158#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +120,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>show_</find>
@@ -135,6 +155,7 @@
       <find>select_category</find>
       <find>select_co</find>
       <find>int(time.time())</find>
+      <find>board-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,14 +176,17 @@
         <option value="$PROJECT_DIR$/mark/entity/Bbox.py" />
         <option value="$PROJECT_DIR$/mark/Main.py" />
         <option value="$PROJECT_DIR$/spider_demo/spider" />
-        <option value="$PROJECT_DIR$/spider_demo/spider1.py" />
         <option value="$PROJECT_DIR$/spider_demo/data.csv" />
+        <option value="$PROJECT_DIR$/spider_demo/spider1.py" />
+        <option value="$PROJECT_DIR$/spider_demo/spider2.py" />
+        <option value="$PROJECT_DIR$/spider_demo/t.py" />
+        <option value="$PROJECT_DIR$/spider_demo/mv.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="535" />
-    <option name="y" value="375" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="456" />
+    <option name="y" value="116" />
     <option name="width" value="1510" />
     <option name="height" value="960" />
   </component>
@@ -174,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,8 +240,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spider1">
-    <configuration name="Bbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mv">
+    <configuration name="mv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,34 +249,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mark/entity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mark/entity/Bbox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mark" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mark/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_demo/mv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,6 +307,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_demo/spider2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,12 +337,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mark/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mark/test/t.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_demo/t.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spider1" />
-        <item itemvalue="Python.spider" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Bbox" />
+        <item itemvalue="Python.mv" />
         <item itemvalue="Python.t" />
+        <item itemvalue="Python.spider1" />
+        <item itemvalue="Python.spider2" />
+        <item itemvalue="Python.spider" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +386,9 @@
       <workItem from="1551422425884" duration="8084000" />
       <workItem from="1551883710641" duration="4547000" />
       <workItem from="1551968050022" duration="5229000" />
-      <workItem from="1552046710723" duration="245000" />
+      <workItem from="1552046710723" duration="10771000" />
+      <workItem from="1552142102673" duration="2840000" />
+      <workItem from="1552202676473" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="home_">
       <created>1545465188173</created>
@@ -469,32 +495,46 @@
       <option name="project" value="LOCAL" />
       <updated>1551974842239</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="sku_lib">
+      <created>1552047010401</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552047010401</updated>
+    </task>
+    <task id="LOCAL-00017" summary="sku_lib">
+      <created>1552059584871</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552059584871</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86251000" />
+    <option name="totallyTimeSpent" value="104462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="299" width="1208" height="768" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.17913043" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.18565683" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.14869565" />
       <window_info id="Favorites" order="2" sideWeight="0.50094515" side_tool="true" weight="0.14695652" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27542374" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1801676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32681563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28188977" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28144655" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32913387" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32913387" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861635" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32861635" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,6 +683,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spider_demo/data.csv" />
+    <entry file="file://$PROJECT_DIR$/spider_demo/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../desktop/-VMDIR5EC28CF91FE3CE9423378CF92F79D8AE-20190307-NAnbS8ls-800kb-hls-g5mO6877000.ts" />
     <entry file="file://$PROJECT_DIR$/mark/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13376">
@@ -653,10 +702,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_demo/spider.py">
+    <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="123" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+        <state relative-caret-position="1474">
+          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+          <folding>
+            <element signature="e#112#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,17 +750,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_demo/data.csv">
+    <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056" />
+        <state relative-caret-position="169">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
+    <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="56" column="71" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="56" selection-end-column="71" />
+        <state relative-caret-position="353">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
-            <element signature="e#112#158#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
