@@ -99,7 +99,7 @@ class Main(BaseApp):
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
         self.bd_width = 2
-        self.is_stipple = 'gray50'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.is_stipple = 'gray25'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -1603,6 +1603,10 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_SNACK_FOOD'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_SNACK_FOOD' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_NON-ANNOTATION_PRODUCTS'],
+                                           command=lambda: self.rdBtn_callback('SKU_NON-ANNOTATION_PRODUCTS'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_NON-ANNOTATION_PRODUCTS' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
