@@ -98,8 +98,8 @@ class Main(BaseApp):
         self.cur_annotation_index = 0
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
-        self.bd_width = 1
-        self.is_stipple = 'gray12'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.bd_width = 2
+        self.is_stipple = 'gray50'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -1106,10 +1106,10 @@ class Main(BaseApp):
             self.position.configure(text='%d : %d' % (event.x, event.y))
             if self.h_line:
                 self.canvas.delete(self.h_line)
-            self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=1,fill='red')
+            self.h_line = self.canvas.create_line(0, event.y, self.cur_img_size[0], event.y, width=self.bd_width,fill='red')
             if self.v_line:
                 self.canvas.delete(self.v_line)
-            self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=1,fill='red')
+            self.v_line = self.canvas.create_line(event.x, 0, event.x, self.cur_img_size[1], width=self.bd_width,fill='red')
 
             self.make_preview_box(event)
 
