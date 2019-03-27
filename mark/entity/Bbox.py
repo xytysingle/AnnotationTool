@@ -45,7 +45,30 @@ class Bbox(object):
         self.time=time
     # def __str__(self):
     #     print()
-
+    # @property
+    # def x1(self):
+    #     return self.__x1
+    # @x1.setter
+    # def x1(self, value):
+    #     self.__x1=int(value)
+    # @property
+    # def y1(self):
+    #     return self.__y1
+    # @y1.setter
+    # def y1(self, value):
+    #     self.__y1=int(value)
+    # @property
+    # def x2(self):
+    #     return self.__x2
+    # @x2.setter
+    # def x2(self, value):
+    #     self.__x2=int(value)
+    # @property
+    # def y2(self):
+    #     return self.__y2
+    # @y2.setter
+    # def y2(self, value):
+    #     self.__y2=int(value)
     # @property
     # def id(self):
     #     return self.__id

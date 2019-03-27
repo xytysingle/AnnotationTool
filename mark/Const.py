@@ -31,7 +31,8 @@ const.PWD='iisnow'
 const.ROTATE_ANGLE=5
 # 服务器地址
 # const.SERVER_ADDR="http://ubuntu.zhixiang.co:8889"
-const.SERVER_ADDR="http://annotation.lingmou.ai:8000"
+#const.SERVER_ADDR="http://annotation.lingmou.ai:8000"
+const.SERVER_ADDR="http://192.168.3.4:8000"
 # 数据接口
 const.SERVER_LOGIN=const.SERVER_ADDR+"/index.php/user/login"
 const.SKUS=const.SERVER_ADDR+"/index.php/skus/list?"
@@ -184,6 +185,22 @@ const.DATA_ADDR={
             'ANNOTATION':const.ANNOTATION,
             'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
         },
+    'SKU_DRINK_GRUOP':{
+            'SERVER_LOGIN':const.SERVER_LOGIN,
+            'SKUS':const.SKUS+'type=22',
+            'IMAGES':const.IMAGES,
+            'IMAGE':const.IMAGE,
+            'ANNOTATION':const.ANNOTATION,
+            'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
+        },
+    'SKU_PRICE_TAG':{
+            'SERVER_LOGIN':const.SERVER_LOGIN,
+            'SKUS':const.SKUS+'type=24',
+            'IMAGES':const.IMAGES,
+            'IMAGE':const.IMAGE,
+            'ANNOTATION':const.ANNOTATION,
+            'ANNOTATION_UPSERT':const.ANNOTATION_UPSERT
+        },
      }
 #菜单条选项
 const.CN_MENU_ITEMS = {'file':'文件','edit':'编辑','view':'视图','tools':'工具','language':'语言','help':'帮助'}
@@ -205,14 +222,16 @@ const.CN_VIEW_MENU_ITEMS ={'refresh':'刷新','pollmode':'轮询模式','autoLoc
                            'SKU_CLEANING':'个护清洁','SKU_MB_PRODUCTS':'母婴用品','SKU_LIQUORS':'洋酒','SKU_BEER':'啤酒',
                            'SKU_PAPER':'清洁纸品','SKU_JTHJQJ':'家庭环境清洁','SKU_HEALTH_CARE':'身体护理','SKU_HAIR':'洗发护发',
                            'SKU_CLOTHES_CLEAN':'衣物清洁','SKU_FACIAL_CARE':'面部护理','SKU_DRINKS_RICH':'饮料冲调',
-                           'SKU_SNACK_FOOD':'休闲食品','SKU_NON-ANNOTATION_PRODUCTS':'非标品',
+                           'SKU_SNACK_FOOD':'休闲食品','SKU_NON-ANNOTATION_PRODUCTS':'非标品','SKU_DRINK_GRUOP':'饮料组合装',
+                           'SKU_PRICE_TAG':'价签',
                            'linkage':'SKU-BBOX联动'}
 const.EN_VIEW_MENU_ITEMS ={'refresh':'Refresh','pollmode':'Poll Mode','autoLocation':'Auto Location','toggleSKU':'Toggle SKU Lib',
                            'SKU':'Drink SKU Lib','SKU_MARS':'MARS SKU Lib','SKU_MOUTH':'SKU MOUTH','SKU_SEASONING':'SKU SEASONING',
                            'SKU_CLEANING':'SKU CLEANING','SKU_MB_PRODUCTS':'SKU MB_PRODUCTS','SKU_LIQUORS':'SKU LIQUORS','SKU_BEER':'SKU BEER',
                            'SKU_PAPER':'SKU PAPER','SKU_JTHJQJ':'SKU JTHJQJ','SKU_HEALTH_CARE':'SKU HEALTH CARE','SKU_HAIR':'SKU HAIR',
                             'SKU_CLOTHES_CLEAN':'SKU CLOTHES CLEAN','SKU_FACIAL_CARE':'SKU FACIAL CARE','SKU_DRINKS_RICH':'SKU DRINKS RICH',
-                           'SKU_SNACK_FOOD':'SKU SNACK FOOD','SKU_NON-ANNOTATION_PRODUCTS':'SKU ON-ANNOTATION PRODUCTS',
+                           'SKU_SNACK_FOOD':'SKU SNACK FOOD','SKU_NON-ANNOTATION_PRODUCTS':'SKU ON-ANNOTATION PRODUCTS','SKU_DRINK_GRUOP':'SKU DRINK GRUOP',
+                            'SKU_PRICE_TAG':'SKU PRICE TAG',
                            'linkage':'SKU-BBOX Linkage'}
 #Tools菜单选项子菜单
 const.CN_TOOLS_MENU_ITEMS ={'options':'选项','semiAuto':'半自动标注模式','close':'关闭主面板时','minimize':'最小化','exit':'退出','poweron':'开机启动','welcome':'登录问候语','autologin':'自动登录'}

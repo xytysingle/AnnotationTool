@@ -1607,6 +1607,14 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_NON-ANNOTATION_PRODUCTS'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_NON-ANNOTATION_PRODUCTS' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_DRINK_GRUOP'],
+                                           command=lambda: self.rdBtn_callback('SKU_DRINK_GRUOP'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_DRINK_GRUOP' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_PRICE_TAG'],
+                                           command=lambda: self.rdBtn_callback('SKU_PRICE_TAG'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_PRICE_TAG' else 1)  # value=0为默认选中
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1817,6 +1825,7 @@ class Main(BaseApp):
         self.rotate_img()
         # print(annotationData.bboxes[0].annotation)
         for bbox in self.bbox_list:
+            bbox.x1,bbox.y1,bbox.x2,bbox.y2=int(bbox.x1),int(bbox.y1),int(bbox.x2),int(bbox.y2)
 
             bbox.truncated = 1 if int(bbox.truncated) == 1 else ''
             if  self.getObjByCategory(bbox.className):
