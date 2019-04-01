@@ -99,7 +99,7 @@ class Main(BaseApp):
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
         self.bd_width = 2
-        self.is_stipple = 'gray25'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.is_stipple = 'gray12'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -570,7 +570,7 @@ class Main(BaseApp):
         bbox.is_show=True
         rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1), self.getCoordByZoom(bbox.y1), self.getCoordByZoom(bbox.x2),
                                                     self.getCoordByZoom(bbox.y2),
-                                                    width=self.bd_width, outline=bbox.color, dash=dash,stipple=self.is_stipple, fill=bbox.color,
+                                                    width=self.bd_width, outline=bbox.color, dash=dash,#stipple=self.is_stipple, fill=bbox.color,
                                                     tags=('bbox',))#stipple=self.is_stipple, fill=bbox.color,
         bbox.id=rectangle_id
 
@@ -889,6 +889,60 @@ class Main(BaseApp):
         if self.is_cursor_select:
             # self.mouse_right_press(event)
             self.change_coord()
+        else:
+            event.x, event.y = self.canvas.canvasx(event.x), self.canvas.canvasy(event.y)  # 窗口坐标系转换为画布坐标系
+            # draw bbox
+            offset=8
+            curselection_category = None
+            curselections = self.category_listbox.curselection()
+            if len(curselections) < 1:
+                self.msgBox('请选择分类!')
+                return None
+            curselection_category = self.categories[curselections[0]]
+            if curselection_category!='价签_小数点':
+                return
+            x1=event.x-offset
+            y1=event.y-(offset+1)
+            x2=event.x
+            y2=event.y
+            rectangle_id = self.canvas.create_rectangle(x1,y1,x2,y2,
+                                                            width=self.bd_width,
+                                                            outline=self.getObjByCategory(curselection_category).color,
+                                                            dash=self.truncated, tags=('bbox',))
+            # new and add bbox object
+            # if self.init_dot['zoom_level'] != 1:
+            #     # coord scale
+            #     self.init_dot['x'] = self.init_dot['x'] / self.init_dot['zoom_level']
+            #     self.init_dot['y'] = self.init_dot['y'] / self.init_dot['zoom_level']
+            x1 = min(self.getCoordByRestore(x1), self.getCoordByRestore(x2))
+            x2 = max(self.getCoordByRestore(x1), self.getCoordByRestore(x2))
+            y1 = min(self.getCoordByRestore(y1), self.getCoordByRestore(y2))
+            y2 = max(self.getCoordByRestore(y1), self.getCoordByRestore(y2))
+            now_time = int(time.time())  # 当前时间戳
+            bbox = Bbox(rectangle_id, curselection_category, self.getObjByCategory(curselection_category).color,
+                        const.USERNAME, self.truncated,
+                        x1, y1, x2, y2, self.getObjByCategory(curselection_category).id, now_time)
+            # self.canvas.tag_bind(CURRENT, '', self.show_box(bbox))
+            self.show_info_bbox(bbox)
+
+            self.bbox_list.append(bbox)
+            self.annotations_data_update()
+            self.annotation_listbox.select_set(END)
+            self.annotation_listbox.yview(END)
+            # annotations update
+            self.annotations_data_update()
+
+            # 更新BBox状态栏
+            curselection = len(self.annotation_listbox.curselection())
+            amount = len(self.bbox_list)
+            self.state_label.configure(text='BBOX: %d/%d' % (curselection, amount))
+
+            # self.show_bbox()
+            # 数据缓存
+            self.data_cache()
+            # self.canvas.create_oval(
+            #     (event.x - self.r, event.y - self.r, event.x + self.r, event.y + self.r), fill='black')
+            self.init_dot_initialized()
     def mouse_click(self, event):
         if self.is_cursor_select:
             self.mouse_right_press(event)
