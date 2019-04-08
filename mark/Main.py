@@ -99,7 +99,7 @@ class Main(BaseApp):
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
         self.bd_width = 2
-        self.is_stipple = 'gray12'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.is_stipple = 'gray25'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -168,8 +168,10 @@ class Main(BaseApp):
         self.master.bind_all("<KeyPress-F5>", self.refresh)
         self.master.bind_all('<Escape>', self.cancel_bbox)
         self.master.bind_all("<Control-x>", self.cut_bbox)
-        self.master.bind_all("<Control-c>", self.copy_bbox)
-        self.master.bind_all("<Control-v>", self.paste_bbox)
+        #self.master.bind_all("<Control-c>", self.copy_bbox)
+        self.master.bind_all("<Control-c>", self.copy_category)
+        # self.master.bind_all("<Control-v>", self.paste_bbox)
+        self.master.bind_all("<Control-v>", self.paste_category)
         self.master.bind_all("<Control-b>", self.clone_bbox)
         self.master.bind_all("<Control-z>", self.undo_operate)
         self.master.bind_all("<Control-y>", self.redo_operate)
@@ -343,6 +345,37 @@ class Main(BaseApp):
             self.annotation_listbox.selection_clear(0,END)
             self.annotation_listbox.selection_set(start,end)
             print(start,end)
+            self.show_bbox()
+            #数据缓存
+            self.data_cache()
+    def paste_category(self,*args):
+        if args and type(args[0].widget)==Entry :
+            # print(args[0].widget)
+            return
+        copied_category_list=pyperclip.paste().split(' ')
+        if  copied_category_list:
+            #先删除选中item在粘贴
+            curselections = self.annotation_listbox.curselection()
+            if len(curselections) > 0:
+                now_time = int(time.time())
+                for curselection,className in zip(curselections,copied_category_list):
+                    # print(curselection,self.annotations,self.bbox_list[curselection].sku_name,len(self.bbox_list))
+                    # self.annotations.pop(curselection)
+                    # self.canvas.delete(self.bbox_list[curselection].rectangle_id)
+                    # self.bbox_list.pop(curselection)
+                    bbox=self.bbox_list[curselection]
+                    bbox.id = self.getObjByCategory(className).id
+                    bbox.color = self.getObjByCategory(className).color
+                    self.annotations[curselection] = bbox.annotation
+
+                    bbox.className=className
+                    bbox.username = BaseApp.user_info.user_name
+                    bbox.time = now_time
+
+            if copied_category_list and len(copied_category_list)<2:
+                self.show_info_bbox(bbox)
+            # annotations update
+            self.annotations_data_update()
             self.show_bbox()
             #数据缓存
             self.data_cache()
@@ -638,7 +671,7 @@ class Main(BaseApp):
                 bbox['score'] = 1
             # bbox.pop('_Bbox__annotation')
         annotationDataOfjsonStr=json.dumps(annotationDataOfjson)#dict->jsonStr用于存储和传输数据
-        print(annotationDataOfjsonStr)
+        # print(annotationDataOfjsonStr)
 
         #本地保存
         # config = BaseApp.get_conifgObj()
@@ -1477,7 +1510,40 @@ class Main(BaseApp):
         # print(self.canvas.canvasx(x1_,), y1_, x2_, y2_)
         self.canvas.create_text(center_x, center_y, text=bbox.attribute+' '+bbox.className+username, tags="info_label")
         # self.info_label_id = self.canvas.create_window(center_x, center_y, window=self.info_label,tags='info_label')
+        # draw img_logo
+        img=None
+        try:
+            response = requests.get(const.SERVER_ADDR+'/uploads/logo/'+self.getObjByCategory(bbox.className).id+'.png')
+            if not response or not response.ok:
+                return
+            img = Image.open(BytesIO(response.content))
+            # self.img = Image.open(const.SERVER_ADDR+'/uploads/logo/'+self.getObjByCategory(bbox.className]).id+'.png')
+        except Exception as e:
+            print(e)
+            #self.cur_img_index+=1
+            #self.get_data()
+            return
+        finally:
+            pass
+        #self.img_size =self.cur_img_size= self.img.size#原图大小
+        w, h = 100,100
+        zoom_width = w * self.cur_zoom_level
+        zoom_height = h * self.cur_zoom_level
+        w,h=img.size
+        # img.thumbnail((w / 100, h / 100))
+        
+        zoom_width = w * self.cur_zoom_level
+        zoom_height = h * self.cur_zoom_level
+        img_resize = self.resize(w, h, 80, 100, img)
+        self.tk_img_ = ImageTk.PhotoImage(img_resize)
+        cur_img_size = img_resize.size
+        # self.canvas.config(scrollregion=(0, 0, zoom_width, zoom_height))
+        # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
+        #self.canvas.delete('img_logo')bbox.x1-80
+        self.canvas.create_image((x1_, y2_), image=self.tk_img_, anchor=N + W, tags=('info_label',))
 
+        self.img_label=Label(self.canvas, image=self.tk_img_,width=80,height=100)
+        #self.canvas.create_window(center_x-180, center_y, window=self.img_label,tags='info_label')
     def getCoordByZoom(self,coord):
         return coord*self.cur_zoom_level
 
@@ -1665,6 +1731,10 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_DRINK_GRUOP'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_DRINK_GRUOP' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_OTHER_WINE'],
+                                           command=lambda: self.rdBtn_callback('SKU_OTHER_WINE'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_OTHER_WINE' else 1)  # value=0为默认选中
         self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_PRICE_TAG'],
                                            command=lambda: self.rdBtn_callback('SKU_PRICE_TAG'),
                                            variable=self.rdBtn_IntVar_SKU,
@@ -1872,7 +1942,7 @@ class Main(BaseApp):
         #sort
         # self.bbox_list.sort
         self.cur_img_rotate = self.annotationData.rotate
-        self.bbox_list.sort(key=attrgetter('score'))
+        self.bbox_list.sort(key=attrgetter('className'))#score
 
         #图片文件名刷新
         self.master.title('AnnotationTool —%s'%self.images[self.cur_img_index])  # 修改框体的名字,也可在创建时使用className参数来命名
@@ -1986,22 +2056,25 @@ class Main(BaseApp):
         self.angle.configure(text='%d°' % self.cur_img_rotate)
     def refresh(self,*args):
         self.get_data()
-    def copy_category(self):
+    def copy_category(self,*args):
         curselection = self.annotation_listbox.curselection()
         if len(curselection) >0:
-            text=self.bbox_list[curselection[0]].className
-            self.search_str_var.set(text)
+            text=''
+            for index in curselection:
+                text+=self.bbox_list[index].className+' '
+            # self.search_str_var.set(text.split(',')[0])
             pyperclip.copy(text)
-            if len(self.categoryObjsOfSearch)==1:
-                self.category_listbox.selection_clear(0,END)
-                self.category_listbox.selection_set(0)
-                self.category_listbox.yview(0)
+            # if len(self.categoryObjsOfSearch)==1:
+            #     self.category_listbox.selection_clear(0,END)
+            #     self.category_listbox.selection_set(0)
+            #     self.category_listbox.yview(0)
     def change_annotation_name(self,*args):
         # category_curselection = self.category_listbox.curselection()
         curselection = self.annotation_listbox.curselection()
         if len(curselection) > 0:
             self.annotation_curselection = curselection
             self.is_change_annotation_name = TRUE
+            self.search_entry.focus_set()
 
     def delete_annotation(self, *args):
         curselections = self.annotation_listbox.curselection()
