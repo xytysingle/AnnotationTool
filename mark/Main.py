@@ -1502,7 +1502,7 @@ class Main(BaseApp):
         img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
         img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
         info_bbox_x1=center_x-info_width/2-img_scroll_x
-        info_bbox_y1=center_y-img_scroll_y-(cn_width)/2
+        info_bbox_y1=center_y-img_scroll_y-(cn_width)/2-cur_logo_size[1]
         info_bbox_x2=center_x+info_width/2-img_scroll_x
         info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
         if info_bbox_x1<0 and info_bbox_y1<0:#WN
