@@ -1475,7 +1475,7 @@ class Main(BaseApp):
 
         zoom_width = w * self.cur_zoom_level
         zoom_height = h * self.cur_zoom_level
-        img_resize = self.resize(w, h, 80, 100, img)
+        img_resize = self.resize(w, h, 90, 120, img)
         self.tk_img_ = ImageTk.PhotoImage(img_resize)
         cur_logo_size = img_resize.size
 
@@ -1498,6 +1498,7 @@ class Main(BaseApp):
         # print(info_width)
         #中心点
         center_x,center_y=(x1 + (x2 - x1) / 2),y1-cn_width/2-offset
+        c_x,c_y=center_x-cur_logo_size[0]/2,center_y-cur_logo_size[1]/2-10
         img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
         img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
         info_bbox_x1=center_x-info_width/2-img_scroll_x-cur_logo_size[0]
@@ -1507,17 +1508,21 @@ class Main(BaseApp):
         if info_bbox_x1<0 and info_bbox_y1<0:#WN
             center_x=info_width/2+img_scroll_x+cur_logo_size[0]
             center_y= y2 + (letter_width+offset)
+            c_y = center_y + cur_logo_size[1] / 2 + 10
             # print(center_x, center_y,W+N)
         elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
             center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
             center_y = y2 + (letter_width+offset)
+            c_y = center_y + cur_logo_size[1] / 2 + 10
             # print(center_x, center_y,E+N)
         elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
             center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
             center_y = y2 + (letter_width+offset)
+            c_y = center_y + cur_logo_size[1] / 2 + 10
             # print(center_x, center_y,E+N)
         elif info_bbox_y1 < 0:#N
             center_y = y2 + (letter_width+offset)
+            c_y=center_y+cur_logo_size[1]/2+10
             # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
         elif  info_bbox_x1<0:#W
             center_x = img_scroll_x+info_width/2+cur_logo_size[0]
@@ -1544,7 +1549,7 @@ class Main(BaseApp):
         # self.canvas.config(scrollregion=(0, 0, zoom_width, zoom_height))
         # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
         #self.canvas.delete('img_logo')bbox.x1-80
-        self.canvas.create_image((x1_-cur_logo_size[0], y1_-cur_logo_size[1]/2+(cn_width)/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
+        self.canvas.create_image((center_x-cur_logo_size[0]/2, c_y-cur_logo_size[1]/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
 
         self.img_label=Label(self.canvas, image=self.tk_img_,width=80,height=100)
         #self.canvas.create_window(center_x-180, center_y, window=self.img_label,tags='info_label')
