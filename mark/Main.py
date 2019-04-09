@@ -1501,12 +1501,12 @@ class Main(BaseApp):
         c_x,c_y=center_x-cur_logo_size[0]/2,center_y-cur_logo_size[1]/2-10
         img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
         img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
-        info_bbox_x1=center_x-info_width/2-img_scroll_x-cur_logo_size[0]
-        info_bbox_y1=center_y-img_scroll_y-cur_logo_size[1]/2 #-(cn_width)/2
+        info_bbox_x1=center_x-info_width/2-img_scroll_x
+        info_bbox_y1=center_y-img_scroll_y-(cn_width)/2
         info_bbox_x2=center_x+info_width/2-img_scroll_x
         info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
         if info_bbox_x1<0 and info_bbox_y1<0:#WN
-            center_x=info_width/2+img_scroll_x+cur_logo_size[0]
+            center_x=info_width/2+img_scroll_x
             center_y= y2 + (letter_width+offset)
             c_y = center_y + cur_logo_size[1] / 2 + 10
             # print(center_x, center_y,W+N)
@@ -1525,7 +1525,7 @@ class Main(BaseApp):
             c_y=center_y+cur_logo_size[1]/2+10
             # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
         elif  info_bbox_x1<0:#W
-            center_x = img_scroll_x+info_width/2+cur_logo_size[0]
+            center_x = img_scroll_x+info_width/2
             # print(center_x, center_y,W)
         elif info_bbox_x2>self.canvas.winfo_width():#E
             center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
