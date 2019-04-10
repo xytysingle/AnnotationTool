@@ -1452,107 +1452,105 @@ class Main(BaseApp):
     def show_info_bbox(self, bbox):
         # info_label = self.canvas.find_withtag('info_label')
         img = None
+        cur_logo_size=(0,0)
         try:
-            response = requests.get(
-                const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png')
-            if not response or not response.ok:
-                return
+            img_url = const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png'
+            response = requests.get(img_url)
+            # if not response or not response.ok:
+            #     return
             img = Image.open(BytesIO(response.content))
             # self.img = Image.open(const.SERVER_ADDR+'/uploads/logo/'+self.getObjByCategory(bbox.className]).id+'.png')
+            # self.img_size =self.cur_img_size= self.img.size#原图大小
+            w, h = 100, 100
+            zoom_width = w * self.cur_zoom_level
+            zoom_height = h * self.cur_zoom_level
+            w, h = img.size
+            # img.thumbnail((w / 100, h / 100))
+
+            zoom_width = w * self.cur_zoom_level
+            zoom_height = h * self.cur_zoom_level
+            img_resize = self.resize(w, h, 90, 120, img)
+            self.tk_img_ = ImageTk.PhotoImage(img_resize)
+            cur_logo_size = img_resize.size
         except Exception as e:
-            print(e)
+            pass
+            # print(img_url)
             # self.cur_img_index+=1
             # self.get_data()
-            return
         finally:
-            pass
-        # self.img_size =self.cur_img_size= self.img.size#原图大小
-        w, h = 100, 100
-        zoom_width = w * self.cur_zoom_level
-        zoom_height = h * self.cur_zoom_level
-        w, h = img.size
-        # img.thumbnail((w / 100, h / 100))
+            username=' '+bbox.username if bbox.username else ''
+            x1=min(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
+            x2=max(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
+            y1=min(self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.y2))
+            y2=max(self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.y2))
+            value = bbox.className+username
+            length = len(value)
+            utf8_length = len(value.encode('utf-8'))
+            cn_nums=(utf8_length - length) // 2
+            letters=length-cn_nums
+            # length = cn_nums + length
+            cn_width = 12
+            letter_width = 8
+            offset=10
+            deviation=2
+            info_width= cn_nums * cn_width + letters * letter_width
+            # print(info_width)
+            #中心点
+            center_x,center_y=(x1 + (x2 - x1) / 2),y1-cn_width/2-offset
+            c_x,c_y=center_x,0
+            img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
+            img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
+            info_bbox_x1=center_x-info_width/2-img_scroll_x-cur_logo_size[0]
+            info_bbox_y1=center_y-img_scroll_y-cur_logo_size[1]/2 #-(cn_width)/2
+            info_bbox_x2=center_x+info_width/2-img_scroll_x
+            info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
+            if info_bbox_x1<0 and info_bbox_y1<0:#WN
+                center_x=info_width/2+img_scroll_x+cur_logo_size[0]
+                center_y= y2 + (letter_width+offset)
+                # print(center_x, center_y,W+N)
+            elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
+                center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
+                center_y = y2 + (letter_width+offset)
+                # print(center_x, center_y,E+N)
+            elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
+                center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
+                center_y = y2 + (letter_width+offset)
+                # print(center_x, center_y,E+N)
+            elif info_bbox_y1 < 0:#N
+                center_y = y2 + (letter_width+offset)
+                c_y=center_y+cur_logo_size[1]/2
+                # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
+            elif  info_bbox_x1<0:#W
+                center_x = img_scroll_x+info_width/2+cur_logo_size[0]
+                # print(center_x, center_y,W)
+            elif info_bbox_x2>self.canvas.winfo_width():#E
+                center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
+                # print(center_x, center_y, E)
+            elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x:#E
+                center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
+                # print(cen/ter_x, center_y, E)
 
-        zoom_width = w * self.cur_zoom_level
-        zoom_height = h * self.cur_zoom_level
-        img_resize = self.resize(w, h, 90, 120, img)
-        self.tk_img_ = ImageTk.PhotoImage(img_resize)
-        cur_logo_size = img_resize.size
+            self.canvas.delete('info_label')
+            x1_ =center_x - info_width / 2
+            y1_ =center_y - 10
+            x2_ = center_x + info_width / 2
+            y2_ =center_y + 10
+            self.canvas.create_rectangle(x1_, y1_, x2_, y2_, fill='white', tags='info_label', outline='#fff')
+            # print(self.canvas.canvasx(x1_,), y1_, x2_, y2_)
+            self.canvas.create_text(center_x, center_y, text=bbox.attribute+' '+bbox.className+username, tags="info_label")
+            # self.info_label_id = self.canvas.create_window(center_x, center_y, window=self.info_label,tags='info_label')
 
-        username=' '+bbox.username if bbox.username else ''
-        x1=min(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
-        x2=max(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
-        y1=min(self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.y2))
-        y2=max(self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.y2))
-        value = bbox.className+username
-        length = len(value)
-        utf8_length = len(value.encode('utf-8'))
-        cn_nums=(utf8_length - length) // 2
-        letters=length-cn_nums
-        # length = cn_nums + length
-        cn_width = 12
-        letter_width = 8
-        offset=10
-        deviation=2
-        info_width= cn_nums * cn_width + letters * letter_width
-        # print(info_width)
-        #中心点
-        center_x,center_y=(x1 + (x2 - x1) / 2),y1-cn_width/2-offset
-        c_x,c_y=center_x-cur_logo_size[0]/2,center_y-cur_logo_size[1]/2-10
-        img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
-        img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
-        info_bbox_x1=center_x-info_width/2-img_scroll_x
-        info_bbox_y1=center_y-img_scroll_y-(cn_width)/2-cur_logo_size[1]
-        info_bbox_x2=center_x+info_width/2-img_scroll_x
-        info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
-        if info_bbox_x1<0 and info_bbox_y1<0:#WN
-            center_x=info_width/2+img_scroll_x
-            center_y= y2 + (letter_width+offset)
-            c_y = center_y + cur_logo_size[1] / 2 + 10
-            # print(center_x, center_y,W+N)
-        elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
-            center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
-            center_y = y2 + (letter_width+offset)
-            c_y = center_y + cur_logo_size[1] / 2 + 10
-            # print(center_x, center_y,E+N)
-        elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
-            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
-            center_y = y2 + (letter_width+offset)
-            c_y = center_y + cur_logo_size[1] / 2 + 10
-            # print(center_x, center_y,E+N)
-        elif info_bbox_y1 < 0:#N
-            center_y = y2 + (letter_width+offset)
-            c_y=center_y+cur_logo_size[1]/2+10
-            # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
-        elif  info_bbox_x1<0:#W
-            center_x = img_scroll_x+info_width/2
-            # print(center_x, center_y,W)
-        elif info_bbox_x2>self.canvas.winfo_width():#E
-            center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
-            # print(center_x, center_y, E)
-        elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x:#E
-            center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
-            # print(cen/ter_x, center_y, E)
+            # draw img_logo
 
-        self.canvas.delete('info_label')
-        x1_ =center_x - info_width / 2
-        y1_ =center_y - 10
-        x2_ = center_x + info_width / 2
-        y2_ =center_y + 10
-        self.canvas.create_rectangle(x1_, y1_, x2_, y2_, fill='white', tags='info_label', outline='#fff')
-        # print(self.canvas.canvasx(x1_,), y1_, x2_, y2_)
-        self.canvas.create_text(center_x, center_y, text=bbox.attribute+' '+bbox.className+username, tags="info_label")
-        # self.info_label_id = self.canvas.create_window(center_x, center_y, window=self.info_label,tags='info_label')
+            # self.canvas.config(scrollregion=(0, 0, zoom_width, zoom_height))
+            # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
+            #self.canvas.delete('img_logo')bbox.x1-80
+            if response.ok:
+                self.canvas.create_image((center_x-cur_logo_size[0]/2, c_y+cur_logo_size[1]/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
 
-        # draw img_logo
+            # self.img_label=Label(self.canvas, image=self.tk_img_,width=80,height=100)
+            #self.canvas.create_window(center_x-180, center_y, window=self.img_label,tags='info_label')
 
-        # self.canvas.config(scrollregion=(0, 0, zoom_width, zoom_height))
-        # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
-        #self.canvas.delete('img_logo')bbox.x1-80
-        self.canvas.create_image((center_x-cur_logo_size[0]/2, c_y-cur_logo_size[1]/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
-
-        self.img_label=Label(self.canvas, image=self.tk_img_,width=80,height=100)
-        #self.canvas.create_window(center_x-180, center_y, window=self.img_label,tags='info_label')
     def getCoordByZoom(self,coord):
         return coord*self.cur_zoom_level
 
