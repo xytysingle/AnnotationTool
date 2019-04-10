@@ -1454,29 +1454,22 @@ class Main(BaseApp):
         img = None
         cur_logo_size=(0,0)
         try:
-            img_url = const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png'
-            response = requests.get(img_url)
+            response = requests.get(
+                const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png')
             # if not response or not response.ok:
             #     return
             img = Image.open(BytesIO(response.content))
             # self.img = Image.open(const.SERVER_ADDR+'/uploads/logo/'+self.getObjByCategory(bbox.className]).id+'.png')
-            # self.img_size =self.cur_img_size= self.img.size#原图大小
-            w, h = 100, 100
-            zoom_width = w * self.cur_zoom_level
-            zoom_height = h * self.cur_zoom_level
             w, h = img.size
-            # img.thumbnail((w / 100, h / 100))
-
-            zoom_width = w * self.cur_zoom_level
-            zoom_height = h * self.cur_zoom_level
             img_resize = self.resize(w, h, 90, 120, img)
             self.tk_img_ = ImageTk.PhotoImage(img_resize)
             cur_logo_size = img_resize.size
         except Exception as e:
             pass
-            # print(img_url)
+            # print(e)
             # self.cur_img_index+=1
             # self.get_data()
+            return
         finally:
             username=' '+bbox.username if bbox.username else ''
             x1=min(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.x2))
@@ -1497,31 +1490,34 @@ class Main(BaseApp):
             # print(info_width)
             #中心点
             center_x,center_y=(x1 + (x2 - x1) / 2),y1-cn_width/2-offset
-            c_x,c_y=center_x,0
+            c_x,c_y=center_x-cur_logo_size[0]/2,center_y-cur_logo_size[1]/2-10
             img_scroll_x=self.cur_img_size[0]*self.h_scrollbar.get()[0]
             img_scroll_y=self.cur_img_size[1]*self.v_scrollbar.get()[0]
-            info_bbox_x1=center_x-info_width/2-img_scroll_x-cur_logo_size[0]
-            info_bbox_y1=center_y-img_scroll_y-cur_logo_size[1]/2 #-(cn_width)/2
+            info_bbox_x1=center_x-info_width/2-img_scroll_x
+            info_bbox_y1=center_y-img_scroll_y-(cn_width)/2-cur_logo_size[1]
             info_bbox_x2=center_x+info_width/2-img_scroll_x
             info_bbox_y2=center_y+(cn_width+offset)/2-img_scroll_y
             if info_bbox_x1<0 and info_bbox_y1<0:#WN
-                center_x=info_width/2+img_scroll_x+cur_logo_size[0]
+                center_x=info_width/2+img_scroll_x
                 center_y= y2 + (letter_width+offset)
+                c_y = center_y + cur_logo_size[1] / 2 + 10
                 # print(center_x, center_y,W+N)
             elif info_bbox_x2>self.canvas.winfo_width() and info_bbox_y1 < 0:#EN
                 center_x = self.canvas.winfo_width() - info_width / 2+img_scroll_x-deviation
                 center_y = y2 + (letter_width+offset)
+                c_y = center_y + cur_logo_size[1] / 2 + 10
                 # print(center_x, center_y,E+N)
             elif info_bbox_x2>self.cur_img_size[0]-img_scroll_x and info_bbox_y1 < 0:#EN
                 center_x = self.cur_img_size[0]-img_scroll_x-info_width / 2-deviation
                 center_y = y2 + (letter_width+offset)
+                c_y = center_y + cur_logo_size[1] / 2 + 10
                 # print(center_x, center_y,E+N)
             elif info_bbox_y1 < 0:#N
                 center_y = y2 + (letter_width+offset)
-                c_y=center_y+cur_logo_size[1]/2
+                c_y=center_y+cur_logo_size[1]/2+10
                 # print(center_x, center_y,info_bbox_y1,(cn_width+offset),N)
             elif  info_bbox_x1<0:#W
-                center_x = img_scroll_x+info_width/2+cur_logo_size[0]
+                center_x = img_scroll_x+info_width/2
                 # print(center_x, center_y,W)
             elif info_bbox_x2>self.canvas.winfo_width():#E
                 center_x = self.canvas.winfo_width()-info_width / 2+img_scroll_x-deviation
@@ -1546,7 +1542,7 @@ class Main(BaseApp):
             # self.canvas.config(scrollregion=(0, 0, self.img_size[0] * 2, self.img_size[1]))
             #self.canvas.delete('img_logo')bbox.x1-80
             if response.ok:
-                self.canvas.create_image((center_x-cur_logo_size[0]/2, c_y+cur_logo_size[1]/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
+                self.canvas.create_image((center_x-cur_logo_size[0]/2, c_y-cur_logo_size[1]/2), image=self.tk_img_, anchor=N + W, tags=('info_label',))
 
             # self.img_label=Label(self.canvas, image=self.tk_img_,width=80,height=100)
             #self.canvas.create_window(center_x-180, center_y, window=self.img_label,tags='info_label')
@@ -1626,6 +1622,9 @@ class Main(BaseApp):
                                           onvalue=True)
         self.editProperty.add_checkbutton(label='底面',
                                           command=lambda: self.property_rdBtn_callback('底面'), variable=self.property2_StringVar,
+                                          onvalue=True)
+        self.editProperty.add_checkbutton(label='开箱',
+                                          command=lambda: self.property_rdBtn_callback('开箱'), variable=self.property2_StringVar,
                                           onvalue=True)
         self.editProperty.add_checkbutton(label='无',
                                           command=lambda: self.property_rdBtn_callback('无'),
