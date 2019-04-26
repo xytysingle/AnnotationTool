@@ -8,7 +8,7 @@ from operator import itemgetter, attrgetter
 from tkinter import messagebox
 from tkinter import *
 from tkinter.constants import *
-
+import threading
 import requests
 
 
@@ -60,7 +60,7 @@ class Main(BaseApp):
                                              u' 提示'.encode('gb2312'), 0)
 
     def init_var(self):
-        self.cur_zoom_level = 1
+        self.cur_zoom_level = float(self.config[const.LOGIN][const.ZOOM_LEVEL])
         self.annotation_str_var = StringVar()
         self.category_str_var = StringVar()
         self.categoryObjsOfAll = []
@@ -149,8 +149,8 @@ class Main(BaseApp):
         self.canvas.bind("<ButtonPress-2>", self.cancel_select_category)
 
         self.canvas.bind("<Control-a>", self.show_all_bbox)
-        self.canvas.bind("<KeyPress-space>", self.nextImage)
-        self.canvas.bind("<Control-Shift-space>", self.prevImage)
+        #self.canvas.bind("<KeyPress-space>", self.nextImage)
+        self.master.bind_all("<Control-Shift-space>", self.prevImage)
         self.canvas.bind("<KeyPress-d>", self.nextImage)
 
         # self.canvas.bind("<KeyPress-s>", self.nextImage)#todo 和Ctrl+S冲突
@@ -161,7 +161,8 @@ class Main(BaseApp):
         self.h_scrollbar.bind("<Enter>", self._unbound_to_mousewheel)
         # master_event_bind
         self.master.bind_all("<Control-o>", self.msgBox)
-        self.master.bind_all("<Control-s>", self.save)
+        self.master.bind_all("<KeyPress-space>", self.save)
+        self.master.bind_all("<KeyPress-Return>", self.save)
         self.master.bind_all("<Control-t>", self.toggle_annotation_style)
         self.master.bind_all("<Control-q>", self.master.quit())
         self.master.bind_all("<KeyPress-F1>",self.msgBox)
@@ -177,10 +178,10 @@ class Main(BaseApp):
         self.master.bind_all("<Control-y>", self.redo_operate)
         self.master.bind_all("<KeyPress-F2>", self.change_annotation_name)
         self.master.bind_all("<Control-i>", self.invert_select)
-        self.master.bind("<Control-Left>", self.minitrim_bbox)
-        self.master.bind("<Control-Right>", self.minitrim_bbox)
-        self.master.bind("<Control-Up>", self.minitrim_bbox)
-        self.master.bind("<Control-Down>", self.minitrim_bbox)
+        self.master.bind("<Left>", self.minitrim_bbox)
+        self.master.bind("<Right>", self.minitrim_bbox)
+        self.master.bind("<Up>", self.minitrim_bbox)
+        self.master.bind("<Down>", self.minitrim_bbox)
         # self.annotation_listbox.bind('<<ListboxSelect>>', self.msgBox)
         self.img_number_Entry.bind("<KeyPress-Return>",lambda t:self.get_data(self.img_number_Entry.get(),True))
     def open_sku_lib(self,isSearchTxt=False):
@@ -285,21 +286,22 @@ class Main(BaseApp):
             # print(args[0].widget)
             return
         if args[0].state!=262156:#ctrl状态码
-            return
+            pass
         curselections = self.annotation_listbox.curselection()
         if curselections:
 
             now_time = int(time.time())
+            offset = 3
             for index in curselections:
                 bbox=self.bbox_list[index]
                 if args[0].keysym=='Left':
-                    bbox.x1, bbox.x2 = bbox.x1 -1, bbox.x2 -1
+                    bbox.x1, bbox.x2 = bbox.x1 -offset, bbox.x2 -offset
                 elif args[0].keysym=='Right':
-                    bbox.x1, bbox.x2 = bbox.x1 +1, bbox.x2 +1
+                    bbox.x1, bbox.x2 = bbox.x1 +offset, bbox.x2 +offset
                 elif args[0].keysym=='Up':
-                    bbox.y1, bbox.y2 = bbox.y1-1, bbox.y2 -1
+                    bbox.y1, bbox.y2 = bbox.y1-offset, bbox.y2 -offset
                 elif args[0].keysym=='Down':
-                    bbox.y1, bbox.y2 = bbox.y1 +1, bbox.y2 +1
+                    bbox.y1, bbox.y2 = bbox.y1 +offset, bbox.y2 +offset
                 bbox.username = BaseApp.user_info.user_name
                 bbox.time = now_time
             if len(curselections) < 2:
@@ -413,7 +415,7 @@ class Main(BaseApp):
         self.search_entry.pack(fill=X)
         # self.categories = list(map(lambda category:category.category, self.categoryObjsOfSearch))
         # self.category_str_var.set(self.categories)
-        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=30,bd=5,exportselection=True,
+        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=45,bd=5,exportselection=True,
                                         listvariable=self.category_str_var)  # len(self.categorys)#width=0宽度自适应
         self.category_listbox.pack()
         self.category_v_scrollbar = Scrollbar(self.category_frame, orient=VERTICAL, command=self.category_listbox.yview)
@@ -435,7 +437,7 @@ class Main(BaseApp):
         self.h_scrollbar.config(command=self.canvas.xview)
         self.v_scrollbar.config(command=self.canvas.yview)
         # annotation_frame
-        self.annotation_listbox = Listbox(self.annotation_frame,width=30, height=80, selectmode=EXTENDED,bd=5,exportselection=False,
+        self.annotation_listbox = Listbox(self.annotation_frame,width=45, height=80, selectmode=EXTENDED,bd=5,exportselection=False,
                                           listvariable=self.annotation_str_var)  # len(self.annotations)
         self.annotation_listbox.pack()
         self.annotation_v_scrollbar = Scrollbar(self.annotation_frame, orient=VERTICAL,
@@ -462,7 +464,7 @@ class Main(BaseApp):
         self.angle = Label(self.status_bar_frame)
         self.angle.pack(side='right',padx=10)
         self.imgfile_name_StrVar = StringVar()
-        self.percent = Label(self.status_bar_frame,text='100%')
+        self.percent = Label(self.status_bar_frame,text='%d%%' % (self.cur_zoom_level*100))
         self.percent.pack(side='right',padx=10)
         self.user_label = Label(self.status_bar_frame,text=BaseApp.user_info.user_name)
         self.user_label.pack(side='right',padx=10)
@@ -642,10 +644,19 @@ class Main(BaseApp):
             self.cur_img_index -= 1
         else:
             self.cur_img_index += 1
-    def save(self, isNext=1,*args):
-        
-        if not self.is_cur_img_change():
+    def save(self,*args, isNext=True):
+        if args and type(args[0].widget)==Entry :
+            # print(args[0].widget)
             return
+        if not self.is_cur_img_change():
+            if isNext:
+                self.nextImage()
+            else:
+                self.prevImage()
+            return
+        #img_label=Label(self.canvas, text='请稍后...',width=20,height=5)
+        #self.msg_box_id=self.canvas.create_window(self.canvas.winfo_width()/2, self.canvas.winfo_height()/2, window=img_label,tags='msg_box')
+        #return
         #标注数据更新
         self.annotationData.bboxes=copy.deepcopy(self.bbox_list)
         for bbox in self.annotationData.bboxes:
@@ -688,6 +699,7 @@ class Main(BaseApp):
             self.msgBox(annotationDataOfjson['image'] + '保存失败!\n'+'服务器开小差啦！')
             # self.msgBox(annotationDataOfjson['image'] + '保存失败!')
             self.img_index_restore(isNext)
+        #self.canvas.delete(self.msg_box_id)
         if response and (response.ok or response.json()['message']=='Bboxes不能为空。'):
             #成功保存
             print('Image No. %s saved' % (self.images[self.cur_img_index]))
@@ -785,7 +797,7 @@ class Main(BaseApp):
         if self.is_cur_img_change() :
             is_save = self.is_save()
             if is_save==6:
-                self.save(False)
+                self.save(isNext=False)
                 return None
             elif is_save is 2:  # 点击了取消 6,7,2
                 return None
@@ -812,7 +824,7 @@ class Main(BaseApp):
         if self.is_cur_img_change() :
             is_save = self.is_save()
             if is_save==6:
-                self.save(True)
+                self.save(isNext=True)
                 return None
             elif is_save is 2:  # 点击了取消 6,7,2
                 return None
@@ -1319,8 +1331,10 @@ class Main(BaseApp):
             else:
                 self.cur_zoom_level -= 0.1
 
+        self.config[const.LOGIN][const.ZOOM_LEVEL] = self.cur_zoom_level
+        self.config.write()
+            
         img_rotate = self.img.rotate(self.cur_img_rotate, expand=True)
-
 
         w, h = self.img_size
         zoom_width = w * self.cur_zoom_level
@@ -1338,7 +1352,7 @@ class Main(BaseApp):
 
         # show
         self.percent.configure(text='%d%%' % (self.cur_zoom_level*100))
-        print(str(self.cur_zoom_level * 10) + "%", self.main_panel_frame.winfo_height() - zoom_height, self.img.size)
+        #print(str(self.cur_zoom_level * 10) + "%", self.main_panel_frame.winfo_height() - zoom_height, self.img.size)
         # preview_box zoom
         self.make_preview_box(event)
         # bbox zoom
@@ -1454,8 +1468,11 @@ class Main(BaseApp):
         img = None
         cur_logo_size=(0,0)
         try:
-            response = requests.get(
-                const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png')
+            img_url = const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id + '.png'
+            response = requests.get(img_url)
+            if not response.ok:
+                response = requests.get(const.SERVER_ADDR + '/uploads/logo/' + self.getObjByCategory(bbox.className).id+'.jpg')
+                # print(img_url)
             # if not response or not response.ok:
             #     return
             img = Image.open(BytesIO(response.content))
@@ -1466,7 +1483,7 @@ class Main(BaseApp):
             cur_logo_size = img_resize.size
         except Exception as e:
             pass
-            # print(e)
+            #print(img_url)
             # self.cur_img_index+=1
             # self.get_data()
             return
@@ -1872,36 +1889,37 @@ class Main(BaseApp):
             if self.is_cur_img_change() :
                 is_save = self.is_save()
                 if is_save==6:
-                    self.save(False)
+                    self.save(isNext=False)
                     return None
                 elif is_save is 2:  # 点击了取消 6,7,2
                     return None
-            self.categoryObjsOfAll.clear()
             self.images.clear()
             response=requests.get(const.DATA_ADDR[self.cur_sku_lib]['IMAGES'])#,timeout=20,5
             self.images=response.json()
             # print(self.images)
-            response = requests.get(const.DATA_ADDR[self.cur_sku_lib]['SKUS'])
-            categories = CategoryData()
-            categories.fromJson(response.json())  # json to model
-            self.categoryObjsOfAll=categories.data.skus
-            # 上色
-            i = 0
-            # print(self.categoryObjsOfAll[0].color)
-            for category in self.categoryObjsOfAll:
-                category.color=self.colors[i]
-                if i < len(self.colors)-1:
-                    i += 1
-                else:
-                    i = 0
+            if  not is_search:
+                self.categoryObjsOfAll.clear()
+                response = requests.get(const.DATA_ADDR[self.cur_sku_lib]['SKUS'])
+                categories = CategoryData()
+                categories.fromJson(response.json())  # json to model
+                self.categoryObjsOfAll=categories.data.skus
+                # 上色
+                i = 0
+                # print(self.categoryObjsOfAll[0].color)
+                for category in self.categoryObjsOfAll:
+                    category.color=self.colors[i]
+                    if i < len(self.colors)-1:
+                        i += 1
+                    else:
+                        i = 0
 
-            self.categories = list(map(lambda category:category.category, self.categoryObjsOfAll))
-            self.category_str_var.set(self.categories)
-            # for category,color in self.categoryObjsOfSearch.items():
-            #     self.category_listbox.itemconfigure(fg=color)
-            self.categoryObjsOfSearch = copy.deepcopy(self.categoryObjsOfAll)  # 深拷贝非引用赋值
-            for i, category in enumerate(self.categoryObjsOfSearch):
-                self.category_listbox.itemconfigure(i, fg=category.color)
+                self.categories = list(map(lambda category:category.category, self.categoryObjsOfAll))
+                self.category_str_var.set(self.categories)
+                # for category,color in self.categoryObjsOfSearch.items():
+                #     self.category_listbox.itemconfigure(fg=color)
+                self.categoryObjsOfSearch = copy.deepcopy(self.categoryObjsOfAll)  # 深拷贝非引用赋值
+                for i, category in enumerate(self.categoryObjsOfSearch):
+                    self.category_listbox.itemconfigure(i, fg=category.color)
             # img file
             imgNo=''
             if is_search:
@@ -1951,7 +1969,8 @@ class Main(BaseApp):
         self.bbox_list.sort(key=attrgetter('className'))#score
 
         #图片文件名刷新
-        self.master.title('AnnotationTool —%s'%self.images[self.cur_img_index])  # 修改框体的名字,也可在创建时使用className参数来命名
+        #self.master.title('AnnotationTool%s%s' % (' '*150,self.images[self.cur_img_index]))  # 修改框体的名字,也可在创建时使用className参数来命名
+        self.master.title('AnnotationTool%s%s' % ('－',self.images[self.cur_img_index]))  # 修改框体的名字,也可在创建时使用className参数来命名
         self.rotate_img()
         # print(annotationData.bboxes[0].annotation)
         for bbox in self.bbox_list:

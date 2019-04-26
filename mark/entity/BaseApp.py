@@ -64,6 +64,7 @@ class BaseApp:
                 config[const.LOGIN][const.ISPOLL] = '0'
                 config[const.LOGIN][const.SKU_LIB] = 'SKU'
                 config[const.LOGIN][const.ISLINKAGE] = '1'
+                config[const.LOGIN][const.ZOOM_LEVEL] = '1'
                 if list(const.DATA_ADDR.keys()):
                     for sku_lib in list(const.DATA_ADDR.keys()):
                         config[const.LOGIN][sku_lib+'_IMAGE_INDEX']='0'

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/BaseApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/entity/BaseApp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +48,7 @@
     <SUITE FILE_PATH="coverage/mark$Login.coverage" NAME="Login Coverage Results" MODIFIED="1544532626167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$Login__1_.coverage" NAME="Login (1) Coverage Results" MODIFIED="1538383174405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/mark$tt.coverage" NAME="tt Coverage Results" MODIFIED="1547643561322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1554867733279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mark$Main.coverage" NAME="Main Coverage Results" MODIFIED="1556272539179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mark$calc.coverage" NAME="calc Coverage Results" MODIFIED="1531053541905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/mark$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1542174177696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/AppInstall/Anaconda3/Lib/tkinter" />
     <SUITE FILE_PATH="coverage/mark$test.coverage" NAME="test Coverage Results" MODIFIED="1547641374135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -140,8 +142,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2061">
-              <caret line="1545" column="68" selection-start-line="1545" selection-end-line="1546" />
+            <state relative-caret-position="245">
+              <caret line="1897" column="39" lean-forward="true" selection-start-line="1897" selection-start-column="39" selection-end-line="1897" selection-end-column="39" />
               <folding>
                 <element signature="e#120#135#0" expanded="true" />
               </folding>
@@ -152,7 +154,7 @@
       <file leaf-file-name="BaseApp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="550">
               <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="e#112#125#0" expanded="true" />
@@ -318,9 +320,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="129" />
-    <option name="y" value="248" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="84" />
+    <option name="y" value="249" />
     <option name="width" value="1372" />
     <option name="height" value="794" />
   </component>
@@ -775,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554866905460</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="company">
+      <created>1554867767335</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1554867767335</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -799,7 +808,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="84" y="249" width="1372" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -807,9 +816,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977098" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32671756" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.16357689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49594814" visible="true" weight="0.16335878" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14198473" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.084754795" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.08689024" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -1177,7 +1186,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entity/BaseApp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="550">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#112#125#0" expanded="true" />
@@ -1187,8 +1196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2061">
-          <caret line="1545" column="68" selection-start-line="1545" selection-end-line="1546" />
+        <state relative-caret-position="245">
+          <caret line="1897" column="39" lean-forward="true" selection-start-line="1897" selection-start-column="39" selection-end-line="1897" selection-end-column="39" />
           <folding>
             <element signature="e#120#135#0" expanded="true" />
           </folding>
