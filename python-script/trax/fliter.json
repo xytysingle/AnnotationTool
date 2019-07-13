@@ -1,0 +1,357 @@
+{
+	"data": [{
+		"id": 618,
+		"name": "Ice Dew Chun Yue Drink water bottle 550ml x12",
+		"localName": "冰露纯悦塑料550(12)整箱",
+		"uuid": "3c4507ea-3bbb-11e7-82f4-0e6a73e5d2b2",
+		"type": "SKU",
+		"isActive": true,
+		"globalStatusId": 4,
+		"formFactor": "pet",
+		"size": 550,
+		"sizeUnit": "ml",
+		"creationDate": "2017-05-18T11:15:01.000Z",
+		"eanCode": "EAN00000477",
+		"subpackages": 12,
+		"units": null,
+		"att1": "PSKU",
+		"att2": null,
+		"isNew": false,
+		"smartCaption": null,
+		"smartDisplayGroup": 4,
+		"smartDisplayOrder": 17,
+		"deleteDate": null,
+		"minimalPrice": 0.01,
+		"hardMinimalPrice": 0.001,
+		"maximalPrice": 1000000,
+		"hardMaximalPrice": 10000000,
+		"categoryId": 3,
+		"brandId": 8,
+		"global_code": null,
+		"category": {
+			"id": 3,
+			"name": "Water",
+			"localName": "水"
+		},
+		"brand": {
+			"id": 8,
+			"name": "Ice Dew",
+			"localName": "冰露",
+			"imagePath": "http://traxoregon.s3.amazonaws.com/swirecn/Brands/8/20150918012911",
+			"recognitionLevel": "Product"
+		},
+		"images": [{
+			"id": 7724,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7724",
+			"direction": "Front"
+		}, {
+			"id": 7725,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7725",
+			"direction": "Back"
+		}, {
+			"id": 7726,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7726",
+			"direction": "Side1"
+		}],
+		"designChanges": [{
+			"id": 41,
+			"name": "EAN00000477_01062017",
+			"startDate": "2017-07-19T00:00:00.000Z",
+			"endDate": null,
+			"displayInSmartValidationPallet": true,
+			"images": [{
+				"id": 7790,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7790",
+				"direction": "Front"
+			}, {
+				"id": 7792,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7792",
+				"direction": "Back"
+			}, {
+				"id": 7794,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7794",
+				"direction": "Side1"
+			}]
+		}, {
+			"id": 47,
+			"name": "EAN00000477_27062017",
+			"startDate": "2017-07-19T00:00:00.000Z",
+			"endDate": "2018-10-25T00:00:00.000Z",
+			"displayInSmartValidationPallet": false,
+			"images": [{
+				"id": 7800,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7800",
+				"direction": "Front"
+			}]
+		}, {
+			"id": 48,
+			"name": "EAN00000477_26062017",
+			"startDate": "2017-07-19T00:00:00.000Z",
+			"endDate": "2018-10-25T00:00:00.000Z",
+			"displayInSmartValidationPallet": false,
+			"images": [{
+				"id": 7801,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7801",
+				"direction": "Front"
+			}]
+		}, {
+			"id": 61,
+			"name": "EAN00000477_27072017",
+			"startDate": "2017-07-19T00:00:00.000Z",
+			"endDate": null,
+			"displayInSmartValidationPallet": true,
+			"images": [{
+				"id": 7933,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7933",
+				"direction": "Front"
+			}, {
+				"id": 7934,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7934",
+				"direction": "Back"
+			}, {
+				"id": 7935,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7935",
+				"direction": "Side1"
+			}, {
+				"id": 7936,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7936",
+				"direction": "Side2"
+			}, {
+				"id": 7937,
+				"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/7937",
+				"direction": "Top"
+			}]
+		}, {
+			"id": 1364,
+			"name": "EAN00000477_27032019",
+			"startDate": "2019-03-27T00:00:00.000Z",
+			"endDate": null,
+			"displayInSmartValidationPallet": true,
+			"images": [{
+				"id": 32238,
+				"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Dvc_Images/1364/Front20190329104012",
+				"direction": "Front"
+			}]
+		}]
+	}, {
+		"id": 541,
+		"name": "Monster Energy Sports drink can 330 ml",
+		"localName": "魔爪原味摩登罐330毫升",
+		"uuid": "93a9fbb1-b071-11e6-a529-0e6a73e5d2b2",
+		"type": "SKU",
+		"isActive": true,
+		"globalStatusId": 4,
+		"formFactor": "plastic",
+		"size": 330,
+		"sizeUnit": "ml",
+		"creationDate": "2016-11-22T05:07:33.000Z",
+		"eanCode": "6897036691175",
+		"subpackages": null,
+		"units": null,
+		"att1": null,
+		"att2": null,
+		"isNew": false,
+		"smartCaption": null,
+		"smartDisplayGroup": 0,
+		"smartDisplayOrder": 1,
+		"deleteDate": null,
+		"minimalPrice": 0.01,
+		"hardMinimalPrice": 0.001,
+		"maximalPrice": 1000000,
+		"hardMaximalPrice": 10000000,
+		"categoryId": 17,
+		"brandId": 104,
+		"global_code": null,
+		"category": {
+			"id": 17,
+			"name": "Energy Drink",
+			"localName": "Energy Drink"
+		},
+		"brand": {
+			"id": 104,
+			"name": "Monster",
+			"localName": "魔爪",
+			"imagePath": "http://traxus.s3.amazonaws.com/swirecn/Brands/104/20161122052433",
+			"recognitionLevel": "Product"
+		},
+		"images": [{
+			"id": 5469,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/5469",
+			"direction": "Front"
+		}, {
+			"id": 5470,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/5470",
+			"direction": "Back"
+		}, {
+			"id": 5471,
+			"path": "http://traxus.s3.amazonaws.com/swirecn/Product_Images/5471",
+			"direction": "Side1"
+		}],
+		"designChanges": []
+	}, {
+		"id": 1377,
+		"name": "Monster energy Ultra Sports drink can 330ml",
+		"localName": "魔爪超越摩登罐330",
+		"uuid": "e64e8ca0-db0f-11e8-af16-c18f10077f16",
+		"type": "SKU",
+		"isActive": true,
+		"globalStatusId": 4,
+		"formFactor": "can",
+		"size": 330,
+		"sizeUnit": "ml",
+		"creationDate": "2018-10-29T00:16:36.000Z",
+		"eanCode": "EAN100000136",
+		"subpackages": null,
+		"units": null,
+		"att1": null,
+		"att2": null,
+		"isNew": false,
+		"smartCaption": null,
+		"smartDisplayGroup": null,
+		"smartDisplayOrder": null,
+		"deleteDate": null,
+		"minimalPrice": 0.01,
+		"hardMinimalPrice": 0.001,
+		"maximalPrice": 1000000,
+		"hardMaximalPrice": 10000000,
+		"categoryId": 17,
+		"brandId": 104,
+		"global_code": null,
+		"category": {
+			"id": 17,
+			"name": "Energy Drink",
+			"localName": "Energy Drink"
+		},
+		"brand": {
+			"id": 104,
+			"name": "Monster",
+			"localName": "魔爪",
+			"imagePath": "http://traxus.s3.amazonaws.com/swirecn/Brands/104/20161122052433",
+			"recognitionLevel": "Product"
+		},
+		"images": [{
+			"id": 20145,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1377/Front20181029001636",
+			"direction": "Front"
+		}, {
+			"id": 20146,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1377/Back20181029001636",
+			"direction": "Back"
+		}, {
+			"id": 20149,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1377/Side120181106055612",
+			"direction": "Side1"
+		}, {
+			"id": 20150,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1377/Side220181106055612",
+			"direction": "Side2"
+		}],
+		"designChanges": []
+	}, {
+		"id": 1378,
+		"name": "Monster energy Ultra Sports drink can 330ml x 24 Box",
+		"localName": "魔爪超越摩登罐330(24)整箱",
+		"uuid": "e65395b0-db0f-11e8-af16-c18f10077f16",
+		"type": "SKU",
+		"isActive": true,
+		"globalStatusId": 4,
+		"formFactor": "pack",
+		"size": 330,
+		"sizeUnit": "ml",
+		"creationDate": "2018-10-29T00:16:37.000Z",
+		"eanCode": "EAN100000137",
+		"subpackages": 24,
+		"units": null,
+		"att1": null,
+		"att2": null,
+		"isNew": false,
+		"smartCaption": "24X330ml",
+		"smartDisplayGroup": null,
+		"smartDisplayOrder": null,
+		"deleteDate": null,
+		"minimalPrice": 0.01,
+		"hardMinimalPrice": 0.001,
+		"maximalPrice": 1000000,
+		"hardMaximalPrice": 10000000,
+		"categoryId": 17,
+		"brandId": 104,
+		"global_code": null,
+		"category": {
+			"id": 17,
+			"name": "Energy Drink",
+			"localName": "Energy Drink"
+		},
+		"brand": {
+			"id": 104,
+			"name": "Monster",
+			"localName": "魔爪",
+			"imagePath": "http://traxus.s3.amazonaws.com/swirecn/Brands/104/20161122052433",
+			"recognitionLevel": "Product"
+		},
+		"images": [{
+			"id": 20151,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1378/Front20181029001637",
+			"direction": "Front"
+		}, {
+			"id": 20155,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1378/Side120181029001637",
+			"direction": "Side1"
+		}, {
+			"id": 20156,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1378/Side220181029001637",
+			"direction": "Side2"
+		}, {
+			"id": 20153,
+			"path": "https://traxus.s3.amazonaws.com/swirecn-prod/Product_Images/1378/Top20181029001637",
+			"direction": "Top"
+		}],
+		"designChanges": []
+	}, {
+		"id": 435,
+		"name": "Irrelevant",
+		"localName": "Irrelevant",
+		"uuid": "b1ec0ae1-5dee-11e5-8709-02ea43904739",
+		"type": "Irrelevant",
+		"isActive": true,
+		"globalStatusId": 4,
+		"formFactor": null,
+		"size": null,
+		"sizeUnit": null,
+		"creationDate": "2015-09-18T10:19:07.000Z",
+		"eanCode": "Irrelevant0001",
+		"subpackages": null,
+		"units": null,
+		"att1": null,
+		"att2": null,
+		"isNew": false,
+		"smartCaption": null,
+		"smartDisplayGroup": 0,
+		"smartDisplayOrder": 1,
+		"deleteDate": null,
+		"minimalPrice": 0.01,
+		"hardMinimalPrice": 0.001,
+		"maximalPrice": 1000000,
+		"hardMaximalPrice": 10000000,
+		"categoryId": 10,
+		"brandId": 0,
+		"global_code": null,
+		"category": {
+			"id": 10,
+			"name": "Irrelevant",
+			"localName": "Irrelevant"
+		},
+		"brand": {
+			"id": 0,
+			"name": "General",
+			"localName": "General",
+			"imagePath": "https://s3.amazonaws.com/traxus/general",
+			"recognitionLevel": "Brand"
+		},
+		"images": [{
+			"id": 3089,
+			"path": "http://traxoregon.s3.amazonaws.com/swirecn/Product_Images/3089",
+			"direction": "Front"
+		}],
+		"designChanges": []
+	}]
+}

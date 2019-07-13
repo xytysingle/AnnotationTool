@@ -1,0 +1,735 @@
+[2019-03-10 13:30:52,676] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 13:31:20,204] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-03-10 13:33:16,993] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 13:35:11,067] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-03-10 13:35:32,193] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:04:55,715] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:04:55,720] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[2019-03-10 14:04:55,728] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg ,headers=:{}, params=:{}
+[2019-03-10 14:04:55,975] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg ,headers=:{}, params=:{}
+[2019-03-10 14:04:56,246] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg ,headers=:{}, params=:{}
+[2019-03-10 14:12:47,997] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:13:22,088] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:13:22,089] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[2019-03-10 14:27:19,063] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:28:54,293] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:28:54,293] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[2019-03-10 14:31:39,041] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:32:00,102] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:32:00,103] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[2019-03-10 14:35:04,557] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:35:44,685] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:35:44,686] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526215
+[2019-03-10 14:36:01,294] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 14:38:45,295] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-03-10 14:40:15,864] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 14:42:08,159] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 14:42:08,159] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526215
+[2019-03-10 14:42:24,079] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 15:05:01,825] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-03-10 15:05:45,121] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 15:05:45,122] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-03-10 15:05:48,800] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-03-10 15:48:05,099] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': 'cigarette_79f3328f-6eb6-4e96-8dd3-53285ef705cd', 'context': {'keys': 'cigarette_79f3328f-6eb6-4e96-8dd3-53285ef705cd', 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 15:48:05,100] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 16:13:08,567] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_864bf138-3173-49dd-a7d6-fe1186887803', 'cigarette_5ffcd933-442f-40bf-94ba-9343297df915', 'cigarette_83c40604-8a3a-4274-9c1d-df94f6a2509e'], 'context': {'keys': ['cigarette_864bf138-3173-49dd-a7d6-fe1186887803', 'cigarette_5ffcd933-442f-40bf-94ba-9343297df915', 'cigarette_83c40604-8a3a-4274-9c1d-df94f6a2509e'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:13:08,568] INFO cigarette.py: 155: [cigarette] Processing cigarette_864bf138-3173-49dd-a7d6-fe1186887803, cigarette_5ffcd933-442f-40bf-94ba-9343297df915 and cigarette_83c40604-8a3a-4274-9c1d-df94f6a2509e...
+[2019-03-10 16:13:08,570] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_864bf138-3173-49dd-a7d6-fe1186887803 ,headers=:{}, params=:{}
+[2019-03-10 16:13:09,212] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_5ffcd933-442f-40bf-94ba-9343297df915 ,headers=:{}, params=:{}
+[2019-03-10 16:13:09,317] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_83c40604-8a3a-4274-9c1d-df94f6a2509e ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:13:21,584] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:21:56,599] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_cdca2351-4aa1-48c3-83a2-a5c2d0bd2ea3', 'cigarette_1302ac6a-9c9d-491a-b378-c3a6cdcd9b74', 'cigarette_69ac7dac-f07b-4472-b05e-cb44d6d95965'], 'context': {'keys': ['cigarette_cdca2351-4aa1-48c3-83a2-a5c2d0bd2ea3', 'cigarette_1302ac6a-9c9d-491a-b378-c3a6cdcd9b74', 'cigarette_69ac7dac-f07b-4472-b05e-cb44d6d95965'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:21:56,599] INFO cigarette.py: 155: [cigarette] Processing cigarette_cdca2351-4aa1-48c3-83a2-a5c2d0bd2ea3, cigarette_1302ac6a-9c9d-491a-b378-c3a6cdcd9b74 and cigarette_69ac7dac-f07b-4472-b05e-cb44d6d95965...
+[2019-03-10 16:21:56,600] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_cdca2351-4aa1-48c3-83a2-a5c2d0bd2ea3 ,headers=:{}, params=:{}
+[2019-03-10 16:21:56,846] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_1302ac6a-9c9d-491a-b378-c3a6cdcd9b74 ,headers=:{}, params=:{}
+[2019-03-10 16:21:56,910] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_69ac7dac-f07b-4472-b05e-cb44d6d95965 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:21:57,164] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:25:02,575] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_cc3f3a29-5567-468c-9fce-4ef6a51359a8', 'cigarette_1f7bd986-5f2c-418b-ba49-e7a5f22c1394', 'cigarette_18fcee81-0c8e-440f-a20c-3358c12c9dfc'], 'context': {'keys': ['cigarette_cc3f3a29-5567-468c-9fce-4ef6a51359a8', 'cigarette_1f7bd986-5f2c-418b-ba49-e7a5f22c1394', 'cigarette_18fcee81-0c8e-440f-a20c-3358c12c9dfc'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:25:02,575] INFO cigarette.py: 155: [cigarette] Processing cigarette_cc3f3a29-5567-468c-9fce-4ef6a51359a8, cigarette_1f7bd986-5f2c-418b-ba49-e7a5f22c1394 and cigarette_18fcee81-0c8e-440f-a20c-3358c12c9dfc...
+[2019-03-10 16:25:02,575] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_cc3f3a29-5567-468c-9fce-4ef6a51359a8 ,headers=:{}, params=:{}
+[2019-03-10 16:25:02,790] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_1f7bd986-5f2c-418b-ba49-e7a5f22c1394 ,headers=:{}, params=:{}
+[2019-03-10 16:25:02,861] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_18fcee81-0c8e-440f-a20c-3358c12c9dfc ,headers=:{}, params=:{}
+[120]
+0.21307756
+[2019-03-10 16:25:03,090] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:25:05,096] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_203dd127-4e51-4995-9624-335e1794c4a0', 'cigarette_cab95a78-b358-43af-b4c6-72e11f182074', 'cigarette_d38586ef-f393-4815-9f35-008e882f6a7b'], 'context': {'keys': ['cigarette_203dd127-4e51-4995-9624-335e1794c4a0', 'cigarette_cab95a78-b358-43af-b4c6-72e11f182074', 'cigarette_d38586ef-f393-4815-9f35-008e882f6a7b'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:25:05,097] INFO cigarette.py: 155: [cigarette] Processing cigarette_203dd127-4e51-4995-9624-335e1794c4a0, cigarette_cab95a78-b358-43af-b4c6-72e11f182074 and cigarette_d38586ef-f393-4815-9f35-008e882f6a7b...
+[2019-03-10 16:25:05,098] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_203dd127-4e51-4995-9624-335e1794c4a0 ,headers=:{}, params=:{}
+[2019-03-10 16:25:05,192] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_cab95a78-b358-43af-b4c6-72e11f182074 ,headers=:{}, params=:{}
+[2019-03-10 16:25:05,286] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_d38586ef-f393-4815-9f35-008e882f6a7b ,headers=:{}, params=:{}
+[49]
+0.1918643
+[2019-03-10 16:25:05,463] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:25:07,469] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_5a909fab-c19e-4b58-ab8e-f41965a31be3', 'cigarette_3c36b008-d4c4-467e-8fd1-f4da4c83ab90', 'cigarette_6e544048-ded4-4c5b-8a9e-d08dc4d6c4d3'], 'context': {'keys': ['cigarette_5a909fab-c19e-4b58-ab8e-f41965a31be3', 'cigarette_3c36b008-d4c4-467e-8fd1-f4da4c83ab90', 'cigarette_6e544048-ded4-4c5b-8a9e-d08dc4d6c4d3'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:25:07,470] INFO cigarette.py: 155: [cigarette] Processing cigarette_5a909fab-c19e-4b58-ab8e-f41965a31be3, cigarette_3c36b008-d4c4-467e-8fd1-f4da4c83ab90 and cigarette_6e544048-ded4-4c5b-8a9e-d08dc4d6c4d3...
+[2019-03-10 16:25:07,471] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_5a909fab-c19e-4b58-ab8e-f41965a31be3 ,headers=:{}, params=:{}
+[2019-03-10 16:25:07,602] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_3c36b008-d4c4-467e-8fd1-f4da4c83ab90 ,headers=:{}, params=:{}
+[2019-03-10 16:25:07,690] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6e544048-ded4-4c5b-8a9e-d08dc4d6c4d3 ,headers=:{}, params=:{}
+[179]
+0.45420092
+[2019-03-10 16:25:07,918] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:26:13,053] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_c2d18b78-c904-4b1b-a70b-13f60747a168', 'cigarette_7761e092-0b2f-4164-b938-991e76bcdc00', 'cigarette_58dd7b4a-dcc7-4df4-be3d-72cd38dd9d39'], 'context': {'keys': ['cigarette_c2d18b78-c904-4b1b-a70b-13f60747a168', 'cigarette_7761e092-0b2f-4164-b938-991e76bcdc00', 'cigarette_58dd7b4a-dcc7-4df4-be3d-72cd38dd9d39'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:26:13,053] INFO cigarette.py: 155: [cigarette] Processing cigarette_c2d18b78-c904-4b1b-a70b-13f60747a168, cigarette_7761e092-0b2f-4164-b938-991e76bcdc00 and cigarette_58dd7b4a-dcc7-4df4-be3d-72cd38dd9d39...
+[2019-03-10 16:26:13,054] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_c2d18b78-c904-4b1b-a70b-13f60747a168 ,headers=:{}, params=:{}
+[2019-03-10 16:26:13,314] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_7761e092-0b2f-4164-b938-991e76bcdc00 ,headers=:{}, params=:{}
+[2019-03-10 16:26:13,379] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_58dd7b4a-dcc7-4df4-be3d-72cd38dd9d39 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:26:13,962] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:26:15,969] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_4df341f2-f5e8-4922-9504-e91788ff5886', 'cigarette_6403f84d-1403-4879-b273-bacb3c40015f', 'cigarette_a146a24b-5d81-4902-b335-c80516500dec'], 'context': {'keys': ['cigarette_4df341f2-f5e8-4922-9504-e91788ff5886', 'cigarette_6403f84d-1403-4879-b273-bacb3c40015f', 'cigarette_a146a24b-5d81-4902-b335-c80516500dec'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:26:15,970] INFO cigarette.py: 155: [cigarette] Processing cigarette_4df341f2-f5e8-4922-9504-e91788ff5886, cigarette_6403f84d-1403-4879-b273-bacb3c40015f and cigarette_a146a24b-5d81-4902-b335-c80516500dec...
+[2019-03-10 16:26:15,971] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_4df341f2-f5e8-4922-9504-e91788ff5886 ,headers=:{}, params=:{}
+[2019-03-10 16:26:16,108] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6403f84d-1403-4879-b273-bacb3c40015f ,headers=:{}, params=:{}
+[2019-03-10 16:26:16,172] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a146a24b-5d81-4902-b335-c80516500dec ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:26:16,356] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:26:19,365] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_851b4cf5-c405-4cbb-97e4-7a0f3bf3f043', 'cigarette_35c0a55e-34ed-4ad1-85b1-e38b8b04eca0', 'cigarette_76971d6f-6718-48cb-b4a3-08ac88f0a3ef'], 'context': {'keys': ['cigarette_851b4cf5-c405-4cbb-97e4-7a0f3bf3f043', 'cigarette_35c0a55e-34ed-4ad1-85b1-e38b8b04eca0', 'cigarette_76971d6f-6718-48cb-b4a3-08ac88f0a3ef'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:26:19,365] INFO cigarette.py: 155: [cigarette] Processing cigarette_851b4cf5-c405-4cbb-97e4-7a0f3bf3f043, cigarette_35c0a55e-34ed-4ad1-85b1-e38b8b04eca0 and cigarette_76971d6f-6718-48cb-b4a3-08ac88f0a3ef...
+[2019-03-10 16:26:19,366] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_851b4cf5-c405-4cbb-97e4-7a0f3bf3f043 ,headers=:{}, params=:{}
+[2019-03-10 16:26:19,522] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_35c0a55e-34ed-4ad1-85b1-e38b8b04eca0 ,headers=:{}, params=:{}
+[2019-03-10 16:26:19,588] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_76971d6f-6718-48cb-b4a3-08ac88f0a3ef ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:26:19,816] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:28:41,142] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_124cef41-da60-44a6-843f-d272cddd8a2f', 'cigarette_64553633-caa5-450a-8d6e-4ccb0222b884', 'cigarette_d9d9c19b-c58b-4e2b-b22a-488f754d48e8'], 'context': {'keys': ['cigarette_124cef41-da60-44a6-843f-d272cddd8a2f', 'cigarette_64553633-caa5-450a-8d6e-4ccb0222b884', 'cigarette_d9d9c19b-c58b-4e2b-b22a-488f754d48e8'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:28:41,142] INFO cigarette.py: 155: [cigarette] Processing cigarette_124cef41-da60-44a6-843f-d272cddd8a2f, cigarette_64553633-caa5-450a-8d6e-4ccb0222b884 and cigarette_d9d9c19b-c58b-4e2b-b22a-488f754d48e8...
+[2019-03-10 16:28:41,143] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_124cef41-da60-44a6-843f-d272cddd8a2f ,headers=:{}, params=:{}
+[2019-03-10 16:28:41,362] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_64553633-caa5-450a-8d6e-4ccb0222b884 ,headers=:{}, params=:{}
+[2019-03-10 16:28:41,418] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_d9d9c19b-c58b-4e2b-b22a-488f754d48e8 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:28:41,711] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:28:47,729] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_27975ec5-409c-4090-accd-c8de898d588c', 'cigarette_2af20669-b40e-4789-b394-ca839e3f4a1b', 'cigarette_7bae58ee-6099-4afc-b75c-f2acb55a4127'], 'context': {'keys': ['cigarette_27975ec5-409c-4090-accd-c8de898d588c', 'cigarette_2af20669-b40e-4789-b394-ca839e3f4a1b', 'cigarette_7bae58ee-6099-4afc-b75c-f2acb55a4127'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:28:47,730] INFO cigarette.py: 155: [cigarette] Processing cigarette_27975ec5-409c-4090-accd-c8de898d588c, cigarette_2af20669-b40e-4789-b394-ca839e3f4a1b and cigarette_7bae58ee-6099-4afc-b75c-f2acb55a4127...
+[2019-03-10 16:28:47,730] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_27975ec5-409c-4090-accd-c8de898d588c ,headers=:{}, params=:{}
+[2019-03-10 16:28:47,886] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_2af20669-b40e-4789-b394-ca839e3f4a1b ,headers=:{}, params=:{}
+[2019-03-10 16:28:47,945] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_7bae58ee-6099-4afc-b75c-f2acb55a4127 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:28:48,128] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:28:51,139] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_8188e850-7929-4163-8aec-8518fc75e7f8', 'cigarette_8831fe69-32f0-45d0-a355-f49cc8e50b25', 'cigarette_a0085b23-eefa-4d95-b4d9-42c4fc424838'], 'context': {'keys': ['cigarette_8188e850-7929-4163-8aec-8518fc75e7f8', 'cigarette_8831fe69-32f0-45d0-a355-f49cc8e50b25', 'cigarette_a0085b23-eefa-4d95-b4d9-42c4fc424838'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:28:51,140] INFO cigarette.py: 155: [cigarette] Processing cigarette_8188e850-7929-4163-8aec-8518fc75e7f8, cigarette_8831fe69-32f0-45d0-a355-f49cc8e50b25 and cigarette_a0085b23-eefa-4d95-b4d9-42c4fc424838...
+[2019-03-10 16:28:51,141] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8188e850-7929-4163-8aec-8518fc75e7f8 ,headers=:{}, params=:{}
+[2019-03-10 16:28:51,282] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8831fe69-32f0-45d0-a355-f49cc8e50b25 ,headers=:{}, params=:{}
+[2019-03-10 16:28:51,349] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a0085b23-eefa-4d95-b4d9-42c4fc424838 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:28:51,553] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:28:53,559] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_17372635-5f4b-4bf5-b7ef-6d05a261122a', 'cigarette_7c2676c0-2fa4-4ff0-a3cd-b281ce8ffba4', 'cigarette_8427393d-3fa5-474e-8c89-fa494f45d33d'], 'context': {'keys': ['cigarette_17372635-5f4b-4bf5-b7ef-6d05a261122a', 'cigarette_7c2676c0-2fa4-4ff0-a3cd-b281ce8ffba4', 'cigarette_8427393d-3fa5-474e-8c89-fa494f45d33d'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:28:53,559] INFO cigarette.py: 155: [cigarette] Processing cigarette_17372635-5f4b-4bf5-b7ef-6d05a261122a, cigarette_7c2676c0-2fa4-4ff0-a3cd-b281ce8ffba4 and cigarette_8427393d-3fa5-474e-8c89-fa494f45d33d...
+[2019-03-10 16:28:53,560] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_17372635-5f4b-4bf5-b7ef-6d05a261122a ,headers=:{}, params=:{}
+[2019-03-10 16:28:53,704] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_7c2676c0-2fa4-4ff0-a3cd-b281ce8ffba4 ,headers=:{}, params=:{}
+[2019-03-10 16:28:53,776] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8427393d-3fa5-474e-8c89-fa494f45d33d ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:28:54,017] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:03,037] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_b4ef0d31-b110-4f9e-8c31-bdf33f8af2fc', 'cigarette_f5f7df73-cb48-4ce4-8212-246bf5796b46', 'cigarette_dd12ceca-8dea-40c7-98f1-36c9032158db'], 'context': {'keys': ['cigarette_b4ef0d31-b110-4f9e-8c31-bdf33f8af2fc', 'cigarette_f5f7df73-cb48-4ce4-8212-246bf5796b46', 'cigarette_dd12ceca-8dea-40c7-98f1-36c9032158db'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:03,037] INFO cigarette.py: 155: [cigarette] Processing cigarette_b4ef0d31-b110-4f9e-8c31-bdf33f8af2fc, cigarette_f5f7df73-cb48-4ce4-8212-246bf5796b46 and cigarette_dd12ceca-8dea-40c7-98f1-36c9032158db...
+[2019-03-10 16:29:03,038] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_b4ef0d31-b110-4f9e-8c31-bdf33f8af2fc ,headers=:{}, params=:{}
+[2019-03-10 16:29:03,210] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_f5f7df73-cb48-4ce4-8212-246bf5796b46 ,headers=:{}, params=:{}
+[2019-03-10 16:29:03,286] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_dd12ceca-8dea-40c7-98f1-36c9032158db ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:03,529] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:06,539] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_d173955c-cccb-4ffd-8340-d73065c66e5a', 'cigarette_d70afa5b-9c22-4623-90bd-c007a2eb5bd8', 'cigarette_56d9919b-3f28-4993-8b5f-b66e09ee6bbd'], 'context': {'keys': ['cigarette_d173955c-cccb-4ffd-8340-d73065c66e5a', 'cigarette_d70afa5b-9c22-4623-90bd-c007a2eb5bd8', 'cigarette_56d9919b-3f28-4993-8b5f-b66e09ee6bbd'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:06,539] INFO cigarette.py: 155: [cigarette] Processing cigarette_d173955c-cccb-4ffd-8340-d73065c66e5a, cigarette_d70afa5b-9c22-4623-90bd-c007a2eb5bd8 and cigarette_56d9919b-3f28-4993-8b5f-b66e09ee6bbd...
+[2019-03-10 16:29:06,540] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_d173955c-cccb-4ffd-8340-d73065c66e5a ,headers=:{}, params=:{}
+[2019-03-10 16:29:06,671] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_d70afa5b-9c22-4623-90bd-c007a2eb5bd8 ,headers=:{}, params=:{}
+[2019-03-10 16:29:06,759] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_56d9919b-3f28-4993-8b5f-b66e09ee6bbd ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:06,995] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:09,002] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_7ae04fd2-cf4c-4d30-b188-a256f57c56bd', 'cigarette_24277c92-9117-4b89-9efc-fb16614b3dc5', 'cigarette_8c116104-b4a1-4e76-a167-b1408ea70d1e'], 'context': {'keys': ['cigarette_7ae04fd2-cf4c-4d30-b188-a256f57c56bd', 'cigarette_24277c92-9117-4b89-9efc-fb16614b3dc5', 'cigarette_8c116104-b4a1-4e76-a167-b1408ea70d1e'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:09,003] INFO cigarette.py: 155: [cigarette] Processing cigarette_7ae04fd2-cf4c-4d30-b188-a256f57c56bd, cigarette_24277c92-9117-4b89-9efc-fb16614b3dc5 and cigarette_8c116104-b4a1-4e76-a167-b1408ea70d1e...
+[2019-03-10 16:29:09,003] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_7ae04fd2-cf4c-4d30-b188-a256f57c56bd ,headers=:{}, params=:{}
+[2019-03-10 16:29:09,132] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_24277c92-9117-4b89-9efc-fb16614b3dc5 ,headers=:{}, params=:{}
+[2019-03-10 16:29:09,189] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8c116104-b4a1-4e76-a167-b1408ea70d1e ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:09,396] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:13,406] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_02cdb2ed-1002-4427-9b2a-c581fb9f0831', 'cigarette_2be7c755-1aba-495a-8a43-6309354a9bd3', 'cigarette_6708e53c-15d3-4bf9-864c-b3709894493b'], 'context': {'keys': ['cigarette_02cdb2ed-1002-4427-9b2a-c581fb9f0831', 'cigarette_2be7c755-1aba-495a-8a43-6309354a9bd3', 'cigarette_6708e53c-15d3-4bf9-864c-b3709894493b'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:13,406] INFO cigarette.py: 155: [cigarette] Processing cigarette_02cdb2ed-1002-4427-9b2a-c581fb9f0831, cigarette_2be7c755-1aba-495a-8a43-6309354a9bd3 and cigarette_6708e53c-15d3-4bf9-864c-b3709894493b...
+[2019-03-10 16:29:13,407] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_02cdb2ed-1002-4427-9b2a-c581fb9f0831 ,headers=:{}, params=:{}
+[2019-03-10 16:29:13,709] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_2be7c755-1aba-495a-8a43-6309354a9bd3 ,headers=:{}, params=:{}
+[2019-03-10 16:29:13,763] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6708e53c-15d3-4bf9-864c-b3709894493b ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:14,032] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:17,040] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_371807d4-0874-4ca2-8189-5bb5d01bb254', 'cigarette_5e300796-0345-407a-b885-8ea26033c9a4', 'cigarette_f310113b-f667-4a2f-9208-91e2f15f6daa'], 'context': {'keys': ['cigarette_371807d4-0874-4ca2-8189-5bb5d01bb254', 'cigarette_5e300796-0345-407a-b885-8ea26033c9a4', 'cigarette_f310113b-f667-4a2f-9208-91e2f15f6daa'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:17,041] INFO cigarette.py: 155: [cigarette] Processing cigarette_371807d4-0874-4ca2-8189-5bb5d01bb254, cigarette_5e300796-0345-407a-b885-8ea26033c9a4 and cigarette_f310113b-f667-4a2f-9208-91e2f15f6daa...
+[2019-03-10 16:29:17,041] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_371807d4-0874-4ca2-8189-5bb5d01bb254 ,headers=:{}, params=:{}
+[2019-03-10 16:29:17,181] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_5e300796-0345-407a-b885-8ea26033c9a4 ,headers=:{}, params=:{}
+[2019-03-10 16:29:17,253] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_f310113b-f667-4a2f-9208-91e2f15f6daa ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:17,452] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:29:22,466] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_d99f0dd6-b382-4c24-945f-22834e519cfa', 'cigarette_54382f90-93a4-4a5e-a4cd-d0043491fe67', 'cigarette_e068695c-04ea-41ca-a24a-edd4a18a4698'], 'context': {'keys': ['cigarette_d99f0dd6-b382-4c24-945f-22834e519cfa', 'cigarette_54382f90-93a4-4a5e-a4cd-d0043491fe67', 'cigarette_e068695c-04ea-41ca-a24a-edd4a18a4698'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:29:22,466] INFO cigarette.py: 155: [cigarette] Processing cigarette_d99f0dd6-b382-4c24-945f-22834e519cfa, cigarette_54382f90-93a4-4a5e-a4cd-d0043491fe67 and cigarette_e068695c-04ea-41ca-a24a-edd4a18a4698...
+[2019-03-10 16:29:22,467] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_d99f0dd6-b382-4c24-945f-22834e519cfa ,headers=:{}, params=:{}
+[2019-03-10 16:29:22,617] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_54382f90-93a4-4a5e-a4cd-d0043491fe67 ,headers=:{}, params=:{}
+[2019-03-10 16:29:22,688] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_e068695c-04ea-41ca-a24a-edd4a18a4698 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 16:29:22,925] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:37:10,901] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:37:10,902] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:37:11,022] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:44:03,906] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:44:03,907] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:44:03,986] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:44:55,079] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:44:55,079] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:44:55,180] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:45:55,300] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:45:55,301] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:45:55,436] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:45:58,446] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:45:58,447] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:45:58,591] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:46:23,646] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:46:23,647] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:46:23,780] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:46:28,792] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:46:28,792] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:46:28,874] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 16:47:49,036] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 16:47:49,037] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 16:47:49,110] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:02:14,812] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:02:14,827] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:02:14,955] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:03:35,133] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:03:35,134] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:03:35,280] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:05:08,484] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:05:08,484] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:05:08,601] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:05:22,634] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:05:22,635] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:05:22,766] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:13:53,842] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:13:53,842] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:13:53,976] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:14:21,036] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:14:21,037] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:14:21,188] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:15:07,302] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:15:07,303] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:15:07,424] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:15:25,464] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:15:25,465] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:15:25,573] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 17:45:13,177] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 17:45:13,177] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 17:45:13,300] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 18:09:25,478] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_b6f40d8e-a32d-4c12-ab03-c6e77dd7b0d8', 'cigarette_52dba198-18ec-4fbf-a69b-c617c9d86ad3', 'cigarette_8593e6cc-ca9b-48f4-87fa-66e61a4d886e'], 'context': {'keys': ['cigarette_b6f40d8e-a32d-4c12-ab03-c6e77dd7b0d8', 'cigarette_52dba198-18ec-4fbf-a69b-c617c9d86ad3', 'cigarette_8593e6cc-ca9b-48f4-87fa-66e61a4d886e'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 18:09:25,478] INFO cigarette.py: 155: [cigarette] Processing cigarette_b6f40d8e-a32d-4c12-ab03-c6e77dd7b0d8, cigarette_52dba198-18ec-4fbf-a69b-c617c9d86ad3 and cigarette_8593e6cc-ca9b-48f4-87fa-66e61a4d886e...
+[2019-03-10 18:09:25,479] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_b6f40d8e-a32d-4c12-ab03-c6e77dd7b0d8 ,headers=:{}, params=:{}
+[2019-03-10 18:09:25,718] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_52dba198-18ec-4fbf-a69b-c617c9d86ad3 ,headers=:{}, params=:{}
+[2019-03-10 18:09:25,794] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8593e6cc-ca9b-48f4-87fa-66e61a4d886e ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 18:09:26,027] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 18:13:39,611] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_e34c31c0-0541-4b22-a1f0-10d96d1bd64b', 'cigarette_8bdc5a14-6833-44c0-aa1d-a8458c61c781', 'cigarette_6dfd9d53-c001-42bd-a062-13224d6cdf89'], 'context': {'keys': ['cigarette_e34c31c0-0541-4b22-a1f0-10d96d1bd64b', 'cigarette_8bdc5a14-6833-44c0-aa1d-a8458c61c781', 'cigarette_6dfd9d53-c001-42bd-a062-13224d6cdf89'], 'device_code': '8C16458E63AD'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 18:13:39,611] INFO cigarette.py: 155: [cigarette] Processing cigarette_e34c31c0-0541-4b22-a1f0-10d96d1bd64b, cigarette_8bdc5a14-6833-44c0-aa1d-a8458c61c781 and cigarette_6dfd9d53-c001-42bd-a062-13224d6cdf89...
+[2019-03-10 18:13:39,612] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_e34c31c0-0541-4b22-a1f0-10d96d1bd64b ,headers=:{}, params=:{}
+[2019-03-10 18:13:39,847] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8bdc5a14-6833-44c0-aa1d-a8458c61c781 ,headers=:{}, params=:{}
+[2019-03-10 18:13:39,912] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6dfd9d53-c001-42bd-a062-13224d6cdf89 ,headers=:{}, params=:{}
+[179]
+0.19714767
+[2019-03-10 18:13:40,194] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:11:49,159] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:11:49,160] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:17:47,956] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:17:47,957] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:17:47,957] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:17:47,957] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:18:22,027] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:18:22,027] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:18:22,028] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:18:22,028] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:20:15,225] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:20:15,226] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:28:40,144] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:28:40,145] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 19:41:18,721] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_fa13920f-036e-4413-9ef6-e74808fcc8c7', 'cigarette_f8a4f23c-6b83-461d-b528-dff3948e0281', 'cigarette_f787326d-c5ea-43f4-9db7-cd28948c6be7'], 'context': {'keys': ['cigarette_fa13920f-036e-4413-9ef6-e74808fcc8c7', 'cigarette_f8a4f23c-6b83-461d-b528-dff3948e0281', 'cigarette_f787326d-c5ea-43f4-9db7-cd28948c6be7'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:41:18,722] INFO cigarette.py: 155: [cigarette] Processing cigarette_fa13920f-036e-4413-9ef6-e74808fcc8c7, cigarette_f8a4f23c-6b83-461d-b528-dff3948e0281 and cigarette_f787326d-c5ea-43f4-9db7-cd28948c6be7...
+[2019-03-10 19:41:18,723] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_fa13920f-036e-4413-9ef6-e74808fcc8c7 ,headers=:{}, params=:{}
+[2019-03-10 19:41:18,962] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_f8a4f23c-6b83-461d-b528-dff3948e0281 ,headers=:{}, params=:{}
+[2019-03-10 19:41:19,077] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_f787326d-c5ea-43f4-9db7-cd28948c6be7 ,headers=:{}, params=:{}
+[118]
+0.96369064
+[2019-03-10 19:41:19,343] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:42:30,489] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_a3ca7629-2144-416e-a6d5-b817c30b28e7', 'cigarette_6795239e-26bd-47be-97ce-aaa21cf1fd6c', 'cigarette_0e19a1a4-ddff-4768-ba1b-16b62ae1e978'], 'context': {'keys': ['cigarette_a3ca7629-2144-416e-a6d5-b817c30b28e7', 'cigarette_6795239e-26bd-47be-97ce-aaa21cf1fd6c', 'cigarette_0e19a1a4-ddff-4768-ba1b-16b62ae1e978'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:42:30,489] INFO cigarette.py: 155: [cigarette] Processing cigarette_a3ca7629-2144-416e-a6d5-b817c30b28e7, cigarette_6795239e-26bd-47be-97ce-aaa21cf1fd6c and cigarette_0e19a1a4-ddff-4768-ba1b-16b62ae1e978...
+[2019-03-10 19:42:30,490] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a3ca7629-2144-416e-a6d5-b817c30b28e7 ,headers=:{}, params=:{}
+[2019-03-10 19:42:30,659] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6795239e-26bd-47be-97ce-aaa21cf1fd6c ,headers=:{}, params=:{}
+[2019-03-10 19:42:30,738] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_0e19a1a4-ddff-4768-ba1b-16b62ae1e978 ,headers=:{}, params=:{}
+[152]
+0.89965993
+[2019-03-10 19:42:30,899] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:42:38,913] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_a77d8b20-ffee-4022-9e74-10ad9372a8a5', 'cigarette_df3de030-995c-49ed-9c95-d18907c1f206', 'cigarette_a6602970-2cae-40dd-a166-633f3266e81d'], 'context': {'keys': ['cigarette_a77d8b20-ffee-4022-9e74-10ad9372a8a5', 'cigarette_df3de030-995c-49ed-9c95-d18907c1f206', 'cigarette_a6602970-2cae-40dd-a166-633f3266e81d'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:42:38,913] INFO cigarette.py: 155: [cigarette] Processing cigarette_a77d8b20-ffee-4022-9e74-10ad9372a8a5, cigarette_df3de030-995c-49ed-9c95-d18907c1f206 and cigarette_a6602970-2cae-40dd-a166-633f3266e81d...
+[2019-03-10 19:42:38,914] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a77d8b20-ffee-4022-9e74-10ad9372a8a5 ,headers=:{}, params=:{}
+[2019-03-10 19:42:38,993] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_df3de030-995c-49ed-9c95-d18907c1f206 ,headers=:{}, params=:{}
+[2019-03-10 19:42:39,068] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a6602970-2cae-40dd-a166-633f3266e81d ,headers=:{}, params=:{}
+[118]
+0.9801892
+[2019-03-10 19:42:39,311] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:43:00,353] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_36ad0953-cdc3-47de-bf9c-08b543defe70', 'cigarette_7bdb43ce-2105-42fd-b673-ed4f81db378b', 'cigarette_4168c250-3030-4925-a23f-cd5f12af9c05'], 'context': {'keys': ['cigarette_36ad0953-cdc3-47de-bf9c-08b543defe70', 'cigarette_7bdb43ce-2105-42fd-b673-ed4f81db378b', 'cigarette_4168c250-3030-4925-a23f-cd5f12af9c05'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:43:00,353] INFO cigarette.py: 155: [cigarette] Processing cigarette_36ad0953-cdc3-47de-bf9c-08b543defe70, cigarette_7bdb43ce-2105-42fd-b673-ed4f81db378b and cigarette_4168c250-3030-4925-a23f-cd5f12af9c05...
+[2019-03-10 19:43:00,354] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_36ad0953-cdc3-47de-bf9c-08b543defe70 ,headers=:{}, params=:{}
+[2019-03-10 19:43:00,662] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_7bdb43ce-2105-42fd-b673-ed4f81db378b ,headers=:{}, params=:{}
+[2019-03-10 19:43:00,747] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_4168c250-3030-4925-a23f-cd5f12af9c05 ,headers=:{}, params=:{}
+[152]
+0.9846272
+[2019-03-10 19:43:00,912] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:45:38,220] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_8baae28e-7f45-4e3e-8704-641c59a2144b', 'cigarette_9b368ca6-3f40-49f6-b18b-7c5e07b24439', 'cigarette_5344463d-8949-474d-9818-3809d8d5c4ab'], 'context': {'keys': ['cigarette_8baae28e-7f45-4e3e-8704-641c59a2144b', 'cigarette_9b368ca6-3f40-49f6-b18b-7c5e07b24439', 'cigarette_5344463d-8949-474d-9818-3809d8d5c4ab'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:45:38,221] INFO cigarette.py: 155: [cigarette] Processing cigarette_8baae28e-7f45-4e3e-8704-641c59a2144b, cigarette_9b368ca6-3f40-49f6-b18b-7c5e07b24439 and cigarette_5344463d-8949-474d-9818-3809d8d5c4ab...
+[2019-03-10 19:45:38,221] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8baae28e-7f45-4e3e-8704-641c59a2144b ,headers=:{}, params=:{}
+[2019-03-10 19:45:38,376] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_9b368ca6-3f40-49f6-b18b-7c5e07b24439 ,headers=:{}, params=:{}
+[2019-03-10 19:45:38,448] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_5344463d-8949-474d-9818-3809d8d5c4ab ,headers=:{}, params=:{}
+[118]
+0.84427685
+[2019-03-10 19:45:38,656] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:45:39,659] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_6ba6ceb4-1e8e-4b98-957b-e915ebc914ad', 'cigarette_46f2a46b-bb4f-419c-bdb3-d86030e9c880', 'cigarette_46c7fdee-8ec8-42e7-a060-9e1cbe9652c4'], 'context': {'keys': ['cigarette_6ba6ceb4-1e8e-4b98-957b-e915ebc914ad', 'cigarette_46f2a46b-bb4f-419c-bdb3-d86030e9c880', 'cigarette_46c7fdee-8ec8-42e7-a060-9e1cbe9652c4'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:45:39,659] INFO cigarette.py: 155: [cigarette] Processing cigarette_6ba6ceb4-1e8e-4b98-957b-e915ebc914ad, cigarette_46f2a46b-bb4f-419c-bdb3-d86030e9c880 and cigarette_46c7fdee-8ec8-42e7-a060-9e1cbe9652c4...
+[2019-03-10 19:45:39,659] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_6ba6ceb4-1e8e-4b98-957b-e915ebc914ad ,headers=:{}, params=:{}
+[2019-03-10 19:45:39,730] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_46f2a46b-bb4f-419c-bdb3-d86030e9c880 ,headers=:{}, params=:{}
+[2019-03-10 19:45:39,794] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_46c7fdee-8ec8-42e7-a060-9e1cbe9652c4 ,headers=:{}, params=:{}
+[152]
+0.94293565
+[2019-03-10 19:45:39,935] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:46:30,041] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_343d6b50-bb23-43cf-a36a-f7b70e3dce7a', 'cigarette_c8f31572-1791-4500-80b9-5f615b4072eb', 'cigarette_47e04ced-4fc5-4e1e-9a95-cb426caa0a89'], 'context': {'keys': ['cigarette_343d6b50-bb23-43cf-a36a-f7b70e3dce7a', 'cigarette_c8f31572-1791-4500-80b9-5f615b4072eb', 'cigarette_47e04ced-4fc5-4e1e-9a95-cb426caa0a89'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:46:30,042] INFO cigarette.py: 155: [cigarette] Processing cigarette_343d6b50-bb23-43cf-a36a-f7b70e3dce7a, cigarette_c8f31572-1791-4500-80b9-5f615b4072eb and cigarette_47e04ced-4fc5-4e1e-9a95-cb426caa0a89...
+[2019-03-10 19:46:30,042] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_343d6b50-bb23-43cf-a36a-f7b70e3dce7a ,headers=:{}, params=:{}
+[2019-03-10 19:46:30,120] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_c8f31572-1791-4500-80b9-5f615b4072eb ,headers=:{}, params=:{}
+[2019-03-10 19:46:30,192] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_47e04ced-4fc5-4e1e-9a95-cb426caa0a89 ,headers=:{}, params=:{}
+[116]
+0.092038274
+[2019-03-10 19:46:30,416] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:46:42,440] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_aef527e3-aedc-4598-984e-849726a160f0', 'cigarette_a6e20702-b203-4a09-b4ca-36d3ae6f74aa', 'cigarette_9d0ef56d-4ff6-4466-b418-b993d44c43ef'], 'context': {'keys': ['cigarette_aef527e3-aedc-4598-984e-849726a160f0', 'cigarette_a6e20702-b203-4a09-b4ca-36d3ae6f74aa', 'cigarette_9d0ef56d-4ff6-4466-b418-b993d44c43ef'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:46:42,458] INFO cigarette.py: 155: [cigarette] Processing cigarette_aef527e3-aedc-4598-984e-849726a160f0, cigarette_a6e20702-b203-4a09-b4ca-36d3ae6f74aa and cigarette_9d0ef56d-4ff6-4466-b418-b993d44c43ef...
+[2019-03-10 19:46:42,459] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_aef527e3-aedc-4598-984e-849726a160f0 ,headers=:{}, params=:{}
+[2019-03-10 19:46:42,535] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a6e20702-b203-4a09-b4ca-36d3ae6f74aa ,headers=:{}, params=:{}
+[2019-03-10 19:46:42,603] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_9d0ef56d-4ff6-4466-b418-b993d44c43ef ,headers=:{}, params=:{}
+[59]
+0.5657027
+[2019-03-10 19:46:42,810] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:46:59,850] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_78265576-99df-44b3-ae84-7fafa5a645d0', 'cigarette_41966b6f-cd7c-4aca-a621-6de9be8014e5', 'cigarette_f87867d1-b5f7-4bcd-8046-57b4834e902b'], 'context': {'keys': ['cigarette_78265576-99df-44b3-ae84-7fafa5a645d0', 'cigarette_41966b6f-cd7c-4aca-a621-6de9be8014e5', 'cigarette_f87867d1-b5f7-4bcd-8046-57b4834e902b'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:46:59,851] INFO cigarette.py: 155: [cigarette] Processing cigarette_78265576-99df-44b3-ae84-7fafa5a645d0, cigarette_41966b6f-cd7c-4aca-a621-6de9be8014e5 and cigarette_f87867d1-b5f7-4bcd-8046-57b4834e902b...
+[2019-03-10 19:46:59,851] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_78265576-99df-44b3-ae84-7fafa5a645d0 ,headers=:{}, params=:{}
+[2019-03-10 19:47:00,244] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_41966b6f-cd7c-4aca-a621-6de9be8014e5 ,headers=:{}, params=:{}
+[2019-03-10 19:47:00,342] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_f87867d1-b5f7-4bcd-8046-57b4834e902b ,headers=:{}, params=:{}
+[102]
+0.6014304
+[2019-03-10 19:47:00,503] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:47:21,543] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_0c076d63-2457-41e5-b80e-2b90a37915f0', 'cigarette_e4c28dbf-435f-49c8-a78b-f1d645ad5672', 'cigarette_4ee5f486-6c0c-4c87-89ff-28fc0f8cb44b'], 'context': {'keys': ['cigarette_0c076d63-2457-41e5-b80e-2b90a37915f0', 'cigarette_e4c28dbf-435f-49c8-a78b-f1d645ad5672', 'cigarette_4ee5f486-6c0c-4c87-89ff-28fc0f8cb44b'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:47:21,543] INFO cigarette.py: 155: [cigarette] Processing cigarette_0c076d63-2457-41e5-b80e-2b90a37915f0, cigarette_e4c28dbf-435f-49c8-a78b-f1d645ad5672 and cigarette_4ee5f486-6c0c-4c87-89ff-28fc0f8cb44b...
+[2019-03-10 19:47:21,544] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_0c076d63-2457-41e5-b80e-2b90a37915f0 ,headers=:{}, params=:{}
+[2019-03-10 19:47:21,637] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_e4c28dbf-435f-49c8-a78b-f1d645ad5672 ,headers=:{}, params=:{}
+[2019-03-10 19:47:21,708] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_4ee5f486-6c0c-4c87-89ff-28fc0f8cb44b ,headers=:{}, params=:{}
+[116]
+0.23348391
+[2019-03-10 19:47:21,888] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:49:17,117] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_13b1a077-6687-4f77-9171-676688305573', 'cigarette_60ce5789-c5db-41be-a3ea-15c3a5e29ffa', 'cigarette_57746e23-0357-4565-931a-a113b23c303e'], 'context': {'keys': ['cigarette_13b1a077-6687-4f77-9171-676688305573', 'cigarette_60ce5789-c5db-41be-a3ea-15c3a5e29ffa', 'cigarette_57746e23-0357-4565-931a-a113b23c303e'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:49:17,118] INFO cigarette.py: 155: [cigarette] Processing cigarette_13b1a077-6687-4f77-9171-676688305573, cigarette_60ce5789-c5db-41be-a3ea-15c3a5e29ffa and cigarette_57746e23-0357-4565-931a-a113b23c303e...
+[2019-03-10 19:49:17,118] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_13b1a077-6687-4f77-9171-676688305573 ,headers=:{}, params=:{}
+[2019-03-10 19:49:17,287] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_60ce5789-c5db-41be-a3ea-15c3a5e29ffa ,headers=:{}, params=:{}
+[2019-03-10 19:49:17,362] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_57746e23-0357-4565-931a-a113b23c303e ,headers=:{}, params=:{}
+[102]
+0.8902022
+[2019-03-10 19:49:17,567] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:49:18,570] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_ff56ccff-b231-408f-ae05-f1358f9426df', 'cigarette_4c026a60-af5f-4f97-97c0-e8136ea07af4', 'cigarette_54fb126d-d5ec-4cee-b002-a2fa96929a56'], 'context': {'keys': ['cigarette_ff56ccff-b231-408f-ae05-f1358f9426df', 'cigarette_4c026a60-af5f-4f97-97c0-e8136ea07af4', 'cigarette_54fb126d-d5ec-4cee-b002-a2fa96929a56'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:49:18,570] INFO cigarette.py: 155: [cigarette] Processing cigarette_ff56ccff-b231-408f-ae05-f1358f9426df, cigarette_4c026a60-af5f-4f97-97c0-e8136ea07af4 and cigarette_54fb126d-d5ec-4cee-b002-a2fa96929a56...
+[2019-03-10 19:49:18,571] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_ff56ccff-b231-408f-ae05-f1358f9426df ,headers=:{}, params=:{}
+[2019-03-10 19:49:18,647] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_4c026a60-af5f-4f97-97c0-e8136ea07af4 ,headers=:{}, params=:{}
+[2019-03-10 19:49:18,734] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_54fb126d-d5ec-4cee-b002-a2fa96929a56 ,headers=:{}, params=:{}
+[102]
+0.62278175
+[2019-03-10 19:49:18,982] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 19:58:08,061] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_95901053-33d2-4341-ae11-9d128c2e5f84', 'cigarette_bf220d64-a1ca-48b7-83df-d43f653da8c2', 'cigarette_17c99caf-784f-4414-a905-b884a4f49810'], 'context': {'keys': ['cigarette_95901053-33d2-4341-ae11-9d128c2e5f84', 'cigarette_bf220d64-a1ca-48b7-83df-d43f653da8c2', 'cigarette_17c99caf-784f-4414-a905-b884a4f49810'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 19:58:08,062] INFO cigarette.py: 155: [cigarette] Processing cigarette_95901053-33d2-4341-ae11-9d128c2e5f84, cigarette_bf220d64-a1ca-48b7-83df-d43f653da8c2 and cigarette_17c99caf-784f-4414-a905-b884a4f49810...
+[2019-03-10 19:58:08,063] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_95901053-33d2-4341-ae11-9d128c2e5f84 ,headers=:{}, params=:{}
+[2019-03-10 19:58:08,249] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_bf220d64-a1ca-48b7-83df-d43f653da8c2 ,headers=:{}, params=:{}
+[2019-03-10 19:58:08,373] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_17c99caf-784f-4414-a905-b884a4f49810 ,headers=:{}, params=:{}
+[118]
+0.96369064
+[2019-03-10 19:58:08,608] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 20:00:11,884] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_8570fc0e-f291-4d03-95fe-cfae2839fabf', 'cigarette_c7036592-cf1b-4d45-86e5-b4a4d279cf00', 'cigarette_2eec88c2-27da-4715-b301-c59a7a5cf069'], 'context': {'keys': ['cigarette_8570fc0e-f291-4d03-95fe-cfae2839fabf', 'cigarette_c7036592-cf1b-4d45-86e5-b4a4d279cf00', 'cigarette_2eec88c2-27da-4715-b301-c59a7a5cf069'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 20:00:11,884] INFO cigarette.py: 155: [cigarette] Processing cigarette_8570fc0e-f291-4d03-95fe-cfae2839fabf, cigarette_c7036592-cf1b-4d45-86e5-b4a4d279cf00 and cigarette_2eec88c2-27da-4715-b301-c59a7a5cf069...
+[2019-03-10 20:00:11,884] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8570fc0e-f291-4d03-95fe-cfae2839fabf ,headers=:{}, params=:{}
+[2019-03-10 20:00:12,640] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_c7036592-cf1b-4d45-86e5-b4a4d279cf00 ,headers=:{}, params=:{}
+[2019-03-10 20:00:12,828] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_2eec88c2-27da-4715-b301-c59a7a5cf069 ,headers=:{}, params=:{}
+[152]
+0.93506026
+[2019-03-10 20:00:13,090] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 20:00:39,146] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_5e79555d-972d-499c-8c24-97ec272098ff', 'cigarette_6aa00aa7-60ad-4b2e-a7dc-a74180204f4b', 'cigarette_990534e9-2132-45e4-8694-3b8a09c25bfa', 'cigarette_89f386b0-9ab9-4241-883e-848b62ad7c10', 'cigarette_ca8c9c68-3f86-4abe-96f1-099f57f33d22', 'cigarette_ee989c40-75f6-4558-aa9e-831de5ef840c'], 'context': {'keys': ['cigarette_5e79555d-972d-499c-8c24-97ec272098ff', 'cigarette_6aa00aa7-60ad-4b2e-a7dc-a74180204f4b', 'cigarette_990534e9-2132-45e4-8694-3b8a09c25bfa', 'cigarette_89f386b0-9ab9-4241-883e-848b62ad7c10', 'cigarette_ca8c9c68-3f86-4abe-96f1-099f57f33d22', 'cigarette_ee989c40-75f6-4558-aa9e-831de5ef840c'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 20:00:39,147] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 20:00:39,148] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': [], 'context': {'keys': [], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 20:00:39,148] ERROR cigarette.py: 146: [cigarette] im_keys not contain 3 elements.
+[2019-03-10 20:09:13,202] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_a6d954df-12da-4830-950f-70e3c5bc3582', 'cigarette_8bdf8ff4-ab6d-4a59-b6d5-2de6f5233a02', 'cigarette_e4f288cb-41d2-4600-b2e1-e8ba90247e29'], 'context': {'keys': ['cigarette_a6d954df-12da-4830-950f-70e3c5bc3582', 'cigarette_8bdf8ff4-ab6d-4a59-b6d5-2de6f5233a02', 'cigarette_e4f288cb-41d2-4600-b2e1-e8ba90247e29'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 20:09:13,203] INFO cigarette.py: 155: [cigarette] Processing cigarette_a6d954df-12da-4830-950f-70e3c5bc3582, cigarette_8bdf8ff4-ab6d-4a59-b6d5-2de6f5233a02 and cigarette_e4f288cb-41d2-4600-b2e1-e8ba90247e29...
+[2019-03-10 20:09:13,204] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_a6d954df-12da-4830-950f-70e3c5bc3582 ,headers=:{}, params=:{}
+[2019-03-10 20:09:13,678] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_8bdf8ff4-ab6d-4a59-b6d5-2de6f5233a02 ,headers=:{}, params=:{}
+[2019-03-10 20:09:13,861] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_e4f288cb-41d2-4600-b2e1-e8ba90247e29 ,headers=:{}, params=:{}
+[51]
+0.11910025
+[2019-03-10 20:09:14,238] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-10 22:52:50,106] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-10 22:52:50,107] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-10 22:52:50,271] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 01:12:01,893] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 01:12:01,894] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 01:12:02,045] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 01:43:51,344] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 01:43:51,346] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 01:43:51,532] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:15:41,821] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:15:41,822] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:15:42,086] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:15:42,091] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:15:42,092] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:15:42,203] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:15:43,209] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:15:43,210] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:15:43,349] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:15:43,352] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:15:43,353] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:15:43,486] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:06,557] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:06,560] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:06,765] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:06,769] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:06,770] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:06,958] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:06,964] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:06,965] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:07,140] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:07,145] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:07,146] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:07,289] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:07,292] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:07,292] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:07,435] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:07,438] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:07,439] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:07,564] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:08,570] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:08,571] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:08,728] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:08,738] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:08,739] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:08,896] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:08,901] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:08,902] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:09,077] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:09,081] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:09,082] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:09,258] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:09,263] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:09,264] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:09,439] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:16:09,442] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:16:09,443] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:16:09,584] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:24:12,886] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': 'AA001'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:24:12,887] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:24:13,028] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:48:34,976] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:48:34,978] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:48:35,137] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:55:07,188] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:55:07,189] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:55:07,293] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:55:31,350] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:55:31,351] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:55:31,461] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:58:27,903] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:58:27,904] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:58:28,113] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:58:55,186] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '8C16458E63A1'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:58:55,187] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:58:55,326] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 02:59:25,408] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 02:59:25,409] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 02:59:25,511] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:02,616] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:02,617] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:02,770] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:02,795] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:02,797] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:02,950] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:02,959] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:02,960] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:03,112] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:03,124] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:03,125] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:03,275] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:04,282] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:04,284] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:04,485] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:04,490] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:04,490] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:04,655] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:04,660] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:04,660] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:04,828] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:04,831] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:04,831] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:04,970] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:04,973] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:04,974] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:05,127] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:05,131] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:05,132] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:05,276] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:05,280] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:05,281] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:05,473] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:00:06,481] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:00:06,481] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:00:06,600] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:52,087] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:52,088] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:52,263] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:53,269] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:53,269] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:53,413] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:53,419] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:53,420] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:53,589] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:53,593] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:53,593] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:53,779] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:54,784] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:54,785] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:54,911] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:54,914] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:54,915] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:55,055] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:55,058] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:55,058] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:55,174] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:56,181] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:56,182] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:56,332] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:56,336] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:56,337] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:56,485] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:56,488] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:56,489] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:56,707] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:57,713] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:57,714] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:57,844] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:57,849] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:57,850] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:58,048] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:14:58,055] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:14:58,055] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:14:58,219] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:16:22,472] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:16:22,473] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:16:22,662] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:16:44,731] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:16:44,732] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:16:44,906] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:17:28,041] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:17:28,042] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:17:28,231] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:18:04,344] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:18:04,345] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:18:04,466] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 03:24:07,482] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'context': {'keys': ['CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg', 'CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg'], 'device_code': '00187DC1186D'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-03-11 03:24:07,483] INFO cigarette.py: 155: [cigarette] Processing CIGARETTE_SNAPSHOT_IMAGE5c84a833deb5a7.33022892.jpg, CIGARETTE_SNAPSHOT_IMAGE5c84a834652789.79466945.jpg and CIGARETTE_SNAPSHOT_IMAGE5c84a8349840e7.72298258.jpg...
+[113]
+0.2526219
+[2019-03-11 03:24:07,658] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-03-11 11:15:46,223] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-04-03 19:53:37,465] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-04-03 19:53:37,466] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'context': {'keys': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-04-03 19:53:37,467] INFO cigarette.py: 155: [cigarette] Processing cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034, cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656 and cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a...
+[2019-04-03 19:53:37,467] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034 ,headers=:{}, params=:{}
+[2019-04-03 19:53:37,885] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656 ,headers=:{}, params=:{}
+[2019-04-03 19:53:37,977] INFO cos_client.py: 334: [qcloud_cos.cos_client] get object, url=:https://cigarette-1255412942.cos.ap-shanghai.myqcloud.com/cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a ,headers=:{}, params=:{}
+[67]
+0.9154439
+小熊猫(家园)
+[2019-04-03 19:53:50,912] INFO cigarette.py: 209: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-04-03 19:58:04,616] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!
+[2019-04-03 19:58:16,163] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-04-03 19:59:48,307] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'context': {'keys': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-04-03 19:59:48,307] INFO cigarette.py: 155: [cigarette] Processing cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034, cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656 and cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a...
+[67]
+0.9154439
+67
+小熊猫(家园)
+[2019-04-03 19:59:56,551] ERROR cigarette.py: 233: [cigarette] '\xe5\xb0\x8f\xe7\x86\x8a\xe7\x8c\xab(\xe5\xae\xb6\xe5\x9b\xad)'
+Traceback (most recent call last):
+  File "cigarette.py", line 195, in main
+    print(class2id[label_map[int(pred)]])
+KeyError: '\xe5\xb0\x8f\xe7\x86\x8a\xe7\x8c\xab(\xe5\xae\xb6\xe5\x9b\xad)'
+[2019-04-03 20:01:51,655] INFO cigarette.py: 120: [cigarette] CIGARETTE Server started!
+[2019-04-03 20:01:56,667] INFO cigarette.py: 130: [cigarette] Dequeued from CIGARETTE_INPUT: {'image_files': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'context': {'keys': ['cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034', 'cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656', 'cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a'], 'device_code': 'test'}, 'output_queue': 'TOBACCO_MODEL_OUTPUT'}
+[2019-04-03 20:01:56,667] INFO cigarette.py: 155: [cigarette] Processing cigarette_dc52de9b-4f74-49d6-b68c-cc0635299034, cigarette_b58bcdeb-8a00-4379-9394-7f79ea198656 and cigarette_49dc1caf-15a3-411c-85fa-1cb90228cf0a...
+[67]
+0.9154439
+67
+小熊猫(家园)
+44
+[2019-04-03 20:02:03,771] INFO cigarette.py: 212: [cigarette] Enqueue to TOBACCO_MODEL_OUTPUT
+[2019-04-04 11:52:29,490] INFO cigarette.py: 125: [cigarette] EXIT CIGARETTE SERVER!

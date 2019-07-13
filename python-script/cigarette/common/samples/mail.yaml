@@ -1,0 +1,7 @@
+host: smtp.exmail.qq.com
+port: 465
+username: noreply@lingmou.ai
+password: dOpe7ZA3ODLbg
+from: noreply@lingmou.ai
+to: yuanhongliang@lingmou.ai
+subject: '[SNAPSHOT-DEV][DETECTRON][ERROR]'

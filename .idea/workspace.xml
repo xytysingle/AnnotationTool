@@ -2,25 +2,1100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b682922-a1fe-4090-b973-8192da89cc98" name="Default Changelist" comment="sku_lib">
-      <change afterPath="$PROJECT_DIR$/spider_demo/mv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mark/entity/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/._if7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/._im-storagesize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/._output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/.idea/python-script.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/._lmrecognnition.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004074.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004075.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004076.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004077.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004078.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004079.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004081.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004082.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004083.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004084.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004085.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004086.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004087.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004088.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004089.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004090.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004091.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004092.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004093.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004094.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004095.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004096.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004098.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004099.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004101.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004102.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004103.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004104.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004105.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004106.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004107.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004109.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004112.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004113.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004114.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004115.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004116.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004117.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004118.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004119.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004120.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004121.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004122.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004123.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004124.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004125.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004126.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004127.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004128.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004129.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004130.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004131.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004132.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/centerpoint/6004133.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/drawCircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/drawone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/getCenterPoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/getRowData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/getxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/lmrecognnition.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/._6004127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/images/6004133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/._6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004074.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004075.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004076.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004077.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004078.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004079.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004081.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004082.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004083.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004084.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004085.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004086.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004087.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004088.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004089.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004090.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004091.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004092.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004093.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004094.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004095.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004096.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004098.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004099.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004101.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004102.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004103.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004104.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004105.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004106.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004107.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004109.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004112.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004113.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004114.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004115.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004116.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004117.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004118.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004119.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004120.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004121.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004122.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004123.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004124.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004125.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004126.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004127.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004128.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004129.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004130.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004131.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004132.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/jsons/6004133.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/pjImages/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/pjImages/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/pjImages/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/pjImages/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/report/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/resource/report/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._6004073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._6004074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/._6004111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/images/6004132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004074.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004075.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004077.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004078.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004083.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004084.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004086.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004089.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004092.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004094.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004102.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004104.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004106.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004116.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/target/jsons/6004132.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/20ImageRecongnize/writeCsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/._ai2others.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/._ai2others.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/._ai_test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/._ai_test2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/aLiInfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/accountClasses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/ai2others.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/ai2others.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/ai_test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/ai_test2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/annotationJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/combineLabelInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/copyToOthers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/data-delivery/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/data-delivery/rect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/data-delivery/yc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/deleteZeroSize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/downloadImagesFrom3.4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/emptyAnnotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/filterweibiaozhu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/findOutDuplicateFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/findSameImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/gen_annos_from_class_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/generateResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/generateResults_ceshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/getAnnotations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/getImageExistOrNot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/getLabelInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/imagesJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/indexChangeRecord.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/mkdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/moveToOneFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/notimages-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/removeSameImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/renameSmallImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/renumber-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/renumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/same-image.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/uploadJsons-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/uploadJsons-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/uploadJsons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ALI-project/yc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/PBMS-requests-pyquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/PhotoCapture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/._class_images_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/._class_images_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/._classification_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/class_images_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/class_images_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/UseClassificationModel/classification_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountAccuracy/accountAccuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountClassImagesNum/._acountClassesNum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountClassImagesNum/accountClassImagesNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountClassImagesNum/acountClassesNum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountRectByTime/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountRectByUsername/imgCounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountRectByUsername/labelRectCounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountRectByUsername/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/accountTargetClassesNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/._acountlowScorecount.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/._target.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/accountlowScoreResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/acountlowScorecount.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/boxImagesAddBottle/._downLoadboxLabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/boxImagesAddBottle/combinebottleandbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/boxImagesAddBottle/downLoadboxLabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/boxImagesAddBottle/renumberImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/boxImagesAddBottle/yc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/target.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/target.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/traxIds.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/bottle-Picker-Data-process/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/box-classes-process/class-images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/box-classes-process/filter-coca-box-skus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/box-classes-process/moveOutNotEmpty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/box-classes-process/record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/._cigarette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/cigarette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/cigarette_bak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/classes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/classes_mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/image_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/image_store_cos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/message_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/samples/cos.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/samples/mail.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/samples/redis.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/common/tests/test_image_store_cos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/cos.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/image_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/image_store_cos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/logs/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/message_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/redis.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/samples/start_services.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/samples/stop_services.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/enqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/test_cigarette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/test_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/cigarette/tests/test_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/classesnameAddId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/source/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/source/class_names-b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/source/class_names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/target/class_names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/classesnameAddId/target/wrong.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/clusteredDataProcess/addPrefix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/clusteredDataProcess/deleteScore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/clusteredDataProcess/moveToOneFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/csvread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/correctResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/._6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004073.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004074.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004075.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004076.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004077.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004078.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004079.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004081.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004082.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004083.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004084.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004085.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004086.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004087.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004088.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004089.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004090.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004091.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004092.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004093.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004094.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004095.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004096.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004098.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004099.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004101.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004102.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004103.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004104.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004105.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004106.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004107.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004109.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004112.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004113.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004114.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004115.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004116.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004117.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004118.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004119.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004120.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004121.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004122.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004123.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004124.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004125.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004126.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004127.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004128.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004129.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004130.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004131.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004132.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoad-Rect-zuobiao/results/6004133.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/._bjpz190225.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/._开店信息报表-OC-fr IPG.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/123.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/bjpz190225.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/downLoadImageFromUrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/images/99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/jbltestimg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/downLoadImageFromUrl/开店信息报表-OC-fr IPG.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/duitou-yubiao-huanyuanRect/mian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filter-lowScore-resultsAndImage/downloadResultsAndImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filter-lowScore-resultsAndImage/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filter-lowScore-resultsAndImage/renameImagesAndJson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filter-lowScore-resultsAndImage/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filterClassimages/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/filterClassimages/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/foreignToolsToInsideTools/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/forginToolsAccountRectByUsername/._labelRectCounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/forginToolsAccountRectByUsername/imgCounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/forginToolsAccountRectByUsername/labelRectCounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/forginToolsAccountRectByUsername/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/fromOldToNewIndex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/indexData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/lebelInfoFromoldTonew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/sourcefolder/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/fromOldToNewIndex/targetfolder/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getHangYeList/._duitousku.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getHangYeList/duitousku.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getHangYeList/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getLabelToolsPhoto/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getLabelToolsPhoto/getLabelToolsPhoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getLabelToolsPhoto/sourceFiles/._annotations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getLabelToolsPhoto/sourceFiles/annotations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getLabelToolsPhoto/sourceFiles/duitouxh20190217.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getRectRatioOfImage/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getRectRatioOfImage/._ratio.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getRectRatioOfImage/getRectRatioOfImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getRectRatioOfImage/ratio.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/getpicture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/height-score/dividingToHalf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/height-score/export_class_images_wrt_bbox_time_range_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/ids.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/if7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/im-resize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/im-storagesize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/img/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/imgnametonumber/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/imgnametonumber/imgnametonumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/imgnametonumber/input/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/imgnametonumber/mars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/imgnametonumber/牙膏已重命名/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100327_1681_1851_1783_2355_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100327_1773_1834_1943_2360_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100328_1113_1790_1254_2276_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100328_1221_1761_1354_2203_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100328_1463_1819_1619_2323_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100328_841_1814_987_2337_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100328_991_1814_1140_2337_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100329_198_1795_356_2299_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100329_343_1801_498_2306_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100329_523_1778_660_2258_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100329_686_1753_824_2194_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100329_824_1805_975_2325_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100368_1137_1909_1327_2523_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100368_1521_1921_1726_2552_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100368_1725_1924_1933_2562_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100368_964_1901_1136_2509_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100369_156_1814_330_2318_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100369_256_1882_444_2507_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100369_454_1885_648_2505_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100370_1174_2140_1447_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100370_124_2103_388_2591_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100370_389_2114_659_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100370_661_2105_909_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/._2100370_907_2139_1174_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100327_1681_1851_1783_2355_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100327_1773_1834_1943_2360_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100328_1113_1790_1254_2276_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100328_1221_1761_1354_2203_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100328_1463_1819_1619_2323_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100328_841_1814_987_2337_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100328_991_1814_1140_2337_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100329_198_1795_356_2299_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100329_343_1801_498_2306_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100329_523_1778_660_2258_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100329_686_1753_824_2194_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100329_824_1805_975_2325_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100368_1137_1909_1327_2523_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100368_1521_1921_1726_2552_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100368_1725_1924_1933_2562_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100368_964_1901_1136_2509_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100369_156_1814_330_2318_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100369_256_1882_444_2507_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100369_454_1885_648_2505_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100370_1174_2140_1447_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100370_124_2103_388_2591_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100370_389_2114_659_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100370_661_2105_909_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装1250毫升/2100370_907_2139_1174_2592_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100105_1_2029_256_2882_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100105_527_2058_829_2931_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100105_799_2074_1094_2936_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100107_148_2014_443_2806_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100107_699_2046_976_2834_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100107_948_2054_1216_2846_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100109_1094_2078_1341_2879_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100109_176_2061_526_2974_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100109_831_2069_1108_2911_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100147_239_1977_489_2681_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100147_728_1991_974_2707_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100147_964_2001_1189_2714_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100209_1288_1763_1488_2372_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100209_1490_1767_1700_2375_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100210_1577_1963_1893_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100210_918_1940_1217_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100211_270_1927_572_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100211_2_1913_293_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100331_1155_1967_1460_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100331_850_1983_1163_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100332_2_1920_310_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100333_796_1702_910_2043_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/._2100334_647_1688_766_2019_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100105_1_2029_256_2882_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100105_527_2058_829_2931_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100105_799_2074_1094_2936_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100107_148_2014_443_2806_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100107_699_2046_976_2834_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100107_948_2054_1216_2846_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100109_1094_2078_1341_2879_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100109_176_2061_526_2974_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100109_831_2069_1108_2911_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100147_239_1977_489_2681_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100147_728_1991_974_2707_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100147_964_2001_1189_2714_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100209_1288_1763_1488_2372_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100209_1490_1767_1700_2375_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100210_1577_1963_1893_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100210_918_1940_1217_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100211_270_1927_572_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100211_2_1913_293_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100331_1155_1967_1460_2590_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100331_850_1983_1163_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100332_2_1920_310_2588_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100333_796_1702_910_2043_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装2000毫升/2100334_647_1688_766_2019_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100007_193_1350_353_1708_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100007_30_1343_198_1703_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100007_353_1358_510_1715_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100007_510_1373_675_1718_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100010_193_1350_353_1705_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100010_28_1343_195_1703_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100010_355_1358_513_1713_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/._2100010_515_1373_668_1718_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100007_193_1350_353_1708_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100007_30_1343_198_1703_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100007_353_1358_510_1715_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100007_510_1373_675_1718_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100010_193_1350_353_1705_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100010_28_1343_195_1703_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100010_355_1358_513_1713_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装330毫升/2100010_515_1373_668_1718_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100251_1535_1470_1743_2198_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100251_1730_1470_1938_2188_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100252_1132_1454_1318_2118_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100252_370_1438_580_2138_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100252_576_1442_762_2136_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100252_764_1444_950_2144_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100252_952_1448_1132_2124_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_1032_1395_1127_1770_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_1125_1408_1233_1782_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_1267_1428_1390_1775_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_1377_1443_1467_1768_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_818_1395_938_1790_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100253_938_1395_1048_1788_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_1065_1437_1167_1775_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_493_1380_608_1757_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_600_1378_712_1758_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_712_1383_793_1750_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_787_1397_895_1767_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100254_947_1423_1060_1773_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100255_0_1386_103_1767_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100255_101_1400_180_1747_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100255_153_1411_261_1769_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100255_271_1424_370_1766_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100289_1050_1473_1260_2255_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100289_1268_1473_1473_2245_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100289_1465_1478_1690_2258_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100289_833_1465_1058_2233_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100290_3_1443_243_2208_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100291_963_1388_1075_1747_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100292_409_1376_514_1727_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100292_561_1380_659_1706_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100293_1_1379_67_1667_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100293_57_1390_131_1644_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_1026_348_1129_709_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_1177_385_1276_719_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_1274_401_1353_724_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_724_297_839_690_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_840_317_945_694_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100333_943_339_1029_701_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_407_337_516_710_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_516_341_623_704_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_622_349_706_700_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_700_350_802_697_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_856_357_963_693_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100334_964_357_1072_687_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100335_194_326_284_660_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100335_73_317_183_662_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100373_864_385_970_730_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100373_976_443_1062_726_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100374_328_398_436_724_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/._2100374_469_455_564_723_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100251_1535_1470_1743_2198_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100251_1730_1470_1938_2188_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100252_1132_1454_1318_2118_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100252_370_1438_580_2138_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100252_576_1442_762_2136_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100252_764_1444_950_2144_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100252_952_1448_1132_2124_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_1032_1395_1127_1770_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_1125_1408_1233_1782_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_1267_1428_1390_1775_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_1377_1443_1467_1768_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_818_1395_938_1790_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100253_938_1395_1048_1788_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_1065_1437_1167_1775_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_493_1380_608_1757_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_600_1378_712_1758_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_712_1383_793_1750_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_787_1397_895_1767_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100254_947_1423_1060_1773_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100255_0_1386_103_1767_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100255_101_1400_180_1747_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100255_153_1411_261_1769_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100255_271_1424_370_1766_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100289_1050_1473_1260_2255_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100289_1268_1473_1473_2245_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100289_1465_1478_1690_2258_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100289_833_1465_1058_2233_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100290_3_1443_243_2208_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100291_963_1388_1075_1747_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100292_409_1376_514_1727_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100292_561_1380_659_1706_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100293_1_1379_67_1667_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100293_57_1390_131_1644_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_1026_348_1129_709_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_1177_385_1276_719_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_1274_401_1353_724_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_724_297_839_690_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_840_317_945_694_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100333_943_339_1029_701_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_407_337_516_710_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_516_341_623_704_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_622_349_706_700_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_700_350_802_697_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_856_357_963_693_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100334_964_357_1072_687_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100335_194_326_284_660_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100335_73_317_183_662_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100373_864_385_970_730_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100373_976_443_1062_726_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100374_328_398_436_724_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐瓶装600毫升/2100374_469_455_564_723_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100251_1693_983_1813_1348_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100251_1805_960_1940_1345_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100252_664_940_840_1328_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100252_834_948_1000_1332_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100289_1165_908_1358_1343_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/._2100289_1353_913_1533_1343_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100251_1693_983_1813_1348_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100251_1805_960_1940_1345_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100252_664_940_840_1328_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100252_834_948_1000_1332_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100289_1165_908_1358_1343_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/SourceFolder/classimages/百事可乐高罐装330毫升/2100289_1353_913_1533_1343_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/lowerScoreResultsToLabelTool/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/moveOldResultsToNewByIndex/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/moveOldResultsToNewByIndex/moveOldResultsToNewByIndex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/moveOldResultsToNewByIndex/sources/._oldnewindex.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/moveOldResultsToNewByIndex/sources/oldnewindex.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/moveOldResultsToNewByIndex/sources/oldnewname.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/move2one-cv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001789.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001790.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001791.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001794.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001797.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001798.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001799.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/._6001811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001789.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001790.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001791.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001794.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001797.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001798.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001799.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/sourcefolder/未命名文件夹/6001811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001789.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001790.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001791.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001792.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001794.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001797.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001798.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001799.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/movetoonefoler/targetfolder/6001811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/numberImage/numberImg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/pricetag/accountlowScoreResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/pricetag/acountlowScorecount.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/pricetag/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/removeEmptyFolder/removeEmptyFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/removeNotClassNameFolders/removeNotClassNameFolders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/removeRatio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/remove_duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/restore-bottle-box-data/filterRotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/restore-bottle-box-data/renameImagesAndJsons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/restore-bottle-box-data/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/restore-bottle-box-data/yc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/skulist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/.idea/taigu_uncertain_process-3.4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/GenerateResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/filterByImageSize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/numberImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/class_images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/numbered/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/resultsJson/imgIndexOldAndNew.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/resultsJson/numbered_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/target/resultsJson/results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process-3.4/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/._train-record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/GenerateResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/filterByImageSize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/geshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/moveImagesToAnnoImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/moveOutCoca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/numberImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/class_images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/images/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/numbered/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/resultsJson/._imgIndexOldAndNew.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/resultsJson/._numbered_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/resultsJson/imgIndexOldAndNew.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/resultsJson/numbered_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/target/resultsJson/results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/train-record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/taigu_uncertain_process/uploadResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._cookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._danpincanuse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._danpingSKU.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._duitouSKU.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._getOriginalImgPoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._getTraxSkuList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._localStorageTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._processCookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._traxProduct.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/._url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/cookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/correctResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/danpincanuse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/danpingSKU.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/duitouSKU.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/duitou_correctResults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/duitou_filterImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/duitou_idToLMName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/filterImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/filterImagesForTarget-feicocaduitou.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/filterImagesForTarget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/fliter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/getOriginalImgPoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/getTraxSkuList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/idToLMName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/imgMoveToOneFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/localStorageTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/moveToOneFolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/numberImagesAndIdToName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/o-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/processCookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/remove_duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/restorePoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/scence/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxProduct.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._.~traxProduct.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._doutouCoca.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._duitouSKUFilter-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._duitouSKUFilter-2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._duitouSKUFilter-2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._duitouSKUFilter-3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._duitoucanuse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._fewBottleSKUFilter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._kaixiang.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._kaixiang.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._posm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/._traxProduct.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/.~traxProduct(2).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/.~traxProduct.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/danpingcanuse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/doutouCoca.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/duitouSKUFilter-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/duitouSKUFilter-2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/duitouSKUFilter-2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/duitouSKUFilter-3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/duitoucanuse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/fewBottleSKUFilter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/fewBottleSKUFilter_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/kaixiang.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/kaixiang.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/posm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/traxsku/traxProduct.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/trax/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-script/video_cap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_demo/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_demo/t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/mark/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mark/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1552146995673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
-    <SUITE FILE_PATH="coverage/GitHub$spider.coverage" NAME="spider Coverage Results" MODIFIED="1551888320651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
-    <SUITE FILE_PATH="coverage/GitHub$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1552058260567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$t.coverage" NAME="t Coverage Results" MODIFIED="1552147947050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
+    <SUITE FILE_PATH="coverage/GitHub$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1546153532136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
+    <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1552146995673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
+    <SUITE FILE_PATH="coverage/GitHub$Bbox.coverage" NAME="Bbox Coverage Results" MODIFIED="1551427569638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/entity" />
+    <SUITE FILE_PATH="coverage/GitHub$spider.coverage" NAME="spider Coverage Results" MODIFIED="1551888320651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$Main.coverage" NAME="Main Coverage Results" MODIFIED="1551430125201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark" />
     <SUITE FILE_PATH="coverage/GitHub$Login.coverage" NAME="Login Coverage Results" MODIFIED="1545574700196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
-    <SUITE FILE_PATH="coverage/GitHub$Bbox.coverage" NAME="Bbox Coverage Results" MODIFIED="1551427569638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/entity" />
-    <SUITE FILE_PATH="coverage/GitHub$Polygon.coverage" NAME="Polygon Coverage Results" MODIFIED="1546153532136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
+    <SUITE FILE_PATH="coverage/GitHub$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1552058260567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$mv.coverage" NAME="mv Coverage Results" MODIFIED="1552227045547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
   </component>
   <component name="FavoritesManager">
@@ -28,10 +1103,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="spider1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
+            <state relative-caret-position="1273">
               <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
               <folding>
                 <element signature="e#112#158#0" expanded="true" />
@@ -40,29 +1115,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="171">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="spider2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="1045">
               <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="mv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -70,46 +1145,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseApp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark/entity/BaseApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            <state relative-caret-position="1159">
+              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34452">
+            <state relative-caret-position="19">
               <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/Const.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mark/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state relative-caret-position="257">
+              <caret line="632" column="27" lean-forward="true" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
+              <folding>
+                <element signature="e#120#135#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Const.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark/Const.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bbox.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark/entity/Bbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
+            <state relative-caret-position="1311">
               <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark/test/t.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2354">
+            <state relative-caret-position="2033">
               <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
               <folding>
                 <element signature="e#150#161#0" expanded="true" />
@@ -184,9 +1271,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="456" />
-    <option name="y" value="116" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="93" />
     <option name="width" value="1510" />
     <option name="height" value="960" />
   </component>
@@ -198,29 +1294,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Default Changelist">
           <expand>
             <path>
-              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
             </path>
             <path>
-              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="spider_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+              <item name="mark" type="cbb8eebc:String" user="mark" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+              <item name="mark" type="cbb8eebc:String" user="mark" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+              <item name="spider_demo" type="cbb8eebc:String" user="spider_demo" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="mark" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -259,9 +1398,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
@@ -281,9 +1417,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="spider1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
@@ -303,9 +1436,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
@@ -325,9 +1455,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
@@ -347,10 +1474,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.mv" />
+      <item itemvalue="Python.spider" />
+      <item itemvalue="Python.spider1" />
+      <item itemvalue="Python.spider2" />
+      <item itemvalue="Python.t" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.mv" />
@@ -516,30 +1647,29 @@
     <option name="totallyTimeSpent" value="104462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="260" y="93" width="1510" height="960" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.18565683" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28144655" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32861635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1801676" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861635" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.23828648" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.14869565" />
       <window_info id="Favorites" order="2" sideWeight="0.50094515" side_tool="true" weight="0.14695652" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1801676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32681563" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28144655" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861635" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32861635" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,20 +1710,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home_" />
@@ -603,6 +1722,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="sku_lib" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+          <folding>
+            <element signature="e#112#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/entity/BaseApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="67" column="48" lean-forward="true" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30191">
+          <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/entity/Bbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/test/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+          <folding>
+            <element signature="e#150#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polygon/polygon/Login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
@@ -624,13 +1815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/future-0.16.0-py3.7.egg/future/backports/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="330" column="8" selection-start-line="330" selection-start-column="8" selection-end-line="330" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/future-0.16.0-py3.7.egg/future/backports/urllib/request.py" />
     <entry file="file://$PROJECT_DIR$/mark/entity/AnnotationData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78" />
@@ -644,31 +1829,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/entity/LoginData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#112#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/entity/SKUTypeData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#113#153#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="2910" column="66" lean-forward="true" selection-start-line="2910" selection-start-column="11" selection-end-line="2910" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python37/Lib/tkinter/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mark/entity/CategoryData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -676,13 +1846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1201333238/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="529" column="22" selection-start-line="529" selection-start-column="22" selection-end-line="529" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1201333238/builtins.py" />
     <entry file="file://$PROJECT_DIR$/spider_demo/data.csv" />
     <entry file="file://$PROJECT_DIR$/spider_demo/spider.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -692,19 +1856,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../desktop/-VMDIR5EC28CF91FE3CE9423378CF92F79D8AE-20190307-NAnbS8ls-800kb-hls-g5mO6877000.ts" />
-    <entry file="file://$PROJECT_DIR$/mark/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13376">
-          <caret line="632" column="29" selection-start-line="632" selection-start-column="29" selection-end-line="632" selection-end-column="29" />
-          <folding>
-            <element signature="e#120#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
+        <state relative-caret-position="1273">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
           <folding>
             <element signature="e#112#158#0" expanded="true" />
@@ -714,35 +1868,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/entity/BaseApp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34452">
-          <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
+        <state relative-caret-position="1159">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/Const.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        <state relative-caret-position="1254">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/entity/Bbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
+        <state relative-caret-position="1311">
           <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/test/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
+        <state relative-caret-position="2033">
           <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
           <folding>
             <element signature="e#150#161#0" expanded="true" />
@@ -752,31 +1899,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="171">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="1045">
           <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
+    <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="19">
+          <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="632" column="27" lean-forward="true" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#120#135#0" expanded="true" />
           </folding>
         </state>
       </provider>

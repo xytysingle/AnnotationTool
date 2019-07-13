@@ -99,7 +99,7 @@ class Main(BaseApp):
         self.cur_img_rotate = 0
         self.colors = ['#00ff00', '#ff0000', '#FF00FF', 'purple', '#0000ff','#FF4500', '#BB0000','#DB7093','#FF1493','#C71585','#FF00FF','#00FA9A','#00BFFF','#1E90FF']
         self.bd_width = 2
-        self.is_stipple = 'gray25'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
+        self.is_stipple = 'gray50'#error, gray75, gray50, gray25, gray12, hourglass, info, questhead, question, 和 warning
         self.is_cn = 'cn'
         self.is_annotation=False
         self.cur_sku_lib=self.config[const.LOGIN][const.SKU_LIB]
@@ -171,13 +171,13 @@ class Main(BaseApp):
         self.master.bind_all("<Control-x>", self.cut_bbox)
         #self.master.bind_all("<Control-c>", self.copy_bbox)
         self.master.bind_all("<Control-c>", self.copy_category)
-        # self.master.bind_all("<Control-v>", self.paste_bbox)
-        self.master.bind_all("<Control-v>", self.paste_category)
+        self.master.bind_all("<Control-v>", self.paste_bbox)
+        #self.master.bind_all("<Control-v>", self.paste_category)
         self.master.bind_all("<Control-b>", self.clone_bbox)
         self.master.bind_all("<Control-z>", self.undo_operate)
         self.master.bind_all("<Control-y>", self.redo_operate)
         self.master.bind_all("<KeyPress-F2>", self.change_annotation_name)
-        self.master.bind_all("<Control-i>", self.invert_select)
+        self.master.bind_all("<Control-Shift-A>", self.invert_select)
         self.master.bind("<Left>", self.minitrim_bbox)
         self.master.bind("<Right>", self.minitrim_bbox)
         self.master.bind("<Up>", self.minitrim_bbox)
@@ -291,7 +291,7 @@ class Main(BaseApp):
         if curselections:
 
             now_time = int(time.time())
-            offset = 3
+            offset = 2
             for index in curselections:
                 bbox=self.bbox_list[index]
                 if args[0].keysym=='Left':
@@ -415,7 +415,7 @@ class Main(BaseApp):
         self.search_entry.pack(fill=X)
         # self.categories = list(map(lambda category:category.category, self.categoryObjsOfSearch))
         # self.category_str_var.set(self.categories)
-        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=45,bd=5,exportselection=True,
+        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=15,bd=5,exportselection=True,
                                         listvariable=self.category_str_var)  # len(self.categorys)#width=0宽度自适应
         self.category_listbox.pack()
         self.category_v_scrollbar = Scrollbar(self.category_frame, orient=VERTICAL, command=self.category_listbox.yview)
@@ -437,7 +437,7 @@ class Main(BaseApp):
         self.h_scrollbar.config(command=self.canvas.xview)
         self.v_scrollbar.config(command=self.canvas.yview)
         # annotation_frame
-        self.annotation_listbox = Listbox(self.annotation_frame,width=45, height=80, selectmode=EXTENDED,bd=5,exportselection=False,
+        self.annotation_listbox = Listbox(self.annotation_frame,width=15, height=80, selectmode=EXTENDED,bd=5,exportselection=False,
                                           listvariable=self.annotation_str_var)  # len(self.annotations)
         self.annotation_listbox.pack()
         self.annotation_v_scrollbar = Scrollbar(self.annotation_frame, orient=VERTICAL,
@@ -762,8 +762,7 @@ class Main(BaseApp):
                                                                 self.getCoordByZoom(bbox.y2),
                                                                 width=self.bd_width,
                                                                 outline=self.getObjByCategory(bbox.className).color,
-                                                                fill=self.getObjByCategory(bbox.className).color,
-                                                                stipple=self.is_stipple,
+                                                                #fill=self.getObjByCategory(bbox.className).color,stipple=self.is_stipple,
                                                                 dash=bbox.truncated,
                                                                 tags='bbox' )
                     bbox.rectangle_id = rectangle_id
@@ -1162,7 +1161,7 @@ class Main(BaseApp):
                 self.tmp_dot['zoom_level'] = self.cur_zoom_level
             self.canvas.create_rectangle(tmp_dot_x, tmp_dot_y, event.x,
                                          event.y,
-                                         width=self.bd_width, fill='#0000FF', stipple=self.is_stipple,
+                                         width=self.bd_width, #fill='#0000FF', stipple=self.is_stipple,
                                          outline='#0000FF', tags=('tmp',))
             indexs=[]
             for i,bbox in enumerate(self.bbox_list):
@@ -1260,6 +1259,7 @@ class Main(BaseApp):
                 # dash = 1 if type(bbox.truncated) == int else ''
                 # self.make_recttangle(bbox,dash)
         belong_items = []
+        b = 10
         for i, bbox in enumerate(items):
             if i < len(items) - 1:
                 bbox_next = items[i + 1]
@@ -1271,27 +1271,46 @@ class Main(BaseApp):
                 x2_next = int(self.getCoordByZoom(bbox_next.x2))
                 y1_next = int(self.getCoordByZoom(bbox_next.y1))
                 y2_next = int(self.getCoordByZoom(bbox_next.y2))
-                if x1 in range(x1_next - 2, x2_next + 2) and x2 in range(x1_next - 2, x2_next + 2) and y1 in range(
-                        y1_next - 2, y2_next + 2) and y2 in range(y1_next - 2, y2_next + 2):
+                #
+                if abs(x1-x2)*abs(y1-y2)<abs(x1_next-x2_next)*abs(y1_next-y2_next):
                     try:
                         belong_items.index(bbox)
                     except:
                         belong_items.append(bbox)
+                    # try:
+                        # belong_items.index(bbox_next)
+                    # except:
+                        # belong_items.append(bbox_next)
+                else:
+                    # try:
+                        # belong_items.index(bbox)
+                    # except:
+                        # belong_items.append(bbox)
                     try:
                         belong_items.index(bbox_next)
                     except:
-                        belong_items.append(bbox_next)
-                else:
-                    if x1_next in range(x1 - 2, x2 + 2) and x2_next in range(x1 - 2, x2 + 2) and y1_next in range(
-                            y1 - 2, y2 + 2) and y2_next in range(y1 - 2, y2 + 2):
-                        try:
-                            belong_items.index(bbox)
-                        except:
-                            belong_items.append(bbox)
-                        try:
-                            belong_items.index(bbox_next)
-                        except:
-                            belong_items.append(bbox_next)
+                        belong_items.append(bbox_next)			
+                # if x1 in range(x1_next - b, x2_next + b) and x2 in range(x1_next - b, x2_next + b) and y1 in range(
+                        # y1_next - b, y2_next + b) and y2 in range(y1_next - b, y2_next + b):
+                    # try:
+                        # belong_items.index(bbox)
+                    # except:
+                        # belong_items.append(bbox)
+                    # try:
+                        # belong_items.index(bbox_next)
+                    # except:
+                        # belong_items.append(bbox_next)
+                # else:
+                    # if x1_next in range(x1 - b, x2 + b) and x2_next in range(x1 - b, x2 + b) and y1_next in range(
+                            # y1 - b, y2 + b) and y2_next in range(y1 - b, y2 + b):
+                        # try:
+                            # belong_items.index(bbox)
+                        # except:
+                            # belong_items.append(bbox)
+                        # try:
+                            # belong_items.index(bbox_next)
+                        # except:
+                            # belong_items.append(bbox_next)
 
                 # print(bbox_next.className)
         if belong_items:
@@ -1334,7 +1353,7 @@ class Main(BaseApp):
         self.config[const.LOGIN][const.ZOOM_LEVEL] = self.cur_zoom_level
         self.config.write()
             
-        img_rotate = self.img.rotate(self.cur_img_rotate, expand=True)
+        img_rotate = self.img.rotate(self.cur_img_rotate, expand=False)
 
         w, h = self.img_size
         zoom_width = w * self.cur_zoom_level
@@ -1372,7 +1391,7 @@ class Main(BaseApp):
         self.canvas.config(scrollregion=self.canvas.bbox(ALL))
     def zoom_img_restore(self, event):
         self.cur_zoom_level = 1.0
-        img_rotate = self.img.rotate(self.cur_img_rotate, expand=True)
+        img_rotate = self.img.rotate(self.cur_img_rotate, expand=False)
 
 
         w, h = self.img_size
@@ -1762,6 +1781,23 @@ class Main(BaseApp):
                                            command=lambda: self.rdBtn_callback('SKU_PRICE_TAG'),
                                            variable=self.rdBtn_IntVar_SKU,
                                            value=0 if self.cur_sku_lib == 'SKU_PRICE_TAG' else 1)  # value=0为默认选中
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_PICKER'],
+                                           command=lambda: self.rdBtn_callback('SKU_PICKER'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_PICKER' else 1)  # value=0为默认选中	
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_ALL_CATEGORIES'],
+                                           command=lambda: self.rdBtn_callback('SKU_ALL_CATEGORIES'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_ALL_CATEGORIES' else 1)  # value=0为默认选中	
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_VIVID_MATERIAL'],
+                                           command=lambda: self.rdBtn_callback('SKU_VIVID_MATERIAL'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_VIVID_MATERIAL' else 1)  # value=0为默认选中	
+        self.toggleSKUMenu.add_radiobutton(label=self.MENU_VIEW_ITEMS['SKU_UNPACK'],
+                                           command=lambda: self.rdBtn_callback('SKU_UNPACK'),
+                                           variable=self.rdBtn_IntVar_SKU,
+                                           value=0 if self.cur_sku_lib == 'SKU_UNPACK' else 1)  # value=0为默认选中	
+										   
         self.viewMenu.add_cascade(label=self.MENU_VIEW_ITEMS['toggleSKU'], menu=self.toggleSKUMenu)
 
         self.menu.add_cascade(label=self.MENU_BAR['view'], menu=self.viewMenu)
@@ -1973,17 +2009,29 @@ class Main(BaseApp):
         self.master.title('AnnotationTool%s%s' % ('－',self.images[self.cur_img_index]))  # 修改框体的名字,也可在创建时使用className参数来命名
         self.rotate_img()
         # print(annotationData.bboxes[0].annotation)
-        for bbox in self.bbox_list:
-            bbox.x1,bbox.y1,bbox.x2,bbox.y2=int(bbox.x1),int(bbox.y1),int(bbox.x2),int(bbox.y2)
-
+        category_listbox_curselection = self.category_listbox.curselection()
+        self.annotation_listbox.selection_clear(0, END)
+        for i, bbox in enumerate(self.bbox_list):
             bbox.truncated = 1 if int(bbox.truncated) == 1 else ''
             if  self.getObjByCategory(bbox.className):
                 bbox.color = self.getObjByCategory(bbox.className).color
-            # if float('%.2f' % bbox.score) < 0.9:
-            bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
+            bbox.x1,bbox.y1,bbox.x2,bbox.y2=int(bbox.x1),int(bbox.y1),int(bbox.x2),int(bbox.y2)
+            if category_listbox_curselection:
+                index=category_listbox_curselection[0]
+                if bbox.className==self.categories[index]:
+                    
+                    # if float('%.2f' % bbox.score) < 0.9:
+                    bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
                                                              width=self.bd_width, outline=bbox.color,#stipple=self.is_stipple, fill=bbox.color,
                                                              dash=bbox.truncated, tags=('bbox',))#fill=bbox.color,, stipple=self.is_stipple
-            # print(bbox.annotation)
+                    # print(bbox.annotation)
+                    self.annotation_listbox.selection_set(i)
+            else:
+			    # if float('%.2f' % bbox.score) < 0.9:
+                    bbox.rectangle_id = self.canvas.create_rectangle(self.getCoordByZoom(bbox.x1),self.getCoordByZoom(bbox.y1),self.getCoordByZoom(bbox.x2),self.getCoordByZoom(bbox.y2),
+                                                             width=self.bd_width, outline=bbox.color,#stipple=self.is_stipple, fill=bbox.color,
+                                                             dash=bbox.truncated, tags=('bbox',))#fill=bbox.color,, stipple=self.is_stipple
+                    self.annotation_listbox.selection_set(i)
             self.annotations.append(bbox.annotation)
         #副本
         self.bbox_list_original = copy.deepcopy(self.bbox_list)
@@ -2010,11 +2058,11 @@ class Main(BaseApp):
                     self.show_bbox()
                     break
         else:
-            self.annotation_listbox.selection_clear(0, END)
+            #self.annotation_listbox.selection_clear(0, END)
             # for i, bbox in enumerate(self.bbox_list):
             #     if float('%.2f' % bbox.score) < 0.9:
             #         self.annotation_listbox.selection_set(i)
-            self.annotation_listbox.selection_set(0,END)
+            #self.annotation_listbox.selection_set(0,END)
             self.annotation_listbox.yview(0)
             self.canvas.xview_moveto(0)
             self.canvas.yview_moveto(0)
@@ -2069,7 +2117,7 @@ class Main(BaseApp):
         cur_img_rotate %= 360
         self.cur_img_rotate = cur_img_rotate if self.cur_img_rotate > 0 else -cur_img_rotate#方向
         # print(self.cur_img_rotate)
-        img_rotate = self.img.rotate(self.cur_img_rotate, expand=True)
+        img_rotate = self.img.rotate(self.cur_img_rotate, expand=False)
         w, h = self.img_size
         zoom_width = w * self.cur_zoom_level
         zoom_height = h * self.cur_zoom_level

@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../pytorch-project/sxDataprocess/getkoandcy.py" description="data[&quot;ko&quot;].append(&quot;{}^{}&quot;.format(pf[&quot;id&quot;][index1],..." line="20" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc073182-e3af-448c-bf7c-7a1a46002cea" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_script$deleteScore.coverage" NAME="deleteScore Coverage Results" MODIFIED="1558254589480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clusteredDataProcess" />
+    <SUITE FILE_PATH="coverage/python_script$GenerateResults.coverage" NAME="GenerateResults Coverage Results" MODIFIED="1558324273297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$deleteZeroSize.coverage" NAME="deleteZeroSize Coverage Results" MODIFIED="1558361747235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$url.coverage" NAME="url Coverage Results" MODIFIED="1553753525357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1555922056144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forginToolsAccountRectByUsername" />
+    <SUITE FILE_PATH="coverage/python_script$im_storagesize.coverage" NAME="im-storagesize Coverage Results" MODIFIED="1538020478658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$numberAndGenerateResults.coverage" NAME="numberAndGenerateResults Coverage Results" MODIFIED="1555501231660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$number.coverage" NAME="number Coverage Results" MODIFIED="1556611921730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bottle-Picker-Data-process" />
+    <SUITE FILE_PATH="coverage/python_script$removeEmptyFolder.coverage" NAME="removeEmptyFolder Coverage Results" MODIFIED="1558351402363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/removeEmptyFolder" />
+    <SUITE FILE_PATH="coverage/python_script$accountlowScoreResults.coverage" NAME="accountlowScoreResults Coverage Results" MODIFIED="1557972503301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bottle-Picker-Data-process" />
+    <SUITE FILE_PATH="coverage/python_script$move2one_cv.coverage" NAME="move2one-cv Coverage Results" MODIFIED="1555339124244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movetoonefoler" />
+    <SUITE FILE_PATH="coverage/python_script$renameImagesAndJson.coverage" NAME="renameImagesAndJson Coverage Results" MODIFIED="1556299050621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter-lowScore-resultsAndImage" />
+    <SUITE FILE_PATH="coverage/python_script$video_cap.coverage" NAME="video_cap Coverage Results" MODIFIED="1548683184419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$im_resize.coverage" NAME="im-resize Coverage Results" MODIFIED="1536297306163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$PhotoCapture.coverage" NAME="PhotoCapture Coverage Results" MODIFIED="1548742270167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$getOriginalImgPoint.coverage" NAME="getOriginalImgPoint Coverage Results" MODIFIED="1553848184337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$o_test.coverage" NAME="o-test Coverage Results" MODIFIED="1553840781018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$getLabelToolsPhoto.coverage" NAME="getLabelToolsPhoto Coverage Results" MODIFIED="1557296777317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/getLabelToolsPhoto" />
+    <SUITE FILE_PATH="coverage/python_script$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1555923698743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accountRectByUsername" />
+    <SUITE FILE_PATH="coverage/python_script$downLoadImageFromUrl.coverage" NAME="downLoadImageFromUrl Coverage Results" MODIFIED="1557905999917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downLoadImageFromUrl" />
+    <SUITE FILE_PATH="coverage/python_script$getLabelInfo.coverage" NAME="getLabelInfo Coverage Results" MODIFIED="1557931748989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$getRectRatioOfImage.coverage" NAME="getRectRatioOfImage Coverage Results" MODIFIED="1550496583867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/getRectRatioOfImage" />
+    <SUITE FILE_PATH="coverage/python_script$addPrefix.coverage" NAME="addPrefix Coverage Results" MODIFIED="1558364984949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clusteredDataProcess" />
+    <SUITE FILE_PATH="coverage/python_script$lebelInfoFromoldTonew.coverage" NAME="lebelInfoFromoldTonew Coverage Results" MODIFIED="1555797248244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fromOldToNewIndex" />
+    <SUITE FILE_PATH="coverage/python_script$filterweibiaozhu.coverage" NAME="filterweibiaozhu Coverage Results" MODIFIED="1557176085086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$renumber.coverage" NAME="renumber Coverage Results" MODIFIED="1557175280281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$csvread.coverage" NAME="csvread Coverage Results" MODIFIED="1537938764647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$getpicture.coverage" NAME="getpicture Coverage Results" MODIFIED="1548659842522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$dividingToHalf.coverage" NAME="dividingToHalf Coverage Results" MODIFIED="1557482673839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/height-score" />
+    <SUITE FILE_PATH="coverage/python_script$getTraxSkuList.coverage" NAME="getTraxSkuList Coverage Results" MODIFIED="1553841812600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$filterByImageSize__1_.coverage" NAME="filterByImageSize (1) Coverage Results" MODIFIED="1556439240297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$numberImages.coverage" NAME="numberImages Coverage Results" MODIFIED="1558324298762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$generateResults.coverage" NAME="generateResults Coverage Results" MODIFIED="1557936503199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$renameSmallImages.coverage" NAME="renameSmallImages Coverage Results" MODIFIED="1557966709359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$downLoadboxLabels.coverage" NAME="downLoadboxLabels Coverage Results" MODIFIED="1556733482228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bottle-Picker-Data-process/boxImagesAddBottle" />
+    <SUITE FILE_PATH="coverage/python_script$moveOldResultsToNewByIndex.coverage" NAME="moveOldResultsToNewByIndex Coverage Results" MODIFIED="1550399315439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moveOldResultsToNewByIndex" />
+    <SUITE FILE_PATH="coverage/python_script$filterByImageSize.coverage" NAME="filterByImageSize Coverage Results" MODIFIED="1558324246879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$downloadImagesFrom3_4.coverage" NAME="downloadImagesFrom3.4 Coverage Results" MODIFIED="1557932080296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$processCookies.coverage" NAME="processCookies Coverage Results" MODIFIED="1553488587906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$combineLabelInfo.coverage" NAME="combineLabelInfo Coverage Results" MODIFIED="1557936446646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$filterRotate.coverage" NAME="filterRotate Coverage Results" MODIFIED="1556707980991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restore-bottle-box-data" />
+    <SUITE FILE_PATH="coverage/python_script$uploadResults__1_.coverage" NAME="uploadResults (1) Coverage Results" MODIFIED="1557137397792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restore-bottle-box-data" />
+    <SUITE FILE_PATH="coverage/python_script$getAnnotations.coverage" NAME="getAnnotations Coverage Results" MODIFIED="1557174903559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$uploadResults.coverage" NAME="uploadResults Coverage Results" MODIFIED="1558176020246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$moveToOneFolder.coverage" NAME="moveToOneFolder Coverage Results" MODIFIED="1557178981279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$localStorageTest.coverage" NAME="localStorageTest Coverage Results" MODIFIED="1553675545792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trax-selenium" />
+    <SUITE FILE_PATH="coverage/python_script$moveToOneFolder__1_.coverage" NAME="moveToOneFolder (1) Coverage Results" MODIFIED="1557309421570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clusteredDataProcess" />
+    <SUITE FILE_PATH="coverage/python_script$findSameImages.coverage" NAME="findSameImages Coverage Results" MODIFIED="1557174191514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$numberImg.coverage" NAME="numberImg Coverage Results" MODIFIED="1557736730212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numberImage" />
+    <SUITE FILE_PATH="coverage/python_script$removeSameImages.coverage" NAME="removeSameImages Coverage Results" MODIFIED="1557167024055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$uploadJsons_2.coverage" NAME="uploadJsons-2 Coverage Results" MODIFIED="1557939241249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$main.coverage" NAME="main Coverage Results" MODIFIED="1558528460918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forginToolsAccountRectByUsername" />
+    <SUITE FILE_PATH="coverage/python_script$renumberImage.coverage" NAME="renumberImage Coverage Results" MODIFIED="1556726484259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bottle-Picker-Data-process/boxImagesAddBottle" />
+    <SUITE FILE_PATH="coverage/python_script$mian.coverage" NAME="mian Coverage Results" MODIFIED="1556007349742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/duitou-yubiao-huanyuanRect" />
+    <SUITE FILE_PATH="coverage/python_script$accountClassImagesNum.coverage" NAME="accountClassImagesNum Coverage Results" MODIFIED="1550909238388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accountClassImagesNum" />
+    <SUITE FILE_PATH="coverage/python_script$mkdirs.coverage" NAME="mkdirs Coverage Results" MODIFIED="1557907818735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$test.coverage" NAME="test Coverage Results" MODIFIED="1558528478498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$fromOldToNewIndex.coverage" NAME="fromOldToNewIndex Coverage Results" MODIFIED="1555793485906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fromOldToNewIndex" />
+    <SUITE FILE_PATH="coverage/python_script$renumber_2.coverage" NAME="renumber-2 Coverage Results" MODIFIED="1557937226346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1558439675825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foreignToolsToInsideTools" />
+    <SUITE FILE_PATH="coverage/python_script$emptyAnnotation.coverage" NAME="emptyAnnotation Coverage Results" MODIFIED="1557173705484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$move2one.coverage" NAME="move2one Coverage Results" MODIFIED="1551858013638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movetoonefoler" />
+    <SUITE FILE_PATH="coverage/python_script$imgnametonumber.coverage" NAME="imgnametonumber Coverage Results" MODIFIED="1546426903025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imgnametonumber" />
+    <SUITE FILE_PATH="coverage/python_script$correctResults.coverage" NAME="correctResults Coverage Results" MODIFIED="1556102178772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downLoad-Rect-zuobiao" />
+    <SUITE FILE_PATH="coverage/python_script$renameImagesAndJsons.coverage" NAME="renameImagesAndJsons Coverage Results" MODIFIED="1557135874442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restore-bottle-box-data" />
+    <SUITE FILE_PATH="coverage/python_script$downloadResultsAndImages.coverage" NAME="downloadResultsAndImages Coverage Results" MODIFIED="1556300311701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter-lowScore-resultsAndImage" />
+    <SUITE FILE_PATH="coverage/python_script$remove_duplicate.coverage" NAME="remove_duplicate Coverage Results" MODIFIED="1558167225517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$uploadJsons.coverage" NAME="uploadJsons Coverage Results" MODIFIED="1557843815615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$combinebottleandbox.coverage" NAME="combinebottleandbox Coverage Results" MODIFIED="1556734879232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bottle-Picker-Data-process/boxImagesAddBottle" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clusteredDataProcess/moveToOneFolder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="42" column="25" selection-start-line="38" selection-end-line="42" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons-3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ALI-project/moveToOneFolder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/generateResults_ceshi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/generateResults.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALI-project/getAnnotations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/numberImages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/moveOutCoca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>731034</find>
+      <find>driver</find>
+      <find>7619580</find>
+      <find>7272015</find>
+      <find>isinstance</find>
+      <find>str_hook</find>
+      <find>美汁源热带果粒热带风味复合塑料420ml</find>
+      <find>红牛 Others</find>
+      <find>dst</find>
+      <find>print</find>
+      <find>-</find>
+      <find>RB</find>
+      <find>价格牌</find>
+      <find>爆炸</find>
+      <find>价格</find>
+      <find>海报</find>
+      <find>Large</find>
+      <find>POSM</find>
+      <find>开箱</find>
+      <find>康师傅冰红茶柠檬口味瓶装500毫升</find>
+      <find>康师傅冰糖雪梨瓶装500毫升</find>
+      <find>鸿福堂竹蔗干笋海底椰瓶装500毫升</find>
+      <find>洋人钙铁锌草莓味瓶装200毫升</find>
+      <find>堆头_百威啤酒高罐500毫升_便携式3罐</find>
+      <find>堆头_百威啤酒高罐500毫升_便携式3罐|底面</find>
+      <find>classname</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>-</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/20ImageRecongnize/getxy.py" />
+        <option value="$PROJECT_DIR$/20ImageRecongnize/writeCsv.py" />
+        <option value="$PROJECT_DIR$/20ImageRecongnize/target/jsons/2.json" />
+        <option value="$PROJECT_DIR$/ALI-project/generateResults_ceshi.py" />
+        <option value="$PROJECT_DIR$/ALI-project/deleteZeroSize.py" />
+        <option value="$PROJECT_DIR$/ALI-project/findOutDuplicateFile.py" />
+        <option value="$PROJECT_DIR$/accountAccuracy/accountAccuracy.py" />
+        <option value="$PROJECT_DIR$/ALI-project/accountClasses.py" />
+        <option value="$PROJECT_DIR$/ALI-project/change.py" />
+        <option value="$PROJECT_DIR$/accountRectByUsername/labelRectCounts.csv" />
+        <option value="$PROJECT_DIR$/ALI-project/data-delivery/rect.py" />
+        <option value="$PROJECT_DIR$/ALI-project/data-delivery/classes.py" />
+        <option value="$PROJECT_DIR$/ALI-project/aLiInfo.txt" />
+        <option value="$PROJECT_DIR$/ALI-project/renumber.py" />
+        <option value="$PROJECT_DIR$/ALI-project/renumber-2.py" />
+        <option value="$PROJECT_DIR$/classesnameAddId/source/class_names-b.txt" />
+        <option value="$PROJECT_DIR$/classesnameAddId/target/wrong.txt" />
+        <option value="$PROJECT_DIR$/removeNotClassNameFolders/removeNotClassNameFolders.py" />
+        <option value="$PROJECT_DIR$/box-classes-process/record.py" />
+        <option value="$PROJECT_DIR$/ALI-project/getImageExistOrNot.py" />
+        <option value="$PROJECT_DIR$/ALI-project/emptyAnnotation.py" />
+        <option value="$PROJECT_DIR$/box-classes-process/class-images.py" />
+        <option value="$PROJECT_DIR$/ALI-project/downloadImagesFrom3.4.py" />
+        <option value="$PROJECT_DIR$/ALI-project/getLabelInfo.py" />
+        <option value="$PROJECT_DIR$/accountClassImagesNum/accountClassImagesNum.py" />
+        <option value="$PROJECT_DIR$/box-classes-process/moveOutNotEmpty.py" />
+        <option value="$PROJECT_DIR$/box-classes-process/filter-coca-box-skus.py" />
+        <option value="$PROJECT_DIR$/ALI-project/moveToOneFolder.py" />
+        <option value="$PROJECT_DIR$/ALI-project/findSameImages.py" />
+        <option value="$PROJECT_DIR$/removeRatio.py" />
+        <option value="$PROJECT_DIR$/ALI-project/uploadJsons.py" />
+        <option value="$PROJECT_DIR$/classesnameAddId/classesnameAddId.py" />
+        <option value="$PROJECT_DIR$/accountTargetClassesNumber.py" />
+        <option value="$PROJECT_DIR$/ALI-project/uploadJsons-2.py" />
+        <option value="$PROJECT_DIR$/classesnameAddId/source/class_names.txt" />
+        <option value="$PROJECT_DIR$/classesnameAddId/target/class_names.txt" />
+        <option value="$PROJECT_DIR$/foreignToolsToInsideTools/main.py" />
+        <option value="$PROJECT_DIR$/forginToolsAccountRectByUsername/main.py" />
+        <option value="$PROJECT_DIR$/accountRectByUsername/main.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/geshi.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/uploadResults.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/GenerateResults.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/moveImagesToAnnoImages.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/filterByImageSize.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/numberImages.py" />
+        <option value="$PROJECT_DIR$/taigu_uncertain_process/moveOutCoca.py" />
+        <option value="$PROJECT_DIR$/ALI-project/copyToOthers.py" />
+        <option value="$PROJECT_DIR$/remove_duplicate.py" />
+        <option value="$PROJECT_DIR$/clusteredDataProcess/moveToOneFolder.py" />
+        <option value="$PROJECT_DIR$/ALI-project/generateResults.py" />
+        <option value="$PROJECT_DIR$/ALI-project/uploadJsons-3.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="50" />
+    <option name="y" value="250" />
+    <option name="width" value="1440" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="python-script" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/python-script" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="python-script" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/python-script" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ALI-project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python-script" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/python-script" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="clusteredDataProcess" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python-script" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/python-script" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="movetoonefoler" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python-script" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/python-script" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="taigu_uncertain_process" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ALI-project/data-delivery" />
+      <recent name="$PROJECT_DIR$/ALI-project" />
+      <recent name="$PROJECT_DIR$/accountRectByTime" />
+      <recent name="$PROJECT_DIR$/pricetag" />
+      <recent name="$PROJECT_DIR$/restore-bottle-box-data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ALI-project" />
+      <recent name="$PROJECT_DIR$/getLabelToolsPhoto/sourceFiles" />
+      <recent name="$PROJECT_DIR$/imgnametonumber" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.remove_duplicate">
+    <configuration name="copyToOthers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ALI-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ALI-project/copyToOthers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forginToolsAccountRectByUsername" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forginToolsAccountRectByUsername/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accountRectByUsername" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accountRectByUsername/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_duplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove_duplicate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uploadJsons-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ALI-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ALI-project/uploadJsons-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.copyToOthers" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.remove_duplicate" />
+      <item itemvalue="Python.uploadJsons-2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.remove_duplicate" />
+        <item itemvalue="Python.copyToOthers" />
+        <item itemvalue="Python.uploadJsons-2" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc073182-e3af-448c-bf7c-7a1a46002cea" name="Default" comment="" />
+      <created>1536214911586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536214911586</updated>
+      <workItem from="1546426371419" duration="584000" />
+      <workItem from="1547018898023" duration="2753000" />
+      <workItem from="1547460218771" duration="289000" />
+      <workItem from="1547536642673" duration="2712000" />
+      <workItem from="1548144670224" duration="962000" />
+      <workItem from="1548654684892" duration="8198000" />
+      <workItem from="1548917971963" duration="1000" />
+      <workItem from="1548929116982" duration="5206000" />
+      <workItem from="1549853993996" duration="312000" />
+      <workItem from="1550293684507" duration="28406000" />
+      <workItem from="1550905154250" duration="3353000" />
+      <workItem from="1551065049643" duration="589000" />
+      <workItem from="1551087941855" duration="598000" />
+      <workItem from="1551674797715" duration="1933000" />
+      <workItem from="1552634145636" duration="4978000" />
+      <workItem from="1552994485647" duration="964000" />
+      <workItem from="1553480794299" duration="6215000" />
+      <workItem from="1553665005996" duration="47441000" />
+      <workItem from="1554183372645" duration="10756000" />
+      <workItem from="1554292750696" duration="103000" />
+      <workItem from="1554782399055" duration="8822000" />
+      <workItem from="1554959783017" duration="35608000" />
+      <workItem from="1555492582509" duration="7159000" />
+      <workItem from="1555599099217" duration="6317000" />
+      <workItem from="1555778683427" duration="74354000" />
+      <workItem from="1556730842072" duration="4950000" />
+      <workItem from="1557025014251" duration="29568000" />
+      <workItem from="1557295530561" duration="10549000" />
+      <workItem from="1557727439045" duration="16537000" />
+      <workItem from="1557930885346" duration="8870000" />
+      <workItem from="1557964842331" duration="11617000" />
+      <workItem from="1558323428338" duration="1962000" />
+      <workItem from="1558349151232" duration="9346000" />
+      <workItem from="1558532987130" duration="24130000" />
+      <workItem from="1558742805591" duration="20897000" />
+      <workItem from="1559195036662" duration="7251000" />
+      <workItem from="1559290452699" duration="8443000" />
+      <workItem from="1559381115746" duration="423000" />
+      <workItem from="1559459385662" duration="557000" />
+      <workItem from="1559460635304" duration="14000" />
+      <workItem from="1559460740562" duration="12000" />
+      <workItem from="1559460874311" duration="35000" />
+      <workItem from="1559460999959" duration="42000" />
+      <workItem from="1559475123110" duration="25337000" />
+      <workItem from="1559816810980" duration="10476000" />
+      <workItem from="1560611490710" duration="7000" />
+      <workItem from="1560630135846" duration="270000" />
+      <workItem from="1560631056521" duration="12908000" />
+      <workItem from="1560833267601" duration="940000" />
+      <workItem from="1560838195440" duration="28000" />
+      <workItem from="1560925948715" duration="8151000" />
+      <workItem from="1561140889658" duration="596000" />
+      <workItem from="1561296063982" duration="16996000" />
+      <workItem from="1562084760175" duration="859000" />
+      <workItem from="1562275911832" duration="5078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="495462000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32618025" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32650602" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_script$test.coverage" NAME="test Coverage Results" MODIFIED="1558657341944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1561547391094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accountRectByUsername" />
+    <SUITE FILE_PATH="coverage/python_script$accountClasses.coverage" NAME="accountClasses Coverage Results" MODIFIED="1558928789864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$findOutDuplicateFile.coverage" NAME="findOutDuplicateFile Coverage Results" MODIFIED="1558759976680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$copyToOthers.coverage" NAME="copyToOthers Coverage Results" MODIFIED="1561827819579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$addPrefix.coverage" NAME="addPrefix Coverage Results" MODIFIED="1559620994209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clusteredDataProcess" />
+    <SUITE FILE_PATH="coverage/python_script$main.coverage" NAME="main Coverage Results" MODIFIED="1561379907957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foreignToolsToInsideTools" />
+    <SUITE FILE_PATH="coverage/python_script$downloadImagesFrom3_4.coverage" NAME="downloadImagesFrom3.4 Coverage Results" MODIFIED="1559641034630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$GenerateResults.coverage" NAME="GenerateResults Coverage Results" MODIFIED="1559633572309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$accountClassImagesNum.coverage" NAME="accountClassImagesNum Coverage Results" MODIFIED="1559212820993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accountClassImagesNum" />
+    <SUITE FILE_PATH="coverage/python_script$uploadJsons_2.coverage" NAME="uploadJsons-2 Coverage Results" MODIFIED="1561798793768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$classes.coverage" NAME="classes Coverage Results" MODIFIED="1559209423946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project/data-delivery" />
+    <SUITE FILE_PATH="coverage/python_script$numberImages.coverage" NAME="numberImages Coverage Results" MODIFIED="1559634167092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$getxy.coverage" NAME="getxy Coverage Results" MODIFIED="1558657380704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$drawCircle.coverage" NAME="drawCircle Coverage Results" MODIFIED="1558658627472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$deleteZeroSize.coverage" NAME="deleteZeroSize Coverage Results" MODIFIED="1558757939981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$generateResults_ceshi.coverage" NAME="generateResults_ceshi Coverage Results" MODIFIED="1558749934723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$filterByImageSize.coverage" NAME="filterByImageSize Coverage Results" MODIFIED="1559541593876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$change.coverage" NAME="change Coverage Results" MODIFIED="1559041499565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$classesnameAddId.coverage" NAME="classesnameAddId Coverage Results" MODIFIED="1561029196640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesnameAddId" />
+    <SUITE FILE_PATH="coverage/python_script$uploadResults.coverage" NAME="uploadResults Coverage Results" MODIFIED="1559638793592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taigu_uncertain_process" />
+    <SUITE FILE_PATH="coverage/python_script$uploadJsons_3.coverage" NAME="uploadJsons-3 Coverage Results" MODIFIED="1560807783130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$findSameImages.coverage" NAME="findSameImages Coverage Results" MODIFIED="1560454182551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$record.coverage" NAME="record Coverage Results" MODIFIED="1559550963135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box-classes-process" />
+    <SUITE FILE_PATH="coverage/python_script$getImageExistOrNot.coverage" NAME="getImageExistOrNot Coverage Results" MODIFIED="1559555098460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$accountAccuracy.coverage" NAME="accountAccuracy Coverage Results" MODIFIED="1558946040305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accountAccuracy" />
+    <SUITE FILE_PATH="coverage/python_script$remove_duplicate.coverage" NAME="remove_duplicate Coverage Results" MODIFIED="1561936435896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$rect.coverage" NAME="rect Coverage Results" MODIFIED="1559209036040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project/data-delivery" />
+    <SUITE FILE_PATH="coverage/python_script$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1561547323611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forginToolsAccountRectByUsername" />
+    <SUITE FILE_PATH="coverage/python_script$class_images.coverage" NAME="class-images Coverage Results" MODIFIED="1559557717833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box-classes-process" />
+    <SUITE FILE_PATH="coverage/python_script$getLabelInfo.coverage" NAME="getLabelInfo Coverage Results" MODIFIED="1559642660880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$moveOutNotEmpty.coverage" NAME="moveOutNotEmpty Coverage Results" MODIFIED="1559726831044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box-classes-process" />
+    <SUITE FILE_PATH="coverage/python_script$moveToOneFolder.coverage" NAME="moveToOneFolder Coverage Results" MODIFIED="1560155226180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$getCenterPoint.coverage" NAME="getCenterPoint Coverage Results" MODIFIED="1558554804243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$writeCsv.coverage" NAME="writeCsv Coverage Results" MODIFIED="1558657708253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$renumber_2.coverage" NAME="renumber-2 Coverage Results" MODIFIED="1559298814346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$filter_coca_box_skus.coverage" NAME="filter-coca-box-skus Coverage Results" MODIFIED="1559731926328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/box-classes-process" />
+    <SUITE FILE_PATH="coverage/python_script$removeRatio.coverage" NAME="removeRatio Coverage Results" MODIFIED="1560638390346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_script$getRowData.coverage" NAME="getRowData Coverage Results" MODIFIED="1558657386226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$emptyAnnotation.coverage" NAME="emptyAnnotation Coverage Results" MODIFIED="1559556059454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+    <SUITE FILE_PATH="coverage/python_script$drawone.coverage" NAME="drawone Coverage Results" MODIFIED="1558653631705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20ImageRecongnize" />
+    <SUITE FILE_PATH="coverage/python_script$removeNotClassNameFolders.coverage" NAME="removeNotClassNameFolders Coverage Results" MODIFIED="1559484373591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/removeNotClassNameFolders" />
+    <SUITE FILE_PATH="coverage/python_script$generateResults.coverage" NAME="generateResults Coverage Results" MODIFIED="1560790065995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALI-project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/box-classes-process/filter-coca-box-skus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/renameSmallImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/findSameImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/same-image.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret column="1079" selection-start-column="1079" selection-end-column="1079" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-storagesize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoCapture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-resize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removeRatio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/emptyAnnotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getRectRatioOfImage/getRectRatioOfImage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountAccuracy/accountAccuracy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountClassImagesNum/accountClassImagesNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountTargetClassesNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/downloadImagesFrom3.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/combineLabelInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="8" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/removeSameImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="3" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/getLabelInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/imagesJson.json">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/getImageExistOrNot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesnameAddId/target/wrong.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesnameAddId/source/class_names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesnameAddId/target/class_names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movetoonefoler/move2one-cv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/mkdirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusteredDataProcess/deleteScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusteredDataProcess/addPrefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foreignToolsToInsideTools/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forginToolsAccountRectByUsername/imgCounts.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forginToolsAccountRectByUsername/labelRectCounts.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forginToolsAccountRectByUsername/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="102" column="35" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountRectByUsername/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountRectByUsername/labelRectCounts.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/geshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/ai2others.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/copyToOthers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/filterByImageSize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="65" column="20" selection-start-line="55" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove_duplicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#110#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/GenerateResults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-end-line="131" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/moveImagesToAnnoImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/uploadResults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesnameAddId/classesnameAddId.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/moveOutCoca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusteredDataProcess/moveToOneFolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/getAnnotations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/generateResults_ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/generateResults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taigu_uncertain_process/numberImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="42" column="25" selection-start-line="38" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/uploadJsons-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALI-project/moveToOneFolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
