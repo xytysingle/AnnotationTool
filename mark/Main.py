@@ -10,8 +10,6 @@ from tkinter import *
 from tkinter.constants import *
 import threading
 import requests
-
-
 from Login import *
 from PIL import Image, ImageTk
 from entity.BaseApp import BaseApp
@@ -1986,7 +1984,6 @@ class Main(BaseApp):
         finally:
             return True
 
-
     def get_annotation_data(self,imgBaseName,imgNoWithLocation,is_search):
         self.annotations.clear()
         self.bbox_list.clear()
@@ -2170,7 +2167,6 @@ class Main(BaseApp):
         # 数据缓存
         self.data_cache()
 
-
     def data_cache(self):
 
         if self.cur_annotation_index<len(self.annotations_list)-1:
@@ -2178,7 +2174,6 @@ class Main(BaseApp):
                 self.annotations_list.pop(i)
         self.annotations_list.append(copy.deepcopy(self.bbox_list))
         self.cur_annotation_index = len(self.annotations_list) - 1
-
 
 
     def toggle_style(self, *event):
