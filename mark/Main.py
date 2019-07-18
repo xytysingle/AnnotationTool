@@ -29,6 +29,7 @@ from configobj import ConfigObj
 # en_help_str_var = StringVar()
 # en_help_str_var.set('Help')
 
+
 class Main(BaseApp):
 
     def __init__(self, master):
