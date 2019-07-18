@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="" />
+    <list default="true" id="86089015-450c-4c18-8b3a-b514b2bab8a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,11 +140,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="2239" column="49" lean-forward="true" selection-start-line="2239" selection-start-column="49" selection-end-line="2239" selection-end-column="49" />
-              <folding>
-                <element signature="e#120#135#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -316,8 +316,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="152" />
+    <option name="x" value="562" />
+    <option name="y" value="602" />
     <option name="width" value="1372" />
     <option name="height" value="794" />
   </component>
@@ -802,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563436262042</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="company">
+      <created>1563446408849</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1563446408849</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -826,7 +833,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="152" width="1372" height="794" extended-state="0" />
+    <frame x="562" y="602" width="1372" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32897604" />
@@ -836,7 +843,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32671756" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49594814" weight="0.16335878" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.14198473" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.14786585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49662617" visible="true" weight="0.15015244" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3298193" />
@@ -1214,11 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="2239" column="49" lean-forward="true" selection-start-line="2239" selection-start-column="49" selection-end-line="2239" selection-end-column="49" />
-          <folding>
-            <element signature="e#120#135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

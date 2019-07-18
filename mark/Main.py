@@ -24,10 +24,11 @@ import json
 import copy
 import pyperclip
 import ctypes
+
 import time
 from configobj import ConfigObj
 # en_help_str_var = StringVar()
-# en_help_str_var.set('Help')
+
 
 class Main(BaseApp):
 
