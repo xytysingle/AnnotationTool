@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# !-*-coding:utf-8 -*-
+#!-*-coding:utf-8 -*-
 
 
 import requests
@@ -27,8 +27,8 @@ def main():
         for img_url in img_urls:
             response = requests.get(img_url)
             img = response.content
-            with open('./imgs/{0}.jpg'.format(id), 'wb') as code:
-                code.write(img)
+            with open('./imgs/{0}.jpg'.format(id), 'wb') as file:
+                file.write(img)
             id += 1
     #
     print('conout %d' % id)
