@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b682922-a1fe-4090-b973-8192da89cc98" name="Default Changelist" comment="sku_lib">
-      <change afterPath="$PROJECT_DIR$/python_script/BatchRename.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_script/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/favicon-20180524024114172.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/hj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/hj1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/imgs/main.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_script/res/冰露堆头24.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_script/data_src/冰露堆头24.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +24,7 @@
     <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1552146995673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$Bbox.coverage" NAME="Bbox Coverage Results" MODIFIED="1551427569638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/entity" />
     <SUITE FILE_PATH="coverage/GitHub$Main.coverage" NAME="Main Coverage Results" MODIFIED="1551430125201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$DownloadImgOfCsv.coverage" NAME="DownloadImgOfCsv Coverage Results" MODIFIED="1563935610600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_script" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$DownloadImgOfCsv.coverage" NAME="DownloadImgOfCsv Coverage Results" MODIFIED="1563973166353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_script" />
     <SUITE FILE_PATH="coverage/GitHub$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1552058260567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$mv.coverage" NAME="mv Coverage Results" MODIFIED="1552227045547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$t.coverage" NAME="t Coverage Results" MODIFIED="1552147947050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
@@ -37,7 +43,7 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17182">
+            <state relative-caret-position="22">
               <caret line="803" column="16" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="16" />
               <folding>
                 <element signature="e#120#135#0" expanded="true" />
@@ -46,14 +52,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownloadImgOfCsv.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DownloadImgOfCsv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_script/DownloadImgOfCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="192">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="e#48#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadImgOfCsv.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/AppInstall/flashfxp5_gr/FlashFXP/Cache/~flashfxp/0426C1B7_edit.tmp/DownloadImgOfCsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark_offline/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="686" column="44" selection-start-line="686" selection-start-column="26" selection-end-line="686" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -87,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pend(self.getCoordByZoom(</find>
       <find>make_rect</find>
       <find>make_rec</find>
       <find>const.USERNAME</find>
@@ -117,6 +140,7 @@
       <find>len</find>
       <find>response</find>
       <find>self.</find>
+      <find>open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,9 +167,10 @@
         <option value="$PROJECT_DIR$/mark/Main.py" />
         <option value="$PROJECT_DIR$/polygon/polygon/Polygon.py" />
         <option value="$PROJECT_DIR$/python_script/res/冰露堆头24.csv" />
-        <option value="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" />
         <option value="$PROJECT_DIR$/python_script/test.py" />
         <option value="$PROJECT_DIR$/python_script/BatchRename.py" />
+        <option value="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" />
+        <option value="E:/AppInstall/flashfxp5_gr/FlashFXP/Cache/~flashfxp/0426C1B7_edit.tmp/DownloadImgOfCsv.py" />
       </list>
     </option>
   </component>
@@ -159,8 +184,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2117" />
-    <option name="y" value="152" />
+    <option name="x" value="1989" />
+    <option name="y" value="113" />
     <option name="width" value="1451" />
     <option name="height" value="828" />
   </component>
@@ -228,12 +253,6 @@
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
               <item name="python_script" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="python_script" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BatchRename">
+  <component name="RunManager" selected="Python.DownloadImgOfCsv">
     <configuration name="BatchRename" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,9 +392,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DownloadImgOfCsv" />
         <item itemvalue="Python.BatchRename" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.DownloadImgOfCsv" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.mv" />
       </list>
@@ -585,7 +604,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563937654793</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="sku_lib">
+      <created>1563968192797</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563968192797</updated>
+    </task>
+    <task id="LOCAL-00027" summary="sku_lib">
+      <created>1563968205569</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563968205569</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -601,18 +634,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2117" y="152" width="1451" height="828" extended-state="0" />
+    <frame x="1989" y="113" width="1451" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.18429662" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107837" side_tool="true" weight="0.17971015" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49892163" weight="0.13522355" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32861635" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17561683" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.24528302" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29172716" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861635" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.28468728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.28468728" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.14869565" />
       <window_info id="Favorites" order="2" sideWeight="0.50094515" side_tool="true" weight="0.14695652" />
@@ -623,7 +658,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,27 +715,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mark/entity/Bbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark/test/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13376">
-          <caret line="632" column="27" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
@@ -961,20 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_script/res/冰露堆头24.csv">
+    <entry file="file://$PROJECT_DIR$/python_script/data_src/冰露堆头24.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42101">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17182">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="16" />
-          <folding>
-            <element signature="e#120#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,13 +995,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_script/DownloadImgOfCsv.py">
+    <entry file="file://$PROJECT_DIR$/mark/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="16" />
+          <folding>
+            <element signature="e#120#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1830102462/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark_offline/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="686" column="44" selection-start-line="686" selection-start-column="26" selection-end-line="686" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_script/DownloadImgOfCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#48#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/AppInstall/flashfxp5_gr/FlashFXP/Cache/~flashfxp/0426C1B7_edit.tmp/DownloadImgOfCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
