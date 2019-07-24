@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b682922-a1fe-4090-b973-8192da89cc98" name="Default Changelist" comment="sku_lib">
+      <change afterPath="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_script/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_script/res/冰露堆头24.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitHub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitHub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mark/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polygon/polygon/Polygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/polygon/polygon/Polygon.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +25,10 @@
     <SUITE FILE_PATH="coverage/GitHub$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1552146995673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$Bbox.coverage" NAME="Bbox Coverage Results" MODIFIED="1551427569638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark/entity" />
     <SUITE FILE_PATH="coverage/GitHub$spider.coverage" NAME="spider Coverage Results" MODIFIED="1551888320651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Main.coverage" NAME="Main Coverage Results" MODIFIED="1563785082611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark" />
     <SUITE FILE_PATH="coverage/GitHub$Main.coverage" NAME="Main Coverage Results" MODIFIED="1551430125201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mark" />
     <SUITE FILE_PATH="coverage/GitHub$Login.coverage" NAME="Login Coverage Results" MODIFIED="1545574700196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon/polygon" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$DownloadImgOfCsv.coverage" NAME="DownloadImgOfCsv Coverage Results" MODIFIED="1563935610600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_script" />
     <SUITE FILE_PATH="coverage/GitHub$spider2.coverage" NAME="spider2 Coverage Results" MODIFIED="1552058260567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
     <SUITE FILE_PATH="coverage/GitHub$mv.coverage" NAME="mv Coverage Results" MODIFIED="1552227045547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_demo" />
   </component>
@@ -27,71 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spider1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_demo/spider1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
-              <folding>
-                <element signature="e#112#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_demo/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spider2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_demo/spider2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseApp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/entity/BaseApp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Polygon.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34452">
-              <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="17182">
+              <caret line="803" column="16" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="16" />
               <folding>
                 <element signature="e#120#135#0" expanded="true" />
               </folding>
@@ -99,31 +49,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Const.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/Const.py">
+      <file leaf-file-name="DownloadImgOfCsv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_script/DownloadImgOfCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bbox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/entity/Bbox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mark/test/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2354">
-              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+            <state relative-caret-position="134">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
-                <element signature="e#150#161#0" expanded="true" />
+                <element signature="e#48#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,6 +99,9 @@
       <find>select_co</find>
       <find>int(time.time())</find>
       <find>board-index</find>
+      <find>requests</find>
+      <find>len</find>
+      <find>response</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,7 +114,6 @@
       <list>
         <option value="$PROJECT_DIR$/polygon/polygon/Const.py" />
         <option value="$PROJECT_DIR$/polygon/polygon/Login.py" />
-        <option value="$PROJECT_DIR$/polygon/polygon/Polygon.py" />
         <option value="$PROJECT_DIR$/mark/test/t.py" />
         <option value="$PROJECT_DIR$/mark/entity/SKUTypeData.py" />
         <option value="$PROJECT_DIR$/mark/entity/BaseApp.py" />
@@ -192,6 +126,9 @@
         <option value="$PROJECT_DIR$/spider_demo/t.py" />
         <option value="$PROJECT_DIR$/spider_demo/mv.py" />
         <option value="$PROJECT_DIR$/mark/Main.py" />
+        <option value="$PROJECT_DIR$/polygon/polygon/Polygon.py" />
+        <option value="$PROJECT_DIR$/python_script/res/冰露堆头24.csv" />
+        <option value="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" />
       </list>
     </option>
   </component>
@@ -205,10 +142,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="341" />
-    <option name="y" value="108" />
-    <option name="width" value="1510" />
-    <option name="height" value="960" />
+    <option name="x" value="1980" />
+    <option name="y" value="175" />
+    <option name="width" value="1451" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -218,17 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Default Changelist">
           <expand>
@@ -273,15 +199,42 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="python_script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="python_script" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Library\Documents\PycharmProjects\python_script\res" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Library\Documents\PycharmProjects\python_script\res" />
+      <recent name="F:\Library\Documents\PycharmProjects\python_script" />
       <recent name="E:\Library\Documents\GitHub\spider_demo" />
       <recent name="E:\Library\Documents\GitHub\mark\entity" />
     </key>
@@ -298,7 +251,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mv">
+  <component name="RunManager" selected="Python.DownloadImgOfCsv">
+    <configuration name="DownloadImgOfCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_script/DownloadImgOfCsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\AppInstall\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mark" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mark/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="mv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,25 +309,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Library\Documents\GitHub\spider_demo\spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="spider1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,25 +323,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_demo/spider1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_demo/spider2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,18 +349,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.mv" />
-      <item itemvalue="Python.spider" />
       <item itemvalue="Python.spider1" />
-      <item itemvalue="Python.spider2" />
       <item itemvalue="Python.t" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.DownloadImgOfCsv" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DownloadImgOfCsv" />
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.mv" />
         <item itemvalue="Python.t" />
         <item itemvalue="Python.spider1" />
-        <item itemvalue="Python.spider2" />
-        <item itemvalue="Python.spider" />
       </list>
     </recent_temporary>
   </component>
@@ -624,19 +577,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="108" width="1510" height="960" extended-state="0" />
+    <frame x="1980" y="175" width="1451" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.18514007" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.18429662" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107837" side_tool="true" weight="0.17971015" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2813642" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49892163" weight="0.13522355" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32861635" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1801676" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34833091" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861635" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.24482758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.28468728" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.14869565" />
@@ -648,6 +600,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,24 +652,12 @@
     <MESSAGE value="sku_lib" />
     <option name="LAST_COMMIT_MESSAGE" value="sku_lib" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark/entity/BaseApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34452">
@@ -742,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2354">
           <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13376">
           <caret line="632" column="27" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
-          <folding>
-            <element signature="e#120#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
-          <folding>
-            <element signature="e#112#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2354">
           <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13376">
           <caret line="632" column="27" lean-forward="true" selection-start-line="632" selection-start-column="27" selection-end-line="632" selection-end-column="27" />
-          <folding>
-            <element signature="e#120#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
-          <folding>
-            <element signature="e#112#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
           <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,7 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/future-0.16.0-py3.7.egg/future/backports/urllib/request.py" />
+    <entry file="file://E:/Python37/Lib/site-packages/future-0.16.0-py3.7.egg/future/backports/urllib/request.py" />
     <entry file="file://$PROJECT_DIR$/mark/entity/AnnotationData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78" />
@@ -956,7 +870,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/tkinter/__init__.py" />
+    <entry file="file://E:/Python37/Lib/tkinter/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mark/entity/CategoryData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -978,9 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
-          <folding>
-            <element signature="e#112#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,13 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1342">
           <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark/Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1009,9 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2354">
           <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding>
-            <element signature="e#150#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,30 +930,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://E:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
     <entry file="file://$PROJECT_DIR$/spider_demo/mv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark/Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polygon/polygon/Polygon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34452">
-          <caret line="1589" column="8" selection-start-line="1589" selection-start-column="8" selection-end-line="1589" selection-end-column="8" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_script/res/冰露堆头24.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42101">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="17182">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="16" />
           <folding>
             <element signature="e#120#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_script/DownloadImgOfCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#48#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

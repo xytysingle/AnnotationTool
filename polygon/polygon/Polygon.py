@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # !-*-coding:utf-8 -*-
 # !@time    :2018/6/24 21:07
 # !@Author :SINGLEquit

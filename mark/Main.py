@@ -28,7 +28,6 @@ import time
 from configobj import ConfigObj
 # en_help_str_var = StringVar()
 
-
 class Main(BaseApp):
 
     def __init__(self, master):
@@ -412,7 +411,7 @@ class Main(BaseApp):
         self.search_entry.pack(fill=X)
         # self.categories = list(map(lambda category:category.category, self.categoryObjsOfSearch))
         # self.category_str_var.set(self.categories)
-        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=15,bd=5,exportselection=True,
+        self.category_listbox = Listbox(self.category_frame, selectmode=BROWSE, height=80,width=35,bd=5,exportselection=True,
                                         listvariable=self.category_str_var)  # len(self.categorys)#width=0宽度自适应
         self.category_listbox.pack()
         self.category_v_scrollbar = Scrollbar(self.category_frame, orient=VERTICAL, command=self.category_listbox.yview)
