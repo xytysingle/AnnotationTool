@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 #!-*-coding:utf-8 -*-
 
-
+#J
 import os
 def main():
-    #os.path.join(os.path.dirname(__file__)
-    path = r'.\test'
+    path = '/data/tanx/test'
     filelist = os.listdir(path)
     # print(type(filelist))
     total_num = len(filelist)
