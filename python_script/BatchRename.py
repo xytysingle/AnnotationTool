@@ -13,11 +13,8 @@ def main():
         if item.endswith('.jpg'):
             src = os.path.join(path, item)
             dst = os.path.join(path,f"{str(i):0>7s}" + '.jpg')
-            try:
-                os.rename(src, dst)
-                i = i + 1
-            except:
-                continue
+            os.rename(src, dst)
+            i = i + 1
 
 
 if __name__ == '__main__':
