@@ -11,7 +11,7 @@ from tqdm import tqdm
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 def main():
-    data_src = r'G:\trax_data\20190711\*\*.json'
+    data_src = r'G:\trax_data\20190719\*\*.json'
     file_paths = glob.glob(data_src)
 
     for file_path in file_paths:

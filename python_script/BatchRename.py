@@ -5,13 +5,13 @@
 import os
 def main():
     path = '/data/tanx/test'
-    filelist = os.listdir(path)
-    # print(type(filelist))
-    total_num = len(filelist)
+    filename_list = os.listdir(path)
+    # print(type(filename_list))
+    total_num = len(filename_list)
     i = 6059698
-    for item in filelist:
-        if item.endswith('.jpg'):
-            src = os.path.join(path, item)
+    for filename in filename_list:
+        if filename.endswith('.jpg'):
+            src = os.path.join(path, filename)
             dst = os.path.join(path,f"{str(i):0>7s}" + '.jpg')
             os.rename(src, dst)
             i = i + 1
