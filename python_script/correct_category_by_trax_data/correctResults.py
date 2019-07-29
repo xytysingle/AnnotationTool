@@ -59,10 +59,10 @@ def main():
         # print(img_index)
         #备份新旧名字为csv
         data.append([img_name,img_index])
-        t=pds.DataFrame(columns=['oldIndex','newIndex'],data=data)
-        # print(t)
-        t.to_csv(dst_file_csv,index=None)
         img_index+=1
+    t=pds.DataFrame(columns=['oldIndex','newIndex'],data=data)
+    # print(t)
+    t.to_csv(dst_file_csv,index=None)
 
     # uploadResults(index, r_bboxes)
 
