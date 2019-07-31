@@ -7,7 +7,7 @@ import json
 import os
 import pandas as pds
 def main():
-    data_src='/data/tanx/res/data_src/冰露堆头24.csv'
+    data_src='/data/tanx/res/data_src/冰露堆头24.csv'	
     data = pds.read_csv(open(data_src),header=None)
     pds.set_option('display.max_columns', 1000)
     pds.set_option('display.width', 1000)
