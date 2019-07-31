@@ -4,7 +4,7 @@ import glob
 from tqdm import tqdm
 
 #/fast_data/Drink_China/Construct-images/0724_jsons/
-BasePath = "/data/tanx/project/PenBev/original_imgs_bboxes_json/"
+BasePath = "/data/tanx/project/ARCA/original_imgs_bboxes_json/"
 
 def uploadResults(data, index):
 
@@ -41,6 +41,7 @@ def read_json(path):
         return input_data
 
 def main():
+    BasePath=input('请输入json所在目录:')
     jsonResults = glob.glob(BasePath + "*.json")
     # jsonResults = glob.glob('/data/tanx/project/PenBev/original_imgs_bboxes_json/51000002.json')
     for item in tqdm(jsonResults):

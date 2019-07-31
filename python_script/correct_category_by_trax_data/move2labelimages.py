@@ -3,7 +3,7 @@ import shutil
 from tqdm import tqdm
 
 
-images = glob.glob("/data/tanx/project/PenBev/original_imgs_named/*.jpg")
+images = glob.glob("/data/tanx/project/ARCA/original_imgs_named/*.jpg")
 # images = glob.glob("/data/tanx/project/PenBev/original_imgs_named/51000002.jpg")
 
 for image in tqdm(images):

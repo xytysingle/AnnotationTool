@@ -8,18 +8,14 @@ import math
 
 
 def getAllJsonFile():
-    path =r"E:\CCZA\*\*\*.json"
+    path =r"F:\zero_eye_data\trax_spider_data\ccza_20190710-20_json\*.json"
+    global dst_dir
+    dst_dir='./dst/'
     json_list = glob.glob(path)
     # print(len(json_list))
     for json in json_list:
         # print(json)
         getOriginalPoints(json)
-
-
-def getAllImgPath():
-    path = "/Users/lingmou/Desktop/trax-selenium/scence/20190314/*/*.jpeg"
-    img_list = glob.glob(path)
-    # print(len(img_list))
 
 def getOriginalPoints(json_path):
     global all_data
@@ -46,11 +42,9 @@ def getOriginalPoints(json_path):
                     "bboxes": bboxes
                 }
             )
-    except:
-        print("还原失败")
+    except Exception as e:
+        print("还原失败:",e)
     # print(results)
-
-
 
 
 def save_data(img_path, bboxes):
@@ -59,7 +53,8 @@ def save_data(img_path, bboxes):
     csv_write.writerow([img_path, bboxes])
 
 def saveResultsByJson(filename, data):
-    with open("{}.json".format(filename), 'w', encoding='utf-8') as json_file:
+    print(len(all_data))
+    with open(dst_dir+"{}.json".format(filename), 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False)
 
 
@@ -76,5 +71,5 @@ if __name__ == "__main__":
     all_data = []
     # getOriginalPoints("/Users/lingmou/Desktop/python-script/trax-selenium/scence/20190313/9233287/9233287.json")
     getAllJsonFile()
-    saveResultsByJson('trax01-09_point', all_data)
+    saveResultsByJson('ccza_20190710-20_point', all_data)
     # getAllImgPath()
